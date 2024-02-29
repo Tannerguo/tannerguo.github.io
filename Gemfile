@@ -25,4 +25,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
   gem "webrick", "~> 1.8"
+  gem 'wdm', '>=0.1.0'
+  gem install 'tzinfo-data'
+  gem 'tzinfo-data', platforms: [:x64_mingw, :mingw, :mswin]
 end
