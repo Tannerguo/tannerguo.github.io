@@ -27,5 +27,8 @@ group :jekyll_plugins do
   gem "webrick", "~> 1.8"
   gem 'wdm', '>=0.1.0'
   gem install 'tzinfo-data'
+  gem install 'tzinfo'
+  gem install 'tzdata'
+  gem install 'tz-info'
   gem 'tzinfo-data', platforms: [:x64_mingw, :mingw, :mswin]
 end
