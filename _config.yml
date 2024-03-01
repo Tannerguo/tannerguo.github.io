@@ -7,9 +7,8 @@
 # server process.
 
 # Basic Site Settings
-remote_theme: jekyll-theme-Academic-Pages
 locale                   : "en-US"
-title                    : "Tanner Guo / Site Title"
+title                    : "Tanner Guo / Mechanical Engineer (BE HONS)"
 title_separator          : "-"
 name                     : &name "Tanner Guo"
 description              : &description "Mechanical Engineer"
@@ -23,10 +22,10 @@ repository               : "main/tannerguo.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Tanner Guo"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  location         : "Auckland, New Zealand"
   employer         : "University of Canterbury"
   uri              : # URL
   email            : "tanner@tannerguo.com" 
@@ -281,7 +280,6 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Pacific/Auckland  #http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
