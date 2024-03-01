@@ -7,6 +7,7 @@
 # server process.
 
 # Basic Site Settings
+theme: jekyll-theme-Academic-Pages
 locale                   : "en-US"
 title                    : "Tanner Guo / Site Title"
 title_separator          : "-"
@@ -280,7 +281,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Pacific/Auckland  http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Pacific/Auckland  #http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
