@@ -25,7 +25,7 @@ Heading 4
 ------
 
 
-**Testing subheading**
+**Test subheading**
 
 
 
