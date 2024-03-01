@@ -13,23 +13,23 @@ A data-driven personal website
 ======
 
 
-Getting started
+Heading 2
 ======
 
 
-Site-wide configuration
+Heading 3
 ------
 
 
-Create content & metadata
+Heading 4
 ------
 
 
-**Markdown generator**
+**Testing subheading**
 
 
 
-How to edit your site's GitHub repository
+Heading 5
 ------
 
 
