@@ -124,7 +124,7 @@ A data-driven personal website
       <a class="label">RAM</a>
     </div>
   </div>
-  <div class=""btmhalf">
+  <div class="btmhalf">
     <div class="resource margin" style="--percentage: 30; --fill: #FF9F00;">
       <div class="percentage-text">30%</div>
       <a class="label">HDD</a>
