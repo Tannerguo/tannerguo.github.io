@@ -26,9 +26,6 @@ This is the front page of a website that is powered and hosted on GitHub pages. 
 
 A data-driven personal website
 ======
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -146,8 +143,6 @@ A data-driven personal website
     });
   </script>
 </body>
-
-</html>
 
 Heading 2
 ======
