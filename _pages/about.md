@@ -16,7 +16,7 @@ redirect_from:
 
   <!-- Setup and start animation! -->
   <script>
-    var typed = new Typed('#element', 
+    var typed = new Typed('#element', {
       strings: ['', '<strong>Tanner&apos;s website is still under construction...Please wait - attempting to reestablish</strong>'],
       typeSpeed: 80, loop: true, loopCount: Infinity
     });
