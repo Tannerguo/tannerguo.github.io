@@ -26,7 +26,7 @@ This is the front page of a website that is powered and hosted on GitHub pages. 
 
 A data-driven personal website
 ======
-<head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>System Resources Semi-Donut Chart</title>
@@ -111,7 +111,6 @@ A data-driven personal website
       }
     }
   </style>
-</head>
 
 <body>
   <div class="tophalf">
