@@ -26,7 +26,129 @@ This is the front page of a website that is powered and hosted on GitHub pages. 
 
 A data-driven personal website
 ======
-<div class="works mb-8 md:mb-16"><h2 class="font-bold text-xl pb-3 mb-3 border-b sal-animate" data-sal="slide-up" data-sal-duration="800"> My <span class="text-blue-500">Skills</span></h2><div class="grid grid-cols-2 md:grid-cols-3 gap-4 py-3 items-center"><div class="svg-item sal-animate" data-sal="slide-up" data-sal-duration="800"> <svg width="100%" height="100%" viewBox="0 0 40 40" class="donut"> <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="#fff"></circle> <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5"></circle> <circle class="text-pink-400 stroke-current donut-segment donut-segment-1" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5" stroke-dasharray="90 10" stroke-dashoffset="25"></circle> <g class="fill-current"> <text y="50%" transform="translate(0, 2)"> <tspan x="50%" text-anchor="middle" class="text-pink-400 donut-percent"> 90% </tspan> </text> <text y="60%" transform="translate(0, 2)"> <tspan x="50%" text-anchor="middle" class="text-gray-800 font-light donut-data"> HTML </tspan> </text> </g> </svg></div><style> .donut-segment-1 { animation: donut1 4s; } @keyframes donutfadelong { 0% { opacity: 0; } 100% { opacity: 1; } } @keyframes donut1 { 0% { stroke-dasharray: 0, 100; } 100% { stroke-dasharray: 90, 10; } }</style><div class="svg-item sal-animate" data-sal="slide-up" data-sal-duration="800"> <svg width="100%" height="100%" viewBox="0 0 40 40" class="donut"> <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="#fff"></circle> <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5"></circle> <circle class="text-green-400 stroke-current donut-segment donut-segment-2" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5" stroke-dasharray="80 20" stroke-dashoffset="25"></circle> <g class="fill-current"> <text y="50%" transform="translate(0, 2)"> <tspan x="50%" text-anchor="middle" class="text-green-400 donut-percent"> 80% </tspan> </text> <text y="60%" transform="translate(0, 2)"> <tspan x="50%" text-anchor="middle" class="text-gray-800 font-light donut-data"> CSS </tspan> </text> </g> </svg></div><style> .donut-segment-2 { animation: donut2 4s; } @keyframes donutfadelong { 0% { opacity: 0; } 100% { opacity: 1; } } @keyframes donut2 { 0% { stroke-dasharray: 0, 100; } 100% { stroke-dasharray: 80, 20; } }</style><div class="svg-item sal-animate" data-sal="slide-up" data-sal-duration="800"> <svg width="100%" height="100%" viewBox="0 0 40 40" class="donut"> <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="#fff"></circle> <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5"></circle> <circle class="text-yellow-400 stroke-current donut-segment donut-segment-3" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5" stroke-dasharray="60 40" stroke-dashoffset="25"></circle> <g class="fill-current"> <text y="50%" transform="translate(0, 2)"> <tspan x="50%" text-anchor="middle" class="text-yellow-400 donut-percent"> 60% </tspan> </text> <text y="60%" transform="translate(0, 2)"> <tspan x="50%" text-anchor="middle" class="text-gray-800 font-light donut-data"> JavaScript </tspan> </text> </g> </svg></div><style> .donut-segment-3 { animation: donut3 4s; } @keyframes donutfadelong { 0% { opacity: 0; } 100% { opacity: 1; } } @keyframes donut3 { 0% { stroke-dasharray: 0, 100; } 100% { stroke-dasharray: 60, 40; } }</style><div class="svg-item sal-animate" data-sal="slide-up" data-sal-duration="800"> <svg width="100%" height="100%" viewBox="0 0 40 40" class="donut"> <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="#fff"></circle> <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5"></circle> <circle class="text-indigo-400 stroke-current donut-segment donut-segment-4" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5" stroke-dasharray="70 30" stroke-dashoffset="25"></circle> <g class="fill-current"> <text y="50%" transform="translate(0, 2)"> <tspan x="50%" text-anchor="middle" class="text-indigo-400 donut-percent"> 70% </tspan> </text> <text y="60%" transform="translate(0, 2)"> <tspan x="50%" text-anchor="middle" class="text-gray-800 font-light donut-data"> Python </tspan> </text> </g> </svg></div><style> .donut-segment-4 { animation: donut4 4s; } @keyframes donutfadelong { 0% { opacity: 0; } 100% { opacity: 1; } } @keyframes donut4 { 0% { stroke-dasharray: 0, 100; } 100% { stroke-dasharray: 70, 30; } }</style><div class="svg-item sal-animate" data-sal="slide-up" data-sal-duration="800"> <svg width="100%" height="100%" viewBox="0 0 40 40" class="donut"> <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="#fff"></circle> <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5"></circle> <circle class="text-blue-400 stroke-current donut-segment donut-segment-5" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5" stroke-dasharray="70 30" stroke-dashoffset="25"></circle> <g class="fill-current"> <text y="50%" transform="translate(0, 2)"> <tspan x="50%" text-anchor="middle" class="text-blue-400 donut-percent"> 70% </tspan> </text> <text y="60%" transform="translate(0, 2)"> <tspan x="50%" text-anchor="middle" class="text-gray-800 font-light donut-data"> Photoshop </tspan> </text> </g> </svg></div><style> .donut-segment-5 { animation: donut5 4s; } @keyframes donutfadelong { 0% { opacity: 0; } 100% { opacity: 1; } } @keyframes donut5 { 0% { stroke-dasharray: 0, 100; } 100% { stroke-dasharray: 70, 30; } }</style><div class="svg-item sal-animate" data-sal="slide-up" data-sal-duration="800"> <svg width="100%" height="100%" viewBox="0 0 40 40" class="donut"> <circle class="donut-hole" cx="20" cy="20" r="15.91549430918954" fill="#fff"></circle> <circle class="donut-ring" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5"></circle> <circle class="text-red-400 stroke-current donut-segment donut-segment-6" cx="20" cy="20" r="15.91549430918954" fill="transparent" stroke-width="3.5" stroke-dasharray="50 50" stroke-dashoffset="25"></circle> <g class="fill-current"> <text y="50%" transform="translate(0, 2)"> <tspan x="50%" text-anchor="middle" class="text-red-400 donut-percent"> 50% </tspan> </text> <text y="60%" transform="translate(0, 2)"> <tspan x="50%" text-anchor="middle" class="text-gray-800 font-light donut-data"> Svelte </tspan> </text> </g> </svg></div><style> .donut-segment-6 { animation: donut6 4s; } @keyframes donutfadelong { 0% { opacity: 0; } 100% { opacity: 1; } } @keyframes donut6 { 0% { stroke-dasharray: 0, 100; } 100% { stroke-dasharray: 50, 50; } }</style><style> .svg-item { animation: donutfade 1s; } .donut-percent { font-size: 0.5em; transform: translateY(0.5em); font-weight: bold; } .donut-data { font-size: 0.2rem; transform: translateY(0.5em); text-align: center; animation: donutfadelong 1s; } .donut-percent { animation: donutfadelong 1s; } @keyframes donutfade { 0% { opacity: 0.2; } 100% { opacity: 1; } } .donut-ring { stroke: #ebebeb; } .donut-segment { transform-origin: center; }</style></div></div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>System Resources Semi-Donut Chart</title>
+  <style>
+    body {
+      background: #F1F1F1;
+      text-align: center;
+      font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      box-sizing: border-box;
+      height: 100vh;
+      padding: 30px;
+    }
+
+    .margin {
+      margin: 25px;
+    }
+
+    /* ==================== Semi Donut Chart ======================== */
+
+    .resource {
+      --percentage: 0;
+      --fill: #082B67;
+      width: 300px;
+      height: 150px;
+      position: relative;
+      color: #fff;
+      font-size: 22px;
+      font-weight: 600;
+      overflow: hidden;
+      color: var(--fill);
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+
+    .percentage-text {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+    }
+    .label {
+      font-size: 24px;
+      text-align: center;
+      font-family: Montserrat, Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-weight: 300;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .resource:after {
+      content: '';
+      width: 300px;
+      height: 300px;
+      border: 50px solid;
+      border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) var(--fill) var(--fill);
+      position: absolute;
+      border-radius: 50%;
+      left: 0;
+      top: 0;
+      box-sizing: border-box;
+      transform: rotate(calc(1deg * (-45 + var(--percentage) * 1.8)));
+      animation: fillAnimation 1s ease-in;
+    }
+
+    /* ==================== Keyframes ======================== */
+
+    @keyframes fillAnimation {
+      0% {
+        transform: rotate(-45deg);
+      }
+
+      50% {
+        transform: rotate(135deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="tophalf">
+    <div class="resource margin" style="--percentage: 90; --fill: #545698;">
+      <div class="percentage-text">90%</div>
+      <a class="label">Latex</a>
+    </div>
+
+    <div class="resource margin" style="--percentage: 75; --fill: #00A86B;">
+      <div class="percentage-text">75%</div>
+      <a class="label">RAM</a>
+    </div>
+  </div>
+  <div class=""btmhalf">
+    <div class="resource margin" style="--percentage: 30; --fill: #FF9F00;">
+      <div class="percentage-text">30%</div>
+      <a class="label">HDD</a>
+    </div>
+    <div class="resource margin" style="--percentage: 70; --fill: #00ff34;">
+      <div class="percentage-text">70%</div>
+      <a class="label">HDD</a>
+    </div>
+  </div>
+  <script>
+    // This script is for updating the percentage text dynamically
+    document.querySelectorAll('.resource').forEach((resource) => {
+      const percentageText = resource.querySelector('.percentage-text');
+      percentageText.textContent = `${resource.style.getPropertyValue('--percentage')}%`;
+    });
+  </script>
+</body>
+
+</html>
+
 Heading 2
 ======
 
