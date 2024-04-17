@@ -30,11 +30,11 @@ Biography
 
 
 Interests
-======
+------
 
 
 Education
-======
+------
 
 
 
