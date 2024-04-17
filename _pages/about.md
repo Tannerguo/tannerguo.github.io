@@ -36,7 +36,7 @@ Interests
 Education
 ------
 Bachelor of Engineering (Honours) in Mechanical Engineering, 2021
----
+------
 Auckland University of Technology, Auckland, New Zealand
 
 
