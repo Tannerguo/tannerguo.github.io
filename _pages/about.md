@@ -26,7 +26,7 @@ This is the front page of a website that is powered and hosted on GitHub pages. 
 
 Biography
 ======
-
+My research interests are in battery technology and nuclear energy. In my spare time I like to tinker with AI recognition implementation for home surveillance systems through Linux. I am currently researching a way to bypass region lock on Roborock robotic vacuums from China
 
 
 Interests
