@@ -1,5 +1,5 @@
 ---
-title: "Zhang V Guo"
+title: "Zhang V Guo High Court Judgement"
 collection: publications
 permalink: /publication/Palmer J Judgement File
 excerpt: 'This publication is the judgement from Palmer J in regards to NZHC714'
