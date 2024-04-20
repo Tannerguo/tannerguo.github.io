@@ -1,10 +1,10 @@
 ---
 title: "NZ Herald Publication Zhang V Guo"
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
+permalink: /publication/nzherald1
 excerpt: 'This is the article Lane Nichols published for me '
 date: 2020-11-11
-venue: 'Front Page, NZ Herald 2020'
+venue: 'Front Page, NZ Herald'
 paperurl: 'http://academicpages.github.io/files/nzherald1.pdf'
 ---
 
