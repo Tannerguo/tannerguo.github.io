@@ -2,7 +2,7 @@
 title: "Zhang V Guo"
 collection: publications
 permalink: /publication/Palmer J Judgement File
-excerpt: 'This publication is the Judgement from Palmer J in regards to NZHC714'
+excerpt: 'This publication is the judgement from Palmer J in regards to NZHC714'
 date: 2021-04-08
 venue: 'New Zealand Legal Information Institute'
 paperurl: 'http://tannerguo.github.io/files/Paper1.pdf'
