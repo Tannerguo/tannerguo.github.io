@@ -2,7 +2,7 @@
 title: "NZ Herald Publication Zhang V Guo"
 collection: publications
 permalink: /publication/nzherald1
-excerpt: 'This is the article Lane Nichols published for me '
+excerpt: 'Front Page Publication by Lane Nichols '
 date: 2020-11-11
 venue: 'Front Page, NZ Herald'
 paperurl: 'http://tannerguo.github.io/files/nzherald1.pdf'
