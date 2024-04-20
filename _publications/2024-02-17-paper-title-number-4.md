@@ -2,7 +2,7 @@
 title: "Zhang V Guo"
 collection: publications
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
+excerpt: 'This publication is the Judgement from Palmer J in regards to NZHC714'
 date: 2024-02-17
 venue: 'New Zealand Legal Information Institute'
 paperurl: 'http://tannerguo.github.io/files/Zhang v Guo [2021] NZHC 714 (7 April 2021).pdf'
