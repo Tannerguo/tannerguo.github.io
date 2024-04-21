@@ -37,6 +37,7 @@ Skills
 * LaTeX
 * MatLab
 * Python
+* Autodesk Meshmixer
 * C++
 * Solidworks
 
