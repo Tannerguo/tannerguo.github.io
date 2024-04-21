@@ -22,7 +22,6 @@ redirect_from:
     });
   </script>
 
-This is the front page of Tanner's website that is powered and hosted on GitHub pages.  
 
 Biography
 ======
