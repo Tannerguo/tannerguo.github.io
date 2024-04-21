@@ -17,12 +17,12 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
+* Grid Free, Sales Engineer
   * Github University
   * Duties includes: Updates and improvements to template
   * Supervisor: The Users
 
-* Fall 2015: Research Assistant
+* National Taipei University of Technology, Intern
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
