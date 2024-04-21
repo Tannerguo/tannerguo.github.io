@@ -49,15 +49,8 @@ Publications
   
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+* Y-ISEF (organized by MEXT and JAXA from 28 February to 3rd March, provides a platform for open discussions and networking, addressing the future of space exploration) ideathon winnners - medals presented by MEXT, Government of Japan. Presented our Y-ISEF white papers at ISEF (an international conference hosted by the Japanese government and will bring together Ministers, high-level officials, and the heads of space agencies to share the importance of space exploration and global collaboration aiming to promote sustainable growth of developments) and broadcasted on NHK Japan.
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
 Service and leadership
 ======
