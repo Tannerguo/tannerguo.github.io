@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Bachelor of Engineering (Honours) in Mechanical Engineering, Auckland University of Technology, 2021
+* Bachelor of Engineering (Honours) - Scholarship, University of Canterbury, 2015
+* Westlake Boys High School, NCEA Level 3 Merit Endorsement, 2014
 
 Work experience
 ======
