@@ -35,11 +35,7 @@ Some other interests I have are repurposing old battery packs such as disassembl
 Education
 ------
 Bachelor of Engineering (Honours) in Mechanical Engineering, 2021
--------
+<br>
 Auckland University of Technology, Auckland, New Zealand
 
-
-
-For more info
-------
 
