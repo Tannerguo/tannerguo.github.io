@@ -18,17 +18,17 @@ Education
 Work experience
 ======
 * Flexstaff, Engineering Recruiter
-  * Using in-house built ERP for recruitment and employee performance
-  * Interviewing potential employees
-  * Meeting clients at their site to discuss their requirements and the work environment
+  * Used in-house built ERP for recruitment and employee performance
+  * Interviewed potential employees
+  * Met clients at their site to discuss their requirements and assess the work environment
   * Monthly visits to clients for feedback
-  * Using Xero for expenses tracking and ocassionally payroll
+  * Used Xero for expenses tracking and ocassionally payroll
 * Grid Free, Sales Engineer
-  * Using Hubspot CRM to interact with customers
-  * Packing Kits, loading onto pallets, wrapping and strapping before shipment
-  * Conducting rigorous testing on warranty returns to ascertain the root cause,distinguishing between
+  * Used Hubspot CRM to interact with customers
+  * Packed Kits, loaded onto pallets, wrapped and strapped before shipment
+  * Conducted rigorous testing on warranty returns to ascertain the root cause,distinguishing between
 manufacturing faults and user error, specifically focusing on components such as batteries, charge controllers, and inverters.
-  * Taking calls and answering customer enquiries and closing sales
+  * Took calls and answered customer enquiries and closed sales
 
 * Space Generation Advisory Council, National Point of Contact
   * Served as a communication channel between university students, young professional networks and the SGAC
@@ -37,7 +37,7 @@ manufacturing faults and user error, specifically focusing on components such as
 
 * National Taipei University of Technology, Intern
   * Responsible for language translation and assembling two Cartesian FDM printers
-  * Utilising, cleaning and ensuring safe use of SLA, SLS, FDM and 3D Scanning
+  * Utilised, cleaned and ensured safe use of SLA, SLS, FDM and 3D Scanning
   * Paid internship by Taiwan Government
 
   
