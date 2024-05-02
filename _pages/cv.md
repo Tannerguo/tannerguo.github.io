@@ -18,14 +18,16 @@ Education
 Work experience
 ======
 * Grid Free, Sales Engineer
-  * 
-  * 
-  *
+  * Using Hubspot CRM to interact with customers
+  * Packing Kits, loading onto pallets, wrapping and strapping before shipment
+  * Conducting rigorous testing on warranty returns to ascertain the root cause,distinguishing between
+manufacturing faults and user error, specifically focusing on components such as batteries, charge controllers, and inverters.
+  * Taking calls and answering customer enquiries and closing sales
 
 * National Taipei University of Technology, Intern
-  * 
-  *
-  * 
+  * Responsible for language translation and assembling two Cartesian FDM printers
+  * Utilising, cleaning and ensuring safe use of SLA, SLS, FDM and 3D Scanning
+  * Paid internship by Taiwan Government
 
   
 Skills
