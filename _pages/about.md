@@ -31,7 +31,15 @@ What I'm doing now: researching a way to bypass region lock on Roborock robotic 
 
 Interests
 ------
-Some other interests I have are repurposing old battery packs such as disassembling old laptop battery packs or power tool battery packs, capacity testing each cell and then repackaging and spot welding a new battery pack out of mixed cells. I have also repaired, fixed and made modifications on iPhones, Macbooks and iPods. In terms of hands on skills, I have diagnosed and fixed Fisher & Paykel washing machine with a faulty out of balance sensor, a leaking Fisher & Paykel 2 door refrigerator, fixed the seat tilt mechanism on a Herman Miller chair, measure designed and printed a part of the window spray nozzle for the front windscreen of my car(the only thing it failed in its WOF) in which it passed its WOF, diagnosed the correct brushless motor and the problem on a Boosted Board V2 (electric skateboard) and fixed it with dielectric grease,  
+Some other interests I have are:
+- Repurposing old battery packs such as disassembling old laptop battery packs or power tool battery packs, capacity testing each cell and then repackaging and spot welding a new battery pack out of mixed cells.
+- Repairing, fixed and made modifications on iPhones, Macbooks and iPods.
+In terms of hands on skills, I have:
+- Diagnosed and fixed a Fisher & Paykel washing machine with a faulty out of balance sensor
+- A leaking Fisher & Paykel 2 door fridge freezer
+- Fixed the seat tilt mechanism on a Herman Miller chair
+- Measure designed and printed a part of the window spray nozzle for the front windscreen of my car(the only thing it failed in its WOF) in which it passed its WOF
+- Diagnosed the correct brushless motor and the problem on a Boosted Board V2 (electric skateboard) and fixed it with dielectric grease  
 
 Education
 ------
