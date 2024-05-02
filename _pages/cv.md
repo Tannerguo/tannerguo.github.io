@@ -61,4 +61,6 @@ Talks
 ======
 * Y-ISEF (organized by MEXT and JAXA from 28 February to 3rd March, provided a platform for open discussions and networking, addressing the future of space exploration) ideathon winnners - medals presented by MEXT, Government of Japan.
 <br>Presented our Y-ISEF white papers at ISEF (an international conference hosted by the Japanese government and will bring together Ministers, high-level officials, and the heads of space agencies to share the importance of space exploration and global collaboration aiming to promote sustainable growth of developments) and broadcasted on NHK Japan.
+* 69th International Astronautical Congress, 2018 Bremen, Germany. Presented "Towards a self sustainable production of proteins in space: A proposed solution and roadmap" on 16th IAA Symposium on visions and strategies for the future (D4) under the topic of
+"Contribution of Space Activities to Solving Global Societal Issues (2)"
 
