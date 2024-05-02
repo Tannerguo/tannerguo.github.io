@@ -33,9 +33,9 @@ Interests
 ------
 Some other interests I have are:
 - Repurposing old battery packs such as disassembling old laptop battery packs or power tool battery packs, capacity testing each cell and then repackaging and spot welding a new battery pack out of mixed cells.
-- Repairing, fixed and made modifications on iPhones, Macbooks and iPods. <br>
+- Repairing, fixed and made modifications on iPhones, Macbooks and iPods. <br> <br>
 In terms of hands on skills, I have:
-- Diagnosed and fixed a Fisher & Paykel washing machine with a faulty out of balance sensor
+- Diagnosed (By writing down the binary code produced by the washing machine and searching the corresponding binary code with error code, matched the error code and and fixed the Fisher & Paykel washing machine with a faulty out of balance sensor
 - A leaking Fisher & Paykel 2 door fridge freezer
 - Fixed the seat tilt mechanism on a Herman Miller chair
 - Measure designed and printed a part of the window spray nozzle for the front windscreen of my car(the only thing it failed in its WOF) in which it passed its WOF
