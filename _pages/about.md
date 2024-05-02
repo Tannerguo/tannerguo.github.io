@@ -38,7 +38,7 @@ In terms of hands on skills, I have:
 - Diagnosed (By writing down the binary code produced by the washing machine, searching the corresponding binary code with error code, matched the error code on Google - a broken out of balance sensor and fixed the Fisher & Paykel washing machine with a new sensor
 - Fixed a leaking Fisher & Paykel 2 door fridge freezer
 - Fixed the seat tilt mechanism on a Herman Miller chair
-- Measure designed and printed a part of the window spray nozzle for the front windscreen of my car(the only thing it failed in its WOF) in which it passed its WOF
+- Measured designed and printed a part of the window spray nozzle for the front windscreen of my car(the only thing it failed in its WOF) in which it passed its WOF
 - Diagnosed the correct brushless motor and the problem on a Boosted Board V2 (electric skateboard) and fixed it with dielectric grease  
 
 Education
