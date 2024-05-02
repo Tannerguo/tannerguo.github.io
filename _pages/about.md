@@ -42,7 +42,7 @@ In terms of hands on skills, I have:
 - Fixed a leaking Fisher & Paykel 2 door fridge freezer
 - Fixed the seat tilt mechanism on a Herman Miller Sayl
 - Measured, designed and printed a part in PLA+ of the window spray nozzle for the front windscreen of my car (the only thing it failed in its WOF) in which it passed its WOF but then melted shortly after...reprinted in PETG
-- Diagnosed the correct brushless motor and the problem on a Boosted Board V2 (electric skateboard) and fixed it with dielectric grease  
+- Diagnosed the correct brushless motor and the problem on a Boosted Board V2 (electric skateboard) - fixed it with dielectric grease  
 
 Education
 ------
