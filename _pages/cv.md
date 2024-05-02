@@ -17,6 +17,12 @@ Education
 
 Work experience
 ======
+* Flexstaff, Engineering Recruiter
+  * Using in-house built ERP for recruitment and employee performance
+  * Interviewing potential employees
+  * Meeting clients at their site to discuss their requirements and the work environment
+  * Monthly visits to clients for feedback
+  * Using Xero for expenses tracking and ocassionally payroll
 * Grid Free, Sales Engineer
   * Using Hubspot CRM to interact with customers
   * Packing Kits, loading onto pallets, wrapping and strapping before shipment
