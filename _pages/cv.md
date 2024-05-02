@@ -24,6 +24,11 @@ Work experience
 manufacturing faults and user error, specifically focusing on components such as batteries, charge controllers, and inverters.
   * Taking calls and answering customer enquiries and closing sales
 
+* Space Generation Advisory Council, National Point of Contact
+  * Served as a communication channel between university students, young professional networks and the SGAC
+  * Submit an annual report of the year to the Executive Office to be incorporated into the SGAC annual report for delivery to the United Nations
+  * Collaborated with Regional Coordinators and reported detailed accounts of Space activities and events within the country
+
 * National Taipei University of Technology, Intern
   * Responsible for language translation and assembling two Cartesian FDM printers
   * Utilising, cleaning and ensuring safe use of SLA, SLS, FDM and 3D Scanning
