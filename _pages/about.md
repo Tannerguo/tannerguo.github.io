@@ -25,7 +25,7 @@ redirect_from:
 
 Biography
 ======
-My research interests are in battery technology and nuclear energy. In my spare time I like to tinker with AI recognition implementation for home surveillance systems through Linux. <br>
+My research interests are in battery technology and nuclear energy. In my spare time I like to tinker with AI recognition implementation for home surveillance systems through Linux. <br> <br>
 What I'm doing now: researching a way to bypass region lock on Roborock robotic vacuums from China
 
 
