@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Vehicle Flap Lock battery upgrade"
+excerpt: "Replacing disposable D Cell batteries with 18650 rechargable cell in a custom enclosure<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
