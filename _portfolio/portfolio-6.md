@@ -7,6 +7,6 @@ collection: portfolio
 <br/>
 <img src='/images/socket2.jpg'>
 <br/>
-<img src='/images/socket3.PNG'>
+<img src='/images/socket3.jpg'>
 <br/>
 <img src='/images/socket4.jpg'>
