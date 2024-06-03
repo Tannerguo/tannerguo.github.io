@@ -11,6 +11,6 @@ collection: portfolio
 <br/>
 <img src='/images/iphone4.jpg'>
 <br/>
-<img src='/images/iphone5.png'>
+<img src='/images/iphone 5.png'>
 <br/>
-<img src='/images/iphone6.png'>
+<img src='/images/iphone 6.png'>
