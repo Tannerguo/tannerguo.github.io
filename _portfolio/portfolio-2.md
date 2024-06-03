@@ -4,5 +4,8 @@ excerpt: "Disassembled Smartwash Pride after PCB burnt. After replacing out of b
 collection: portfolio
 ---
 
+<img src='/images/FP1.jpg'>
+<br/>
 <img src='/images/FP2.jpg'>
+<br/>
 <img src='/images/FP3.jpg'>
