@@ -9,4 +9,4 @@ collection: portfolio
 <br/>
 <img src='/images/planter3.jpg'>
 <br/>
-<img src='/images/planter.jpg'>
+<img src='/images/planter5.jpg'>
