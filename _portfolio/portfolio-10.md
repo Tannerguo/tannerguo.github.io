@@ -3,7 +3,7 @@ title: "Building a planter box"
 excerpt: "Building a raised planter box for my grandmother <br/><img src='/images/planter4.jpg'>"
 collection: portfolio
 ---
-<img src='/images/planter1.jpg'>
+<img src='/images/planter1.JPG'>
 <br/>
 <img src='/images/planter2.jpg'>
 <br/>
