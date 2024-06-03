@@ -8,4 +8,4 @@ collection: portfolio
 <br/>
 <img src='/images/FP2.jpg'>
 <br/>
-<img src='/images/FP3.jpg'>
+<img src='/images/FP3.JPG'>
