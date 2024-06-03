@@ -1,4 +1,8 @@
-
+---
+title: "Herman Miller Sayl Seat Depth Fix"
+excerpt: "Troubleshooting and fixing a Sayl that keeps sliding on the depth adjustment <br/><img src='/images/sayl1.jpg'>"
+collection: portfolio
+---
 <img src='/images/sayl1.jpg'>
 <br/>
 <img src='/images/sayl2.jpg'>
