@@ -23,12 +23,12 @@ Work experience
   * Met clients at their site to discuss their requirements and assess the work environment
   * Monthly visits to clients for feedback
   * Used Xero for expenses tracking and ocassionally payroll
-* Grid Free, Sales Engineer
-  * Used Hubspot CRM to interact with customers
-  * Packed Kits, loaded onto pallets, wrapped and strapped before shipment
+* Grid Free, Sales and Product Engineer
+  * Consulted customers through Hubspot CRM, phone and on site
+  * Establishing working relationships with new clients and maintaining old relationships
   * Conducted rigorous testing on warranty returns to ascertain the root cause,distinguishing between
 manufacturing faults and user error, specifically focusing on components such as batteries, charge controllers, and inverters.
-  * Took calls and answered customer enquiries and closed sales
+  * Assembling and testing new hardware
 
 * Space Generation Advisory Council, National Point of Contact
   * Served as a communication channel between university students, young professional networks and the SGAC
