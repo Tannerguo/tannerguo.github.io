@@ -7,7 +7,7 @@ collection: portfolio
 <br/>
 <img src='/images/gucci2.jpg'>
 <br/>
-<img src='/images/gucci3.jpg'>
+<img src='/images/gucci3.png'>
 <br/>
 <img src='/images/gucci4.jpg'>
 <br/>
