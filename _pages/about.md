@@ -44,10 +44,5 @@ In terms of hands on skills, I have:
 - Measured, designed and printed a part in PLA+ of the window spray nozzle for the front windscreen of my car (the only thing it failed in its WOF) in which it passed its WOF but then melted shortly after...reprinted in PETG
 - Diagnosed the correct brushless motor and the problem on a Boosted Board V2 (electric skateboard) - fixed with dielectric grease  
 
-Education
-------
-**Bachelor of Engineering (Honours) in Mechanical Engineering, 2021**
-<br>
-Auckland University of Technology, Auckland, New Zealand
 
 
