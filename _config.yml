@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Tanner Guo / Mechanical Engineer (BE HONS)"
+title                    : ""
 title_separator          : "-"
 name                     : &name "Tanner Guo"
-description              : &description "Mechanical Engineer"
+description              : &description ""
 url                      : https://tannerguo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "main/tannerguo.github.io"
@@ -24,8 +24,8 @@ author:
   avatar           : "profile.png"
   name             : "Tanner Guo"
   pronouns         : # example: "she/her"  
-  bio              : "Meet Tanner, a resilient and accomplished Mechanical Engineer who (after the loss of his mother from cancer) conquered both legal, academic and personal challenges, prevailing in a high court lawsuit during his undergraduate studies at the age of 21, Tanner emerged victorious, both legally and academically, graduating as a Mechanical Engineer.</br> </br>His unwavering commitment to learning and overcoming challenges defines Tanner's character. A lifelong learner, Tanner embodies perseverance and an insatiable curiosity within the ever-evolving field of Mechanical Engineering, proving that passion and resilience can lead to extraordinary triumphs in the face of adversity."
-  location         : "Auckland, New Zealand"
+  bio              : "."
+  location         : ""
   employer         : ""
   uri              : # URL
   email            : "tanner@tannerguo.com" 
@@ -34,7 +34,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   impactstory      : # URL
-  nzlii            : "http://www.nzlii.org/cgi-bin/sinodisp/nz/cases/NZHC/2021/714.html?query=title(zhang%20near%20guo)"
+  nzlii            : ""
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
 
@@ -42,21 +42,21 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "tannerguo"
+  github           : ""
   kaggle           : # Username  
-  stackoverflow    : "4772905/saxasianguy"    
+  stackoverflow    : ""    
 
   # Social media
   bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
-  goodreads        : "tanner_guo"
+  goodreads        : ""
   google_plus      : # Username
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "longeeguo"
+  linkedin         : ""
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
