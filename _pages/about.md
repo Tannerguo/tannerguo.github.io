@@ -25,11 +25,15 @@ redirect_from:
 
 Biography
 ======
-In my spare time I like to tinker with AI recognition implementation for home surveillance systems through Linux. <br> <br>
 What I'm doing in my spare time: <br>
 - Researching a way to bypass region lock on Roborock robotic vacuums from China
 - Building a fence
-- Landscaping work around the house
+- Python and Raspberry Pi coding
+- DIY Lithium Powerbank
+- Networking and cold emailing
+- Improving capacity of solar garden lights
+- Redoing the sagging headliner in my car and adding star lights
+- Landscaping work
 - Currently reading: "Billion Dollar Loser: The Epic Rise and Spectacular Fall of Adam Neumann and WeWork"
 
 Interests
