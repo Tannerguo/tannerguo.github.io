@@ -21,42 +21,42 @@ repository               : "main/tannerguo.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profil.png"
+  avatar           : "profile.png"
   name             : "Tanner Guo"
   pronouns         : # example: "she/her"  
-  bio              : "."
-  location         : ""
+  bio              : "Meet Tanner, a resilient and accomplished Mechanical Engineer who (after the loss of his mother from cancer) conquered both legal, academic and personal challenges, prevailing in a high court lawsuit during his undergraduate studies at the age of 21, Tanner emerged victorious, both legally and academically, graduating as a Mechanical Engineer.</br> </br>His unwavering commitment to learning and overcoming challenges defines Tanner's character. A lifelong learner, Tanner embodies perseverance and an insatiable curiosity within the ever-evolving field of Mechanical Engineering, proving that passion and resilience can lead to extraordinary triumphs in the face of adversity.."
+  location         : "Auckland, New Zealand"
   employer         : ""
   uri              : # URL
   email            : "tanner@tannerguo.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : # ""
   impactstory      : # URL
   nzlii            : ""
-  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # ""
   researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : ""
+  github           : "tannerguo"
   kaggle           : # Username  
-  stackoverflow    : ""    
+  stackoverflow    : "4772905/saxasianguy"    
 
   # Social media
   bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
-  goodreads        : ""
+  goodreads        : "tanner_guo"
   google_plus      : # Username
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : ""
+  linkedin         : "longeeguo"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -64,7 +64,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # "UniofOxford"  # Replace this with your X / Twitter handle
+  twitter          : # ""  # Replace this with your X / Twitter handle
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
