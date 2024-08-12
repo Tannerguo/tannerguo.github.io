@@ -1,10 +1,10 @@
 ---
 title: "Headliner replacement"
-excerpt: "Replacing sagging headliner <br/><img src='/images/headliner12.jpg'>"
+excerpt: "Replacing sagging headliner <br/> click title to view more photos <br/><img src='/images/headliner12.jpg'>"
 collection: portfolio
 ---
 
-Headliner started sagging late 2023 due New Zealand's summer heat. The foam backing deteriorated which made the weaved fabric sag/leave the foam back. I replaced this with a foam backed suede liner and plan to add starlights to it next month. <br/> click title to view more photos
+Headliner started sagging late 2023 due New Zealand's summer heat. The foam backing deteriorated which made the weaved fabric sag/leave the foam back. I replaced this with a foam backed suede liner and plan to add starlights to it next month.
 <img src='/images/headliner12.jpg'>
 
 <br/>
