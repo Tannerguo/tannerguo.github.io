@@ -1,6 +1,6 @@
 ---
 title: "Headliner replacement"
-excerpt: "Replacing disposable D Cell batteries with 18650 rechargable cell in a custom enclosure<br/><img src='/images/headliner12.jpg'>"
+excerpt: "Replacing sagging headliner <br/><img src='/images/headliner12.jpg'>"
 collection: portfolio
 ---
 
