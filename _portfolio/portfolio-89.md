@@ -10,7 +10,7 @@ Laying cheap vinyl flooring to protect and maintain the rimu flooring underneath
 <br/>
 <br/>
 <img src='/images/vinyl1.jpg'>
-<img src='/images/vinyl2.jpg'>
-<img src='/images/vinyl3.jpg'>
 <img src='/images/vinyl4.jpg'>
+<img src='/images/vinyl5.jpg'>
+<img src='/images/vinyl6.jpg'>
 
