@@ -1,6 +1,6 @@
 ---
 title: "Headliner replacement"
-excerpt: "Replacing sagging headliner <br/> click title to view more photos <br/><img src='/images/headliner12.jpg'>"
+excerpt: "Replacing sagging headliner <br/> click above title to view more photos <br/><img src='/images/headliner12.jpg'>"
 collection: portfolio
 ---
 
