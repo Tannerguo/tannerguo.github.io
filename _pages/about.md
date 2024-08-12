@@ -26,6 +26,7 @@ redirect_from:
 Biography
 ======
 What I'm doing in my spare time: <br>
+- Working on www.chinabusinesstours.co.nz
 - Researching a way to bypass region lock on Roborock robotic vacuums from China
 - Building a fence
 - Python and Raspberry Pi coding
