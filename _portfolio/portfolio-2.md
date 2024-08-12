@@ -1,11 +1,12 @@
 ---
 title: "Increasing the capacity of solar garden lights"
-excerpt: "Making solar garden lights last longer <br/><img src='/images/gardenlight6.jpg'>"
+excerpt: "Repurposing dead laptop batteries and using their cells to power solar garden lights <br/><img src='/images/gardenlight6.jpg'>"
 collection: portfolio
 ---
 
-Solar garden light won't last more than 2 hours during winter when it only gets 3-4 hours of sunlight. So I decided to increase the battery capacity which now runs for 12+ hours.
-<img src='/images/gardenlight1.jpg'>
+Solar garden light won't last more than 2 hours during winter when it only gets 3-4 hours of sunlight. So I decided to increase the battery capacity which now runs for 12+ hours. <br/>
+The 'new' batteries are made from harvested 18650 cells from 'dead' laptop batteries. Laptop batteries are wired in series so when one cell fails, the other 5-7 cells remain in good condition - these are harvested to make a new battery to power other things such as these solar garden lights
+<img src='/images/harvest1.jpg'>
 
 <br/>
 <br/>
