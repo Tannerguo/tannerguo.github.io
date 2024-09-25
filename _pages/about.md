@@ -26,16 +26,14 @@ redirect_from:
 Biography
 ======
 What I'm doing in my spare time: <br>
-- Working on www.chinabusinesstours.co.nz
 - Researching a way to bypass region lock on Roborock robotic vacuums from China
 - Building a fence
 - Python and Raspberry Pi coding
 - DIY Lithium Powerbank
-- Networking and cold emailing
 - Improving capacity of solar garden lights
 - Redoing the sagging headliner in my car and adding star lights
 - Landscaping work
-- Currently reading: "Billion Dollar Loser: The Epic Rise and Spectacular Fall of Adam Neumann and WeWork"
+- Currently reading: "Surviving The Great Depression of 1990: Protect Your Assets and Investments - and Come Out on Top"
 
 Interests
 ------
