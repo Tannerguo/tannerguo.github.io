@@ -9,7 +9,7 @@ paperurl: 'http://tannerguo.github.io/files/nzherald1.pdf'
 ---
 For the full document, please go to the previous page and click download 'here'
 
-<h1> New Zealand Herald </h1>
+<h1> New Zealand Herald Front Page Publication </h1>
 
 <h3>Abstract</h3>
 In this case, there were three main issues as described below: <br/>
@@ -31,4 +31,4 @@ Judge A M Manuel decided that: <br/>
 <br/>
 [71] Karen’s application under the FPA is dismissed. All things being equal costs are to follow the event. The parties are invited to reach agreement, failing which Mitch is to file a memorandum within 14 days, after which Karen is to have 14 days to reply."
 
-<img src=/images/starlight8.JPG alt class=featured-image>
+<img src=/images/Nzherald.png alt class=featured-image>
