@@ -9,8 +9,6 @@ paperurl: 'http://tannerguo.github.io/files/nzherald1.pdf'
 ---
 For the full document, please go to the previous page and click download 'here'
 
-<h1> New Zealand Herald Front Page Publication </h1>
-
 <h3>Abstract</h3>
 In this case, there were three main issues as described below: <br/>
 <br/>
