@@ -5,6 +5,6 @@ permalink: /publication/Manufacturing
 excerpt: 'Advanced Manufacturing Methods'
 date: 2019-06-11
 venue: 'Auckland University of Technology'
-paperurl: 'http://tannerguo.github.i/files/Manufacturing.pdf'
+paperurl: 'http://tannerguo.github.io/files/Manufacturing.pdf'
 ---
 Please click download 'here' on previous page to view the document
