@@ -32,7 +32,7 @@ What I'm doing in my spare time: <br>
 
 Selected Publications
 ------
--Towards A Self-Sustainable Production Of Proteins In Space: A Proposed Solution And Roadmap 
+- Towards A Self-Sustainable Production Of Proteins In Space: A Proposed Solution And Roadmap 
 Francesco Spina, Roberto Aguilar, Chuanzelong Guo, Mami Sugaya, Ryunosuke Yokoya, Catherine Mandigma and Kensuke Wada
 In the Proceedings of the 16th IAA Symposium on Visions and Strategies For the Future: Contribution of Space Activities to Solving Global Societal Issues, 69th International Astronautical Congress, Germany, 2018
 
