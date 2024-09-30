@@ -1,6 +1,6 @@
 ---
 title: "French Drain"
-excerpt: "Installing French Drains <br/><img src='/images/french9.JPG'>"
+excerpt: "Installing French Drains <br/> Please click above title to view more photos <br/><img src='/images/french9.JPG'>"
 collection: portfolio
 ---
 
