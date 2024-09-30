@@ -17,7 +17,7 @@ redirect_from:
   <!-- Setup and start animation! -->
   <script>
     var typed = new Typed('#element', {
-      strings: ['', '<strong>Tanner&apos;s website is still under construction...Please wait - attempting to reestablish</strong>'],
+      strings: ['', '<strong>Please check out my Projects and Publications (Academic and Legal) above </strong>'],
       typeSpeed: 80, loop: true, loopCount: Infinity
     });
   </script>
