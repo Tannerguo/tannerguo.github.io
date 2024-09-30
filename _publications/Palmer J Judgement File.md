@@ -27,4 +27,4 @@ Judge A M Manuel decided that: <br/>
 "(d) at 61, in good health, with no dependents, a net worth of approximately $2 million and a good income, Karen, like the de facto husband in <strong>Zhang v Guo</strong>, “is not badly off.” She has a home and a rental property. She had sufficient from the sale proceeds of Mangawhai to repay the borrowings secured over both properties and still have a “nest egg”, had she chosen to adopt that course. Since Chris died her resources have been sufficient to pay approximately $57,000 in legal fees, approximately $21,600 to repair one of her cars and approximately $107,000 to repair her Massey property.
 <br/>
 <br/>
-[71] Karen’s application under the FP A is dismissed. All things being equal costs are to follow the event. The parties are invited to reach agreement, failing which Mitch is to file a memorandum within 14 days, after which Karen is to have 14 days to reply."
+[71] Karen’s application under the FPA is dismissed. All things being equal costs are to follow the event. The parties are invited to reach agreement, failing which Mitch is to file a memorandum within 14 days, after which Karen is to have 14 days to reply."
