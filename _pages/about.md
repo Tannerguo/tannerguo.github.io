@@ -33,9 +33,25 @@ What I'm doing in my spare time: <br>
 
 <article class="Selected Publications">
   <h1>Featured Publications</h1>
+
+  <article class = "Publications">
+  <h2>Wealthy homeowner fights stepson for slice of dead mother's estate</h2>
+  <p>Lane Nichols, Michael Craig, Chuanzelong Guo</p>
+  <p> New Zealand Herald Front Page, New Zealand, 2020 </p>
+
+  <article class = "Publications">
+  <h2>Heat Generation and Prevention of Overheating in Lithium Ion Batteries</h2>
+  <p>Chuanzelong Guo</p>
+  <p> Auckland University of Technology, New Zealand, 2020 </p>
+
+  <article class = "Publications">
+  <h2>Additive Manufacturing Internship - National Taipei University of Technology</h2>
+  <p>Chuanzelong Guo</p>
+  <p>Auckland University of Technology, New Zealand, 2020 </p>
+
   <article class = "Publications">
   <h2>Towards A Self-Sustainable Production Of Proteins In Space: A Proposed Solution And Roadmap</h2>
   <p>Francesco Spina, Roberto Aguilar, Chuanzelong Guo, Mami Sugaya, Ryunosuke Yokoya, Catherine Mandigma and Kensuke Wada</p>
   <p>In the Proceedings of the 16th IAA Symposium on Visions and Strategies For the Future: Contribution of Space Activities to Solving Global Societal Issues, 69th International Astronautical Congress, Germany, 2018</p>
-  <a href=/files/IAC.pdf></a>
+
 
