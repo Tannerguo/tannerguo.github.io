@@ -26,20 +26,14 @@ redirect_from:
 Biography
 ======
 What I'm doing in my spare time: <br>
-- Researching a way to bypass region lock on Roborock robotic vacuums from China
-- Building a fence
-- Python and Raspberry Pi coding
-- DIY Lithium Powerbank
-- Improving capacity of solar garden lights
-- Redoing the sagging headliner in my car and adding star lights
-- Landscaping work
+- Python, Raspberry Pi coding, 
 - Currently reading: "Surviving The Great Depression of 1990: Protect Your Assets and Investments - and Come Out on Top"
 
 Interests
 ------
 Some other interests I have are:
 - Repurposing old battery packs such as disassembling old laptop battery packs or power tool battery packs, capacity testing each cell and then repackaging and spot welding a new battery pack out of mixed cells.
-- Repaired, fixed and made modifications on iPhones, Macbooks and iPods. <br> <br>
+- Repaired, fixed and made modifications on iPhones, Macbooks and iPods. <br\> <br\>
 In terms of hands on skills, I have:
 - Diagnosed (By writing down the binary code produced by the washing machine, searching the corresponding binary code with error code, matched the error code on Google - a broken out of balance sensor and fixed the Fisher & Paykel washing machine with a new sensor
 - Fixed a leaking Fisher & Paykel 2 door fridge freezer
