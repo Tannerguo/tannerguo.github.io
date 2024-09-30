@@ -1,6 +1,6 @@
 ---
 title: "Running Ethernet cables and terminating"
-excerpt: "Running ethernet cables for security cameras around the exterior of the house and terminating the cables at T568B  <br/><img src='/images/poe9.jpg'>"
+excerpt: "Running ethernet cables for security cameras around the exterior of the house and terminating the cables at T568B <br/> Please click above title to view more photos <br/><img src='/images/poe9.jpg'>"
 collection: portfolio
 ---
 
