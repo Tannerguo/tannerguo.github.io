@@ -1,6 +1,6 @@
 ---
 title: "Vehicle Flap Lock battery upgrade"
-excerpt: "Replacing disposable D Cell batteries with 18650 rechargable cell in a custom enclosure<br/><img src='/images/flaplockbanner.jpg'>"
+excerpt: "Replacing disposable D Cell batteries with 18650 rechargable cell in a custom enclosure <br/> Please click above title to view more photos <br/><img src='/images/flaplockbanner.jpg'>"
 collection: portfolio
 ---
 
