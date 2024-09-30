@@ -26,3 +26,7 @@ quickly. <br/>
 to each other to show the effectiveness of the design. Through various designs of the heat sink, shape
 and angle of the heat fins and the use of a Pyrolytic Graphite Sheet, the most optimised heat sink
 was iteratively designed through running multiple computational fluid dynamics and simulations.
+
+<img src='/images/fyp.png'>
+<img src='/images/cfd.png'>
+<img src='/images/temp.png'>
