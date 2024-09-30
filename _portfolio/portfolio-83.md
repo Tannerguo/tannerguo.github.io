@@ -1,6 +1,6 @@
 ---
-title: "Design and making a fence gate and installing"
-excerpt: "Fence Gate <br/><img src='/images/fencegate2.jpg'>"
+title: "Design, building and installing a fence gate"
+excerpt: "Fence Gate <br/> Please click above title to view more photos <br/><img src='/images/fencegate2.jpg'>"
 collection: portfolio
 ---
 
