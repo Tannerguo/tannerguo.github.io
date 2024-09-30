@@ -10,7 +10,7 @@ paperurl: 'http://tannerguo.github.io/files/IAC.pdf'
 ---
 
 Please click download 'here' on previous page to view the document
-<h3>Abstract</h3> <br/>
+<h3>Abstract</h3>
 Nutrition is elementary for human existence and it poses numerous challenges for deep-space explo-
 ration. The food currently used during space missions, despite its promises to deliver nutritive value to
 the astronaut’s diet, will become unsuitable and unsustainable during longer expeditions. Nowadays, soil-
