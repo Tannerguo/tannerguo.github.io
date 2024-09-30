@@ -1,6 +1,6 @@
 ---
 title: "Master bedroom renovation"
-excerpt: "Replacing insulation and Gib board in the master bedroom from water damage<br/><img src='/images/reno7.JPG'>"
+excerpt: "Replacing insulation and Gib board in the master bedroom from water damage <br/> Please click above title to view more photos <br/><img src='/images/reno7.JPG'>"
 collection: portfolio
 ---
 
