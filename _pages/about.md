@@ -29,7 +29,8 @@ What I'm doing in my spare time: <br>
 - Python and Raspberry Pi coding. Fixing, repairing and improving hardware around the house
 - Currently reading: "Surviving The Great Depression of 1990: Protect Your Assets and Investments - and Come Out on Top"
 - Repurposing old battery packs such as disassembling old laptop battery packs or power tool battery packs, capacity testing each cell and then repackaging and spot welding a new battery pack out of mixed cells.
-
+  
+<br/>
 
 <article class="Selected Publications">
   <h1>Featured Publications</h1>
