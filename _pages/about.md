@@ -37,5 +37,5 @@ What I'm doing in my spare time: <br>
   <h2>Towards A Self-Sustainable Production Of Proteins In Space: A Proposed Solution And Roadmap</h2>
   <p>Francesco Spina, Roberto Aguilar, Chuanzelong Guo, Mami Sugaya, Ryunosuke Yokoya, Catherine Mandigma and Kensuke Wada</p>
   <p>In the Proceedings of the 16th IAA Symposium on Visions and Strategies For the Future: Contribution of Space Activities to Solving Global Societal Issues, 69th International Astronautical Congress, Germany, 2018</p>
-  <a href=/publication/FYP></a>
+  <a href=/publication/IAC></a>
 
