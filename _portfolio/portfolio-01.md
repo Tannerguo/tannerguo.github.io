@@ -1,6 +1,6 @@
 ---
 title: "Starlight Headliner Modification"
-excerpt: "46 hours of headliner modification, turning it into a Rolls Royce Starlight Headliner <br/> click above title to view more photos <br/><img src='/images/headliner12.jpg'>"
+excerpt: "46 hours of headliner modification, turning it into a Rolls Royce Starlight Headliner. <br/> Please click above title to view more photos <br/><img src='/images/starlight8.JPG'>"
 collection: portfolio
 ---
 
