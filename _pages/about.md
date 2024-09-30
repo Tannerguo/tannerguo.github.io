@@ -36,7 +36,7 @@ What I'm doing in my spare time: <br>
   <h1>Featured Publications</h1>
 
   <article class = "Publications">
-  <h2>Wealthy homeowner fights stepson for slice of dead mother's estate</h2>
+  <h3>Wealthy homeowner fights stepson for slice of dead mother's estate</h3>
   <p>Lane Nichols, Michael Craig, Chuanzelong Guo</p>
   <p> New Zealand Herald Front Page, New Zealand, 2020 </p>
 
