@@ -30,8 +30,7 @@ What I'm doing in my spare time: <br>
 - Currently reading: "Surviving The Great Depression of 1990: Protect Your Assets and Investments - and Come Out on Top"
 - Repurposing old battery packs such as disassembling old laptop battery packs or power tool battery packs, capacity testing each cell and then repackaging and spot welding a new battery pack out of mixed cells.
 
-Selected Publications
-------
+
 <article class="Selected Publications">
   <h1>Selected Publications</h1>
   <article class = "Publications">
