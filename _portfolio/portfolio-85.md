@@ -1,6 +1,6 @@
 ---
 title: "Head unit replacement"
-excerpt: "Replacing Japanese head unit <br/><img src='/images/car20.jpg'>"
+excerpt: "Replacing Japanese head unit <br/> Please click above title to view more photos <br/><img src='/images/car20.jpg'>"
 collection: portfolio
 ---
 
