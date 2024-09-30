@@ -1,6 +1,6 @@
 ---
 title: "iPod Modding"
-excerpt: "iPod Mini 1st Gen battery, storage and bluetooth mod. Followed by iPod Classic 5.5 Gen battery replacement <br/><img src='/images/ipodmini3.jpg'>"
+excerpt: "iPod Mini 1st Gen battery, storage and bluetooth mod. Followed by iPod Classic 5.5 Gen battery replacement <br/> Please click above title to view more photos <br/><img src='/images/ipodmini3.jpg'>"
 collection: portfolio
 ---
 <img src='/images/ipodmini1.jpg'>
