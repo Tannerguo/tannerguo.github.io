@@ -32,7 +32,7 @@ What I'm doing in my spare time: <br>
 
 
 <article class="Selected Publications">
-  <h1>Selected Publications</h1>
+  <h1>Featured Publications</h1>
   <article class = "Publications">
   <h2>Towards A Self-Sustainable Production Of Proteins In Space: A Proposed Solution And Roadmap</h2>
   <p>Francesco Spina, Roberto Aguilar, Chuanzelong Guo, Mami Sugaya, Ryunosuke Yokoya, Catherine Mandigma and Kensuke Wada</p>
