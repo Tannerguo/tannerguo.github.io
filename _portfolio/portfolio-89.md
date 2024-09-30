@@ -1,6 +1,6 @@
 ---
 title: "Laying vinyl flooring"
-excerpt: "Laying vinyl flooring to protect the rimu flooring underneath<br/><img src='/images/vinyl6.JPG'>"
+excerpt: "Laying vinyl flooring to protect the rimu flooring underneath <br/> Please click above title to view more photos <br/><img src='/images/vinyl6.JPG'>"
 collection: portfolio
 ---
 
