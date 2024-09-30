@@ -1,6 +1,6 @@
 ---
 title: "Increasing the capacity of solar garden lights"
-excerpt: "Repurposing dead laptop batteries and using their cells to power solar garden lights <br/><img src='/images/gardenlight6.jpg'>"
+excerpt: "Repurposing dead laptop batteries and using their cells to power solar garden lights <br/><img src='/images/gardenlight6.jpg'>" <br/> Please click above title to view more photos <br/>
 collection: portfolio
 ---
 
