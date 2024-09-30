@@ -41,5 +41,54 @@ In terms of hands on skills, I have:
 - Measured, designed and printed a part in PLA+ of the window spray nozzle for the front windscreen of my car (the only thing it failed in its WOF) in which it passed its WOF but then melted shortly after...reprinted in PETG
 - Diagnosed the correct brushless motor and the problem on a Boosted Board V2 (electric skateboard) - fixed with dielectric grease  
 
-<a href=/_publications/FYP/>Final Year Project</a>
+<section id=featured class="home-section wg-featured">
+<div class=home-section-bg>
+</div>
+<div class=container>
+<div class=row>
+<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+<h1 class=mb-0>Featured Publications</h1>
+</div>
+<div class="col-12 col-lg-8">
+<div class=card-simple>
+<div class=article-metadata>
+<div>
+<span class=author-highlighted>
+Jeffrey </span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>, <span>
+Ben Wang</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>, <span>
+Abdullah AlShelahi</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>, <span>
+Romesh Saigal</span><i class="author-notes fas fa-info-circle" data-toggle=tooltip title="Equal contribution"></i>
+</div>
+<span class=article-date>
+August 2022
+</span>
+<span class=middot-divider></span>
+<span class=pub-publication>
+Working Paper
+</span>
+</div>
+<a href=/publication/FYP>
+<div class=img-hover-zoom><img src=/publication/external_forces/featured_hu268ee5a656db689b6f7df015192befc0_161367_808x455_fill_lanczos_smart1_3.png class=article-banner alt="External Forces on Financial Markets: Evidence from the GameStop Short Squeeze and Flash Crash" loading=lazy></div>
+</a>
+<div class="section-subheading article-title mb-1 mt-3">
+<a href=/publication/FYP/>External Forces on Financial Markets: Evidence from the GameStop Short Squeeze and Flash Crash</a>
+</div>
+<a href=/publication/FYP/ class=summary-link>
+<div class=article-style>
+<p>In this research, we present a system of equations for measuring external forces in financial markets. As in physics, we claim that there is a measurable force caused by external market forces, which we call investor impatience and equate with gravitational force. We simulate this force and its accompanying energy conservation equation equation using a physics- based Eulerian fluid flow system. We test this idea by analyzing minute-by-minute data from meme stocks during a one-of-a-kind market event, the January 2021 the GameStop short squeeze. The resultant parameters show that external forces have an effect on stock prices. The investor impatience parameter is shown to improve out-of-sample forecasting of investor sentiment, estimated using comments from Reddit’s WallStreetBets forum during the short squeeze. We expand our study to the 2010 flash crash, demonstrating that the system accounts for exogenous influences on market behavior.</p>
+</div>
+</a>
+<div class=btn-links>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=/publication/FYP/FYP.pdf target=_blank rel=noopener>
+PDF
+</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/external_forces/cite.bib>
+Cite
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
 
