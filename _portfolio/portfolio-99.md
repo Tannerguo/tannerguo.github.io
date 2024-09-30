@@ -1,6 +1,6 @@
 ---
 title: "Building a planter box"
-excerpt: "Building a raised planter box for my grandmother <br/><img src='/images/planter5.jpg'>"
+excerpt: "Building a raised planter box for my grandmother <br/> Please click above title to view more photos <br/><img src='/images/planter5.jpg'>"
 collection: portfolio
 ---
 <img src='/images/planter1.JPG'>
