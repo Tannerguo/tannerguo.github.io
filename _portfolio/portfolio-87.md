@@ -1,11 +1,11 @@
 ---
 title: "Kitchen Renovation"
-excerpt: "Bringing an old kitchen to the modern era <br/><img src='/images/kitchen14.jpg'>"
+excerpt: "Bringing an old kitchen to the modern era <br/> Please click above title to view more photos <br/><img src='/images/kitchen14.jpg'>"
 collection: portfolio
 ---
 
 I did the demolition and most of the installation including plumbing from the wall. All plumbing into the wall was done by a qualified plumbing contractor
-<img src='/images/kitchen14.JPG'>
+<img src='/images/kitchen14.jpg'>
 
 <br/>
 <br/>
