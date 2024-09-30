@@ -1,6 +1,6 @@
 ---
 title: "iPhone 6 Screen and Battery replacement"
-excerpt: "Repairing a free cracked iPhone 6 with battery drain issue <br/><img src='/images/iphone1.jpg'>"
+excerpt: "Repairing a free cracked iPhone 6 with battery drain issue <br/> Please click above title to view more photos <br/><img src='/images/iphone1.jpg'>"
 collection: portfolio
 ---
 <img src='/images/iphone1.jpg'>
