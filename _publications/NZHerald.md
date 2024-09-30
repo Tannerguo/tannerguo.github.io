@@ -31,4 +31,4 @@ Judge A M Manuel decided that: <br/>
 <br/>
 [71] Karen’s application under the FPA is dismissed. All things being equal costs are to follow the event. The parties are invited to reach agreement, failing which Mitch is to file a memorandum within 14 days, after which Karen is to have 14 days to reply."
 
-<img src=/images/Nzherald.png alt class=featured-image>
+<img src=/images/Nzherald.png alt="Featured Image">
