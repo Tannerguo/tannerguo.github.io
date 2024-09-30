@@ -5,16 +5,16 @@ collection: portfolio
 ---
 
 Due to my headliner sagging and needing replacement, which I did replace as shown in my previous project, I thought why not make it into a starlight headliner? Thinking it surely wouldn't be as difficult as redoing a headliner. After 46 gruelling hours over a period of 6 days, I now think redoing a headliner is very simple but turning it into a starlight headliner is the most difficult. Everything is handcrafted from hand punching holes, ensuring the fabric below doesn't unglue itself once the punch wennt through, to hand threading every 780 strands of fibre optics through the holes, to hot glueing and holding the fibre optics to make sure it doesn't deform under heat.
-<img src='/images/starlight8.jpg'>
+<img src='/images/starlight8.JPG'>
 
 <br/>
 <br/>
-<img src='/images/starlight.jpg'>
-<img src='/images/starlight2.jpg'>
-<img src='/images/starlight3.jpg'>
+<img src='/images/starlight.JPG'>
+<img src='/images/starlight2.JPG'>
+<img src='/images/starlight3.JPG'>
 <img src='/images/starlight4.jpg'>
-<img src='/images/starlight5.jpg'>
+<img src='/images/starlight5.JPG'>
 <img src='/images/starlight6.jpg'>
-<img src='/images/starlight7.jpg'>
-<img src='/images/starlight8.jpg'>
-<img src='/images/starlight9.jpg'>
+<img src='/images/starlight7.JPG'>
+<img src='/images/starlight8.JPG'>
+<img src='/images/starlight9.png'>
