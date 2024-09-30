@@ -52,6 +52,6 @@ Current projects
   <article class = "Publications">
   <h3>Towards A Self-Sustainable Production Of Proteins In Space: A Proposed Solution And Roadmap</h3>
   <p>Francesco Spina, Roberto Aguilar, Chuanzelong Guo, Mami Sugaya, Ryunosuke Yokoya, Catherine Mandigma and Kensuke Wada</p>
-  <p>In the Proceedings of the 16th IAA Symposium on Visions and Strategies For the Future: Contribution of Space Activities to Solving Global Societal Issues, 69th International Astronautical Congress, Germany, 2018</p>
+  <p>69th International Astronautical Congress, Germany, 2018</p>
 
 
