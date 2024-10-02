@@ -17,7 +17,7 @@ redirect_from:
   <!-- Setup and start animation! -->
   <script>
     var typed = new Typed('#element', {
-      strings: ['', '<strong>Check out my recent 46 hour long project, starlight headliner modification. 请看我最近46小时完成的项目——罗斯莱斯星光车顶改装 </strong>'],
+      strings: ['', '<strong>Check out my recent 46 hour long project, starlight headliner modification.</strong>'],
       typeSpeed: 80, loop: true, loopCount: Infinity
     });
   </script>
