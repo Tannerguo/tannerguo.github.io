@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : ""
 title_separator          : "-"
-name                     : &name "Chuanzelong Tanner Guo"
+name                     : &name "Tanner Guo"
 description              : &description ""
 url                      : https://tannerguo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "main/tannerguo.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Tanner Guo"
+  name             : "Chuanzelong (Tanner) Guo"
   pronouns         : # example: "she/her"  
   bio              : "Meet Tanner, a resilient and accomplished Mechanical Engineer who (after the loss of his mother from cancer) conquered both legal, academic and personal challenges, prevailing in a high court lawsuit during his undergraduate studies at the age of 21, Tanner emerged victorious, both legally and academically, graduating as a Mechanical Engineer.</br> </br>His unwavering commitment to learning and overcoming challenges defines Tanner's character. A lifelong learner, Tanner embodies perseverance and an insatiable curiosity within the ever-evolving field of Mechanical Engineering, proving that passion and resilience can lead to extraordinary triumphs in the face of adversity.."
   location         : "Auckland, New Zealand"
