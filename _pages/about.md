@@ -29,7 +29,7 @@ Current projects
 - Conducting repairs, maintenance, and enhancements on various household items and systems
 - Currently reading: "Surviving The Great Depression of 1990: Protect Your Assets and Investments - and Come Out on Top"
 - Disassembling and repurposing old battery packs, including those from laptops and power tools, by conducting capacity tests on individual cells. The process culminates in the reconfiguration and spot welding of a new battery pack using a combination of cells.
-- Tanner currently holds 2 Trademarks approved by the Intellectual Property Office of New Zealand (IPONZ)
+- Tanner currently holds 2 Trademarks approved by the Intellectual Property Office of New Zealand
   
 <br/>
 
