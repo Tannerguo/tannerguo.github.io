@@ -26,7 +26,7 @@ redirect_from:
 Current projects
 ======
 - Python and Raspberry Pi coding
-- Conducting repairs, maintenance, and enhancements on various household items and systems
+- Conducting repairs, maintenance, and enhancements on various electronic items and systems such as refrigerators, washing machines, sound systems and Lithium Ion battery packs
 - Currently reading: "Surviving The Great Depression of 1990: Protect Your Assets and Investments - and Come Out on Top"
 - Disassembling and repurposing old battery packs, including those from laptops and power tools, by conducting capacity tests on individual cells. The process culminates in the reconfiguration and spot welding of a new battery pack using a combination of cells.
 - Tanner currently holds 2 Trademarks approved by the Intellectual Property Office of New Zealand
@@ -37,9 +37,6 @@ Current projects
   <h1>Featured Publications</h1>
 
   <article class = "Publications">
-  <h3>Wealthy homeowner fights stepson for slice of dead mother's estate</h3>
-  <p>Lane Nichols, Michael Craig, Chuanzelong Guo</p>
-  <p> New Zealand Herald Front Page, New Zealand, 2020 </p>
 
   <article class = "Publications">
   <h3>Heat Generation and Prevention of Overheating in Lithium Ion Batteries</h3>
