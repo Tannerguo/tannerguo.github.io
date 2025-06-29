@@ -1,5 +1,5 @@
 ---
-title: "NZ Legal Information Institute"
+title: "High Court Judge Decision"
 collection: publications
 permalink: /publication/Paper1
 excerpt: 'NZ Legal Information Institute'
