@@ -26,8 +26,8 @@ redirect_from:
 Current projects
 ======
 - Python and Raspberry Pi coding
+- Designing and Prototyping FDM 3D prints
 - Conducting repairs, maintenance, and enhancements on various electronic items and systems such as refrigerators, washing machines, sound systems and Lithium Ion battery packs
-- Currently reading: "Surviving The Great Depression of 1990: Protect Your Assets and Investments - and Come Out on Top"
 - Disassembling and repurposing old battery packs, including those from laptops and power tools, by conducting capacity tests on individual cells. The process culminates in the reconfiguration and spot welding of a new battery pack using a combination of cells.
   
 <br/>
