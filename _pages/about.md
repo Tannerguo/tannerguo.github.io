@@ -174,7 +174,7 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
         <h3>Crown Worldwide Group</h3>
         <h4>Inbound Leads Specialist</h4>
         <p>2025 - Present</p>
-        <p>Organized and sorted mail efficiently while maintaining accuracy and speed under pressure.</p>
+        <p>Serve as a key point of contact for incoming inquiries, coordinating solutions and guiding clients through the relocation process to ensure exceptional service and operational efficiency.</p>
       </div>
     </div>
   </section>
