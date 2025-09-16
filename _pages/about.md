@@ -44,7 +44,8 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
       position: relative;
       max-width: 800px;
       margin: auto;
-      padding: 20px 0;
+      padding: 20px 0 60px;
+      overflow: visible; 
     }
 
     /* Vertical line */
