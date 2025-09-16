@@ -23,14 +23,10 @@ redirect_from:
   </script>
 
 
-Current projects
+Biography
 ======
-- Python and Raspberry Pi coding
-- Designing and Prototyping FDM 3D prints
-- Conducting repairs, maintenance, and enhancements on various electronic items and systems such as refrigerators, washing machines, sound systems and Lithium Ion battery packs
-- Disassembling and repurposing old battery packs, including those from laptops and power tools, by conducting capacity tests on individual cells. The process culminates in the reconfiguration and spot welding of a new battery pack using a combination of cells.
+Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing, solar energy, and hands-on problem solving. I’ve worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience across industries from logistics to trade. I’m also the founder of China Business Tours, helping Kiwi businesses connect with suppliers in China. Outside of work, I’m an aviation enthusiast working toward my private pilot’s license.
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -150,8 +146,8 @@ Current projects
         <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Lexus_logo.svg" alt="Lexus Logo">
       </div>
       <div class="timeline-content">
-        <h3>Lexus (China)</h3>
-        <h4>Graduate Engineer</h4>
+        <h3>Space Generation Advisory Council</h3>
+        <h4>National Point of Contact</h4>
         <p>Jun 2021 – Jun 2023</p>
         <p>Prepared technical documentation, reviewed design outputs, and provided technical support for engineering projects.</p>
       </div>
@@ -174,9 +170,9 @@ Current projects
         <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/NZ_Post_logo.svg" alt="NZ Post Logo">
       </div>
       <div class="timeline-content">
-        <h3>NZ Post</h3>
-        <h4>Mail Sorter</h4>
-        <p>Casual</p>
+        <h3>Crown Worldwide Group</h3>
+        <h4>Inbound Leads Specialist</h4>
+        <p>2025 - Present</p>
         <p>Organized and sorted mail efficiently while maintaining accuracy and speed under pressure.</p>
       </div>
     </div>
