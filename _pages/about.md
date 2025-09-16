@@ -27,12 +27,11 @@ Biography
 ======
 Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing, solar energy, and hands-on problem solving. I’ve worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience across industries from logistics to trade. I’m also the founder of China Business Tours, helping Kiwi businesses connect with suppliers in China. Outside of work, I’m an aviation enthusiast working toward my private pilot’s license.
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Experience Timeline</title>
+  <title>Tanner Guo - Experience & Publications</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -67,8 +66,17 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
       display: flex;
       align-items: flex-start;
       position: relative;
-      margin-bottom: 60px; /* ensures space below last item */
+      margin-bottom: 60px;
       width: 100%;
+      opacity: 0; /* hidden initially */
+      transform: translateY(30px);
+      transition: all 0.6s ease-out;
+    }
+
+    /* Show when in view */
+    .timeline-item.show {
+      opacity: 1;
+      transform: translateY(0);
     }
 
     /* Alternate left/right alignment */
@@ -107,7 +115,7 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
     .timeline-logo img {
       width: 100%;
       height: 100%;
-      object-fit: cover; /* ensures logo fills the circle */
+      object-fit: cover;
     }
 
     /* Content box */
@@ -137,7 +145,36 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
       color: #555;
     }
 
-    /* Responsive for smaller screens */
+    /* Featured Publications */
+    .Publications {
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      opacity: 0; /* hidden initially */
+      transform: translateY(30px);
+      transition: all 0.6s ease-out;
+    }
+
+    .Publications.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .Publications h3 {
+      margin: 0 0 5px 0;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .Publications p {
+      margin: 2px 0;
+      font-size: 14px;
+      color: #555;
+    }
+
+    /* Responsive */
     @media screen and (max-width: 768px) {
       .timeline::before {
         left: 20px;
@@ -159,8 +196,8 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
   </style>
 </head>
 <body>
+  <!-- Experience Timeline -->
   <section class="timeline">
-    <!-- Experience Item 1 -->
     <div class="timeline-item">
       <div class="timeline-dot"></div>
       <div class="timeline-logo">
@@ -174,7 +211,6 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
       </div>
     </div>
 
-    <!-- Experience Item 2 -->
     <div class="timeline-item">
       <div class="timeline-dot"></div>
       <div class="timeline-logo">
@@ -188,7 +224,6 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
       </div>
     </div>
 
-    <!-- Experience Item 3 -->
     <div class="timeline-item">
       <div class="timeline-dot"></div>
       <div class="timeline-logo">
@@ -203,11 +238,49 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
     </div>
   </section>
 
-  <!-- Example next section -->
+  <!-- Featured Publications -->
   <section style="max-width:800px;margin:auto;padding:40px 20px;">
     <h2>Featured Publications</h2>
-    <p>Your featured publications content goes here...</p>
+
+    <article class="Publications">
+      <h3>Heat Generation and Prevention of Overheating in Lithium Ion Batteries</h3>
+      <p>Chuanzelong Guo</p>
+      <p>Auckland University of Technology, New Zealand, 2020</p>
+    </article>
+
+    <article class="Publications">
+      <h3>Additive Manufacturing Internship - National Taipei University of Technology</h3>
+      <p>Chuanzelong Guo</p>
+      <p>Auckland University of Technology, New Zealand, 2020</p>
+    </article>
+
+    <article class="Publications">
+      <h3>Towards A Self-Sustainable Production Of Proteins In Space: A Proposed Solution And Roadmap</h3>
+      <p>Francesco Spina, Roberto Aguilar, Chuanzelong Guo, Mami Sugaya, Ryunosuke Yokoya, Catherine Mandigma and Kensuke Wada</p>
+      <p>69th International Astronautical Congress, Germany, 2018</p>
+    </article>
   </section>
+
+  <script>
+    // Fade-in on scroll
+    function isInViewport(element) {
+      const rect = element.getBoundingClientRect();
+      return rect.top <= (window.innerHeight || document.documentElement.clientHeight) - 50;
+    }
+
+    const items = document.querySelectorAll('.timeline-item, .Publications');
+
+    function checkItems() {
+      items.forEach(item => {
+        if (isInViewport(item)) {
+          item.classList.add('show');
+        }
+      });
+    }
+
+    window.addEventListener('scroll', checkItems);
+    window.addEventListener('load', checkItems);
+  </script>
 </body>
 </html>
 
@@ -217,8 +290,6 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
 
 <article class="Selected Publications">
   <h1>Featured Publications</h1>
-
-  <article class = "Publications">
 
   <article class = "Publications">
   <h3>Heat Generation and Prevention of Overheating in Lithium Ion Batteries</h3>
