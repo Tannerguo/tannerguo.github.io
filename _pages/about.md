@@ -27,182 +27,135 @@ Biography
 ======
 Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing, solar energy, and hands-on problem solving. I’ve worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience across industries from logistics to trade. I’m also the founder of China Business Tours, helping Kiwi businesses connect with suppliers in China. Outside of work, I’m an aviation enthusiast working toward my private pilot’s license.
 
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tanner Guo - Experience & Publications</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-      background: #f9f9f9;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tanner Guo - Experience & Publications</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f9f9f9;
+  }
 
-    /* Timeline container */
-    .timeline {
-      position: relative;
-      max-width: 800px;
-      margin: auto;
-      padding: 40px 0;
-    }
+  /* Timeline container */
+  .timeline {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 0;
+  }
 
-    /* Vertical line */
-    .timeline::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 50%;
-      width: 4px;
-      background: #ccc;
-      transform: translateX(-50%);
-      z-index: 0;
-    }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 4px;
+    background: #ccc;
+    transform: translateX(-50%);
+    z-index: 0;
+  }
 
-    /* Timeline item */
-    .timeline-item {
-      display: flex;
-      align-items: flex-start;
-      position: relative;
-      margin-bottom: 60px;
-      width: 100%;
-      opacity: 0; /* hidden initially */
-      transform: translateY(30px);
-      transition: all 0.6s ease-out;
-    }
+  .timeline-item {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 60px;
+    width: 100%;
+    opacity: 0;
+    animation: fadeInUp 0.6s forwards;
+  }
 
-    /* Show when in view */
-    .timeline-item.show {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  /* Stagger animations */
+  .timeline-item:nth-child(1) { animation-delay: 0.2s; }
+  .timeline-item:nth-child(2) { animation-delay: 0.4s; }
+  .timeline-item:nth-child(3) { animation-delay: 0.6s; }
 
-    /* Alternate left/right alignment */
-    .timeline-item:nth-child(odd) {
-      flex-direction: row-reverse;
-      text-align: right;
-    }
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
 
-    /* Dot */
-    .timeline-dot {
-      position: relative;
-      z-index: 1;
-      width: 16px;
-      height: 16px;
-      background: #3b82f6;
-      border-radius: 50%;
-      border: 3px solid #fff;
-      margin: 0 20px;
-      flex-shrink: 0;
-    }
+  .timeline-item:nth-child(odd) {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
 
-    /* Logo styling */
-    .timeline-logo {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      overflow: hidden;
-      border: 2px solid #ccc;
-      background: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-shrink: 0;
-    }
+  .timeline-dot {
+    width: 16px;
+    height: 16px;
+    background: #3b82f6;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin: 0 20px;
+    flex-shrink: 0;
+  }
 
-    .timeline-logo img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
+  .timeline-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
 
-    /* Content box */
-    .timeline-content {
-      max-width: 300px;
-      background: #fff;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    }
+  .timeline-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
-    .timeline-content h3 {
-      margin: 0;
-      font-size: 18px;
-      color: #333;
-    }
+  .timeline-content {
+    max-width: 300px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
 
-    .timeline-content h4 {
-      margin: 5px 0;
-      font-size: 16px;
-      color: #666;
-    }
+  .timeline-content h3 { margin: 0; font-size: 18px; color: #333; }
+  .timeline-content h4 { margin: 5px 0; font-size: 16px; color: #666; }
+  .timeline-content p { margin: 10px 0 0; font-size: 14px; color: #555; }
 
-    .timeline-content p {
-      margin: 10px 0 0;
-      font-size: 14px;
-      color: #555;
-    }
+  .Publications {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    opacity: 0;
+    animation: fadeInUp 0.6s forwards;
+  }
 
-    /* Featured Publications */
-    .Publications {
-      background: #fff;
-      padding: 15px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-      opacity: 0; /* hidden initially */
-      transform: translateY(30px);
-      transition: all 0.6s ease-out;
-    }
+  .Publications:nth-child(1) { animation-delay: 0.2s; }
+  .Publications:nth-child(2) { animation-delay: 0.4s; }
+  .Publications:nth-child(3) { animation-delay: 0.6s; }
 
-    .Publications.show {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  .Publications h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
+  .Publications p { margin: 2px 0; font-size: 14px; color: #555; }
 
-    .Publications h3 {
-      margin: 0 0 5px 0;
-      font-size: 16px;
-      color: #333;
-    }
-
-    .Publications p {
-      margin: 2px 0;
-      font-size: 14px;
-      color: #555;
-    }
-
-    /* Responsive */
-    @media screen and (max-width: 768px) {
-      .timeline::before {
-        left: 20px;
-      }
-
-      .timeline-item {
-        flex-direction: row !important;
-        text-align: left !important;
-      }
-
-      .timeline-dot {
-        margin: 0 10px 0 0;
-      }
-
-      .timeline-content {
-        margin: 0;
-      }
-    }
-  </style>
+  @media screen and (max-width: 768px) {
+    .timeline::before { left: 20px; }
+    .timeline-item { flex-direction: row !important; text-align: left !important; }
+    .timeline-dot { margin: 0 10px 0 0; }
+  }
+</style>
 </head>
 <body>
-  <!-- Experience Timeline -->
   <section class="timeline">
     <div class="timeline-item">
       <div class="timeline-dot"></div>
-      <div class="timeline-logo">
-        <img src="images/SGAC.png" alt="SGAC Logo">
-      </div>
+      <div class="timeline-logo"><img src="images/SGAC.png" alt="SGAC Logo"></div>
       <div class="timeline-content">
         <h3>Space Generation Advisory Council</h3>
         <h4>National Point of Contact</h4>
@@ -213,9 +166,7 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
 
     <div class="timeline-item">
       <div class="timeline-dot"></div>
-      <div class="timeline-logo">
-        <img src="images/NTUT.jpg" alt="Taipei Tech Logo">
-      </div>
+      <div class="timeline-logo"><img src="images/NTUT.jpg" alt="Taipei Tech Logo"></div>
       <div class="timeline-content">
         <h3>National Taipei University of Technology</h3>
         <h4>Additive Manufacturing Intern</h4>
@@ -226,9 +177,7 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
 
     <div class="timeline-item">
       <div class="timeline-dot"></div>
-      <div class="timeline-logo">
-        <img src="images/Crown.jpg" alt="Crown Logo">
-      </div>
+      <div class="timeline-logo"><img src="images/Crown.jpg" alt="Crown Logo"></div>
       <div class="timeline-content">
         <h3>Crown Worldwide Group</h3>
         <h4>Inbound Leads Specialist</h4>
@@ -238,7 +187,6 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
     </div>
   </section>
 
-  <!-- Featured Publications -->
   <section style="max-width:800px;margin:auto;padding:40px 20px;">
     <h2>Featured Publications</h2>
 
@@ -260,32 +208,9 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
       <p>69th International Astronautical Congress, Germany, 2018</p>
     </article>
   </section>
-
-  <script>
-    // Fade-in on scroll
-    function isInViewport(element) {
-      const rect = element.getBoundingClientRect();
-      return rect.top <= (window.innerHeight || document.documentElement.clientHeight) - 50;
-    }
-
-    const items = document.querySelectorAll('.timeline-item, .Publications');
-
-    function checkItems() {
-      items.forEach(item => {
-        if (isInViewport(item)) {
-          item.classList.add('show');
-        }
-      });
-    }
-
-    window.addEventListener('scroll', checkItems);
-    window.addEventListener('load', checkItems);
-  </script>
 </body>
 </html>
 
-
-  
 <br/>
 
 <article class="Selected Publications">
