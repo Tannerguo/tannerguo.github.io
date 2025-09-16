@@ -143,7 +143,7 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
   <section class="timeline">
     <div class="timeline-item">
       <div class="timeline-logo">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Lexus_logo.svg" alt="Lexus Logo">
+        <img src="images/SGAC.png" alt="SGAC Logo">
       </div>
       <div class="timeline-content">
         <h3>Space Generation Advisory Council</h3>
@@ -155,7 +155,7 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
 
     <div class="timeline-item">
       <div class="timeline-logo">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/National_Taipei_University_of_Technology_logo.svg" alt="Taipei Tech Logo">
+        <img src="images/NTUT.jpg" alt="Taipei Tech Logo">
       </div>
       <div class="timeline-content">
         <h3>National Taipei University of Technology</h3>
@@ -167,7 +167,7 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
 
     <div class="timeline-item">
       <div class="timeline-logo">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/NZ_Post_logo.svg" alt="NZ Post Logo">
+        <img src="images/Crown.jpg" alt="Crown Logo">
       </div>
       <div class="timeline-content">
         <h3>Crown Worldwide Group</h3>
