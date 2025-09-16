@@ -154,7 +154,6 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
 <body>
   <section class="timeline">
     <div class="timeline-item">
-      <div class="timeline-dot"></div>
       <div class="timeline-logo"><img src="images/SGAC.png" alt="SGAC Logo"></div>
       <div class="timeline-content">
         <h3>Space Generation Advisory Council</h3>
@@ -165,7 +164,6 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
     </div>
 
     <div class="timeline-item">
-      <div class="timeline-dot"></div>
       <div class="timeline-logo"><img src="images/NTUT.jpg" alt="Taipei Tech Logo"></div>
       <div class="timeline-content">
         <h3>National Taipei University of Technology</h3>
@@ -176,7 +174,6 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
     </div>
 
     <div class="timeline-item">
-      <div class="timeline-dot"></div>
       <div class="timeline-logo"><img src="images/Crown.jpg" alt="Crown Logo"></div>
       <div class="timeline-content">
         <h3>Crown Worldwide Group</h3>
