@@ -27,6 +27,7 @@ Biography
 ======
 Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing, solar energy, and hands-on problem solving. I’ve worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience across industries from logistics to trade. I’m also the founder of China Business Tours, helping Kiwi businesses connect with suppliers in China. Outside of work, I’m an aviation enthusiast working toward my private pilot’s license.
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -40,12 +41,12 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
       background: #f9f9f9;
     }
 
+    /* Timeline container */
     .timeline {
       position: relative;
       max-width: 800px;
       margin: auto;
-      padding: 20px 0 60px;
-      overflow: visible; 
+      padding: 40px 0;
     }
 
     /* Vertical line */
@@ -58,47 +59,64 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
       width: 4px;
       background: #ccc;
       transform: translateX(-50%);
+      z-index: 0;
     }
 
+    /* Timeline item */
     .timeline-item {
       display: flex;
-      justify-content: flex-start;
-      align-items: center;
+      align-items: flex-start;
       position: relative;
-      margin: 20px 0;
+      margin-bottom: 60px; /* ensures space below last item */
+      width: 100%;
     }
 
+    /* Alternate left/right alignment */
     .timeline-item:nth-child(odd) {
       flex-direction: row-reverse;
       text-align: right;
     }
 
+    /* Dot */
+    .timeline-dot {
+      position: relative;
+      z-index: 1;
+      width: 16px;
+      height: 16px;
+      background: #3b82f6;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      margin: 0 20px;
+      flex-shrink: 0;
+    }
+
+    /* Logo styling */
     .timeline-logo {
       width: 60px;
       height: 60px;
       border-radius: 50%;
       overflow: hidden;
-      background: #fff;
       border: 2px solid #ccc;
+      background: #fff;
       display: flex;
       justify-content: center;
       align-items: center;
-      position: relative;
-      z-index: 1;
+      flex-shrink: 0;
     }
 
     .timeline-logo img {
       width: 100%;
-      height: auto;
+      height: 100%;
+      object-fit: cover; /* ensures logo fills the circle */
     }
 
+    /* Content box */
     .timeline-content {
       max-width: 300px;
       background: #fff;
       padding: 15px;
       border-radius: 8px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      margin: 0 20px;
     }
 
     .timeline-content h3 {
@@ -119,7 +137,7 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
       color: #555;
     }
 
-    /* Responsive */
+    /* Responsive for smaller screens */
     @media screen and (max-width: 768px) {
       .timeline::before {
         left: 20px;
@@ -130,8 +148,8 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
         text-align: left !important;
       }
 
-      .timeline-logo {
-        margin-right: 10px;
+      .timeline-dot {
+        margin: 0 10px 0 0;
       }
 
       .timeline-content {
@@ -142,7 +160,9 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
 </head>
 <body>
   <section class="timeline">
+    <!-- Experience Item 1 -->
     <div class="timeline-item">
+      <div class="timeline-dot"></div>
       <div class="timeline-logo">
         <img src="images/SGAC.png" alt="SGAC Logo">
       </div>
@@ -154,7 +174,9 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
       </div>
     </div>
 
+    <!-- Experience Item 2 -->
     <div class="timeline-item">
+      <div class="timeline-dot"></div>
       <div class="timeline-logo">
         <img src="images/NTUT.jpg" alt="Taipei Tech Logo">
       </div>
@@ -166,7 +188,9 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
       </div>
     </div>
 
+    <!-- Experience Item 3 -->
     <div class="timeline-item">
+      <div class="timeline-dot"></div>
       <div class="timeline-logo">
         <img src="images/Crown.jpg" alt="Crown Logo">
       </div>
@@ -178,8 +202,15 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
       </div>
     </div>
   </section>
+
+  <!-- Example next section -->
+  <section style="max-width:800px;margin:auto;padding:40px 20px;">
+    <h2>Featured Publications</h2>
+    <p>Your featured publications content goes here...</p>
+  </section>
 </body>
 </html>
+
 
   
 <br/>
