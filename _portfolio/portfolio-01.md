@@ -17,7 +17,7 @@ gallery:
 
 ## Project Overview
 
-During a routine replacement of my sagging headliner, I decided to transform it into a **Rolls Royce-style Starlight Headliner**. This ambitious modification took **46 hours over six days** and involved intricate handcrafting techniques.
+During a replacement of my sagging headliner, I decided to modify it into a **Rolls Royce-style Starlight Headliner**. This ambitious modification took **46 hours over six days** and involved intricate handcrafting techniques.
 
 ## Process
 
