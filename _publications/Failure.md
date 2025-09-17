@@ -5,5 +5,5 @@ permalink: /publication/Failure
 excerpt: 'Failure Analysis of Knife Blade Failure'
 date: 2020-10-24
 venue: 'Auckland University of Technology'
-paperurl: '/files/Failure.pdf
+paperurl: '/files/Failure.pdf'
 ---
