@@ -14,6 +14,12 @@ layout: default
   {% endunless %}
 {% endif %}
 
+<!-- Swiper CSS -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
 <div id="main" role="main">
   {% include sidebar.html %}
 
@@ -46,6 +52,21 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
+
+        {% if page.gallery %}
+        <div class="swiper-container mySwiper">
+          <div class="swiper-wrapper">
+            {% for image in page.gallery %}
+            <div class="swiper-slide">
+              <img src="{{ image | relative_url }}" alt="{{ page.title }} photo" />
+            </div>
+            {% endfor %}
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        {% endif %}
 
         {% if page.citation and page.paperurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
@@ -88,40 +109,41 @@ layout: default
   {% endif %}
 </div>
 
-<!-- Swiper.js -->
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<style>
-  .swiper-container {
-    width: 100%;
-    max-width: 900px;
-    margin: 40px auto;
-  }
-  .swiper-slide img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-</style>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    new Swiper(".swiper-container", {
-      slidesPerView: 1,             // show 1 photo at a time
-      loop: true,                   // loop endlessly
-      autoplay: {
-        delay: 2000,                // 2 seconds per slide
-        disableOnInteraction: false // keep autoplay even after user interaction
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
+  var swiper = new Swiper(".mySwiper", {
+    loop: true,
+    slidesPerView: 1,
+    spaceBetween: 20,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
   });
 </script>
+
+<style>
+.swiper-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+</style>
