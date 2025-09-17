@@ -1,21 +1,37 @@
 ---
-title: "Running Ethernet cables and terminating"
-excerpt: "Running ethernet cables for security cameras around the exterior of the house and terminating the cables at T568B <br/> Please click above title to view more photos <br/><img src='/images/poe9.jpg'>"
+title: "Running Ethernet Cables and Terminating"
+excerpt: "Installed and terminated Ethernet cables for outdoor security cameras using T568B wiring standard."
 collection: portfolio
+layout: single
+gallery:
+  - /images/poe1.jpg
+  - /images/poe2.jpg
+  - /images/poe3.jpg
+  - /images/poe4.jpg
+  - /images/poe5.jpg
+  - /images/poe6.jpg
+  - /images/poe7.jpg
+  - /images/poe8.jpg
+  - /images/poe9.jpg
 ---
 
-Headliner started sagging late 2023 due New Zealand's summer heat. The foam backing deteriorated which made the weaved fabric sag/leave the foam back. I replaced this with a foam backed suede liner and plan to add starlights to it next month.
-<img src='/images/poe1.jpg'>
+## Project Overview
 
-<br/>
-<br/>
-<img src='/images/poe1.jpg'>
-<img src='/images/poe2.jpg'>
-<img src='/images/poe3.jpg'>
-<img src='/images/poe4.jpg'>
-<img src='/images/poe5.jpg'>
-<img src='/images/poe6.jpg'>
-<img src='/images/poe7.jpg'>
-<img src='/images/poe8.jpg'>
-<img src='/images/poe9.jpg'>
+I ran Ethernet cables around the **exterior of a residential property** to connect security cameras.  
+The goal was to create a reliable wired connection that could support **Power over Ethernet (PoE)** and provide consistent video feeds.
 
+## Process
+
+The installation required several steps:
+
+- **Planning cable routes** along the exterior of the house for both protection and accessibility  
+- **Drilling and securing conduit/clips** to neatly run Ethernet cables  
+- **Pulling cables through exterior walls** and ensuring proper weatherproofing  
+- **Terminating cables to T568B standard**, ensuring correct pinouts and strong connections  
+- **Testing connectivity** to verify bandwidth and PoE delivery to all cameras  
+
+This setup ensures that the security system operates with **stable power and high-speed data**, avoiding the limitations of Wi-Fi.
+
+## Gallery
+
+The following images show the installation process and final cable terminations.
