@@ -25,7 +25,7 @@ redirect_from:
 
 Biography
 ======
-Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing, solar energy, and hands-on problem solving. I’ve worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience across industries from logistics to trade. I’m also the founder of China Business Tours, helping Kiwi businesses connect with suppliers in China. Outside of work, I’m an aviation enthusiast working toward my private pilot’s license.
+Tanner is a bilingual Mechanical Engineer with hands on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. Tanner has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand and gained practical experience in logistics and trade. While completing his degree, he navigated the loss of his mother, managed a complex High Court case, and cared for his grandmother — experiences that shaped his resilience and focus. A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner approaches engineering with curiosity, innovation, and a commitment to delivering impactful solutions.
 
 
 <html lang="en">
