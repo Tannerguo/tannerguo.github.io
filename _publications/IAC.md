@@ -1,10 +1,11 @@
 ---
 title: "Towards A Self-Sustainable Production Of Proteins In Space: A Proposed Solution And Roadmap"
 collection: publications
-permalink: /files/IAC.pdf
-excerpt: '16th IAA SYMPOSIUM ON VISIONS AND STRATEGIES FOR THE FUTURE: Contribution of Space Activities to Solving Global Societal Issues'
+permalink: /publication/IAC
+excerpt: '16th IAA Symposium on Visions and Strategies for the Future: Contribution of Space Activities to Solving Global Societal Issues'
 date: 2018-10-01
 venue: 'International Astronautical Congress'
+Paperurl: '/files/IAC.pdf'
 ---
 
 Please click download 'here' on previous page to view the document
