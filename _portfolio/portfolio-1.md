@@ -1,36 +1,41 @@
 ---
 title: "Headliner Replacement"
-excerpt: "Replacing sagging headliner. <br/> Please click above title to view more photos <br/><img src='/images/headliner12.jpg'>"
+excerpt: "Replacing sagging headliner with a foam-backed suede liner."
 collection: portfolio
 layout: single
+gallery:
+  - /images/headliner1.jpg
+  - /images/headliner2.jpg
+  - /images/headliner3.jpg
+  - /images/headliner4.jpg
+  - /images/headliner5.jpg
+  - /images/headliner6.jpg
+  - /images/headliner7.jpg
+  - /images/headliner8.jpg
+  - /images/headliner9.jpg
+  - /images/headliner10.jpg
+  - /images/headliner11.jpg
+  - /images/headliner12.jpg
+  - /images/headliner13.jpg
 ---
 
-Headliner started sagging late 2023 due New Zealand's summer heat. The foam backing deteriorated which made the weaved fabric sag/leave the foam back.  
-I replaced this with a foam-backed suede liner and plan to add starlights to it next month.
+## Project Overview
 
----
+In late 2023, the headliner of my car began sagging due to New Zealand’s summer heat.  
+The foam backing deteriorated, causing the fabric to separate and hang loose.  
+To restore the interior, I replaced it with a **foam-backed suede liner**, giving the car a refreshed and modern look.  
 
-<div class="swiper-container">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide"><img src="/images/headliner1.jpg" alt="Headliner replacement step 1"></div>
-    <div class="swiper-slide"><img src="/images/headliner2.jpg" alt="Headliner replacement step 2"></div>
-    <div class="swiper-slide"><img src="/images/headliner3.jpg" alt="Headliner replacement step 3"></div>
-    <div class="swiper-slide"><img src="/images/headliner4.jpg" alt="Headliner replacement step 4"></div>
-    <div class="swiper-slide"><img src="/images/headliner5.jpg" alt="Headliner replacement step 5"></div>
-    <div class="swiper-slide"><img src="/images/headliner6.jpg" alt="Headliner replacement step 6"></div>
-    <div class="swiper-slide"><img src="/images/headliner7.jpg" alt="Headliner replacement step 7"></div>
-    <div class="swiper-slide"><img src="/images/headliner8.jpg" alt="Headliner replacement step 8"></div>
-    <div class="swiper-slide"><img src="/images/headliner9.jpg" alt="Headliner replacement step 9"></div>
-    <div class="swiper-slide"><img src="/images/headliner10.jpg" alt="Headliner replacement step 10"></div>
-    <div class="swiper-slide"><img src="/images/headliner11.jpg" alt="Headliner replacement step 11"></div>
-    <div class="swiper-slide"><img src="/images/headliner12.jpg" alt="Headliner replacement step 12"></div>
-    <div class="swiper-slide"><img src="/images/headliner13.jpg" alt="Headliner replacement step 13"></div>
-  </div>
-  
-  <!-- Swiper navigation buttons -->
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-  
-  <!-- Swiper pagination dots -->
-  <div class="swiper-pagination"></div>
-</div>
+This replacement also set the stage for a future upgrade — the addition of **starlights**, planned for the following month.
+
+## Process
+
+The repair involved:
+
+- **Removing the old headliner** and carefully detaching fragile trim pieces.  
+- **Cleaning the surface** to remove deteriorated foam.  
+- **Cutting and applying the suede liner** with precision to ensure a smooth, wrinkle-free finish.  
+- **Reinstalling the headliner** securely for durability and a factory-quality fit.  
+
+## Gallery
+
+Below is a step-by-step look at the headliner replacement process and the final result.
