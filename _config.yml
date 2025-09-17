@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "Tanner Guo"
 title_separator          : "-"
 name                     : &name "Tanner Guo"
 description              : &description ""
@@ -333,3 +333,4 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
