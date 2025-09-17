@@ -9,7 +9,9 @@ layout: default
     {% for project in site.portfolio %}
     <div class="portfolio-item" data-aos="fade-up">
       <a href="{{ project.url }}">
+        {% if project.gallery and project.gallery.size > 0 %}
         <img src="{{ project.gallery[0] }}" alt="{{ project.title }}" loading="lazy">
+        {% endif %}
         <div class="portfolio-caption">
           <h3>{{ project.title }}</h3>
           <p>{{ project.excerpt | strip_html }}</p>
@@ -20,7 +22,12 @@ layout: default
   </div>
 </div>
 
-<!-- CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 800, once: true });
+</script>
+
 <style>
 .portfolio-container {
   display: grid;
@@ -63,10 +70,3 @@ layout: default
   opacity: 1;
 }
 </style>
-
-<!-- AOS library -->
-<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-<script>
-  AOS.init({ duration: 800, once: true });
-</script>
