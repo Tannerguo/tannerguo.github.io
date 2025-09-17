@@ -32,7 +32,7 @@ Hi, I’m Tanner Guo — a mechanical engineer with experience in manufacturing,
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tanner Guo - Experience & Publications</title>
+<title>Tanner Guo </title>
 <style>
   body {
     font-family: Arial, sans-serif;
