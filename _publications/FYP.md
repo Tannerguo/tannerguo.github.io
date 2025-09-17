@@ -1,13 +1,12 @@
 ---
 title: "Mechanical Engineering (BE HONS) Final Year Project"
 collection: publications
-permalink: /files/FYP.pdf
+permalink: /publication/FYP
 excerpt: 'Final Year Project regarding Heat Generation and Prevention of Overheating in Lithium Ion Batteries'
 date: 2020-10-22
 venue: 'Auckland University of Technology'
+paperurl: '/files/FYP.pdf'
 ---
-
-Please click download 'here' on previous page to view the document
 
 <h3>Abstract</h3>
 The purpose of this project was to investigate heat generation of lithium ion batteries and how to
