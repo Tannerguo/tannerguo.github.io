@@ -7,7 +7,6 @@ date: 2020-01-20
 venue: 'National Taipei University of Technology'
 ---
 
-Please click download 'here' on previous page to view the document
 
 <h3>Abstract</h3>
 This report details the work undertaken in order to fulfil the requirements of the degree regulations set
