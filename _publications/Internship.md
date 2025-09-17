@@ -1,12 +1,12 @@
 ---
 title: "Additive Manufacturing Internship National Taipei University of Technology"
 collection: publications
-permalink: /files/Internship.pdf
+permalink: /publication/Manufacturing
 excerpt: 'This is a report of additive manufacturing (3D Printing) internship I undertook at NTUT'
 date: 2020-01-20
 venue: 'National Taipei University of Technology'
+paperurl: '/files/Internship.pdf'
 ---
-
 
 <h3>Abstract</h3>
 This report details the work undertaken in order to fulfil the requirements of the degree regulations set
