@@ -5,7 +5,6 @@ permalink: /files/Internship.pdf   # link directly to the PDF
 excerpt: 'This is a report of additive manufacturing (3D Printing) internship I undertook at NTUT'
 date: 2020-01-20
 venue: 'National Taipei University of Technology'
-paperurl: '/files/Internship.pdf'  # optional, keep for other references
 ---
 
 Please click download 'here' on previous page to view the document
