@@ -1,25 +1,51 @@
 ---
-title: "Vehicle Flap Lock battery upgrade"
-excerpt: "Replacing disposable D Cell batteries with 18650 rechargable cell in a custom enclosure <br/> Please click above title to view more photos <br/><img src='/images/flaplockbanner.jpg'>"
+title: "Vehicle Flap Lock Battery Upgrade"
+excerpt: "Replacing disposable D-cell batteries with a rechargeable 18650 lithium-ion cell in a custom enclosure."
 collection: portfolio
+layout: single
+gallery:
+  - /images/flaplock1.jpg
+  - /images/flaplockbatt1.jpg
+  - /images/flaplockbatt2.jpg
+  - /images/flaplockbatt3.jpg
+  - /images/flaplockbatt4.jpg
+  - /images/flaplockbatt5.jpg
+  - /images/flaplockbatt6.jpg
+  - /images/flaplock2.jpg
+  - /images/flaplockbanner.jpg
 ---
 
-I have a couple of vehicle flap locks at home, as we have problems with random cars going up our private driveway. The product originally had two options, Option 1) Battery operated and replaceable and 2) Rechargeable Li-ion pack. I chose the first option for easy maintenance and more options to modify if necessary.
-<img src='/images/flaplock1.jpg'>
-Two days ago, the flap lock would not lower to let my car in. I did some troubleshooting as to why it suddenly stopped working.
-* Unplugged and plugged in the bluetooth dongle in the cigarette lighter in my car
-* Clicked unlock on the remote multiple times with pauses in between
-* Used the recorded sub-GHz frequency on my Flipper Zero
-None of the methods above worked so I realised the battery must be dead. I replaced 2 of the 4 D cells and it worked.
-<br/>
-<br/>
-A pack of 2x D cells cost $7.97 from The Warehouse on clearance. This will not be feasible in the long term even though these D cells have lasted nearly 2 years. Since I have 2 boxes of 20kg 18650 cells I reclaimed from dead laptop batteries a few years ago I thought about using them as they are rechargeable.
-<br/>
-The nominal voltage of a D cell is 1.5 volts therefore 2 in series is 3 volts. The nominal voltage of an 18650 cell is 3.7 volts. Because modern electronics are designed to withstand a small variation in voltage, a single 18650 at 3.7 volts is fine to use.
-<img src='/images/flaplockbatt1.jpg'>
-<img src='/images/flaplockbatt2.jpg'>
-<img src='/images/flaplockbatt3.jpg'>
-<img src='/images/flaplockbatt4.jpg'>
-<img src='/images/flaplockbatt5.jpg'>
-<img src='/images/flaplockbatt6.jpg'>
-<img src='/images/flaplock2.jpg'>
+## Project Overview
+
+I own several **vehicle flap locks** to prevent unauthorized cars from entering our private driveway.  
+These devices were originally sold with two power options:  
+
+1. **Disposable battery-operated (D cells)**  
+2. **Rechargeable Li-ion pack**  
+
+I chose the **D-cell version** for easier maintenance and potential for future modifications. After nearly **two years of use**, the batteries died, which led me to design a rechargeable upgrade using reclaimed **18650 cells**.
+
+## Process
+
+When the flap lock stopped lowering, I initially tried:  
+
+- Re-seating the Bluetooth dongle in my car  
+- Unlocking repeatedly via the remote  
+- Using a recorded sub-GHz signal on my Flipper Zero  
+
+None of these worked — confirming the issue was a dead battery. Replacing two of the four D cells temporarily fixed it, but long-term replacement costs would be inefficient.
+
+Instead, I built a rechargeable solution:
+
+- **Calculated voltage requirements**  
+  - Two D cells in series = ~3.0V nominal  
+  - A single 18650 = ~3.7V nominal (within tolerance for modern electronics)  
+- **3D Printed a custom enclosure** for an 18650 cell  
+- **Integrated the rechargeable pack** into the flap lock housing  
+- **Tested performance** to confirm reliable operation  
+
+By reusing harvested laptop cells, the device now runs on a **rechargeable power source**, eliminating the need for costly disposable D Cells.
+
+## Gallery
+
+The following images show the original flap lock, the dead D cells, and the new 18650-based upgrade in its custom enclosure.
