@@ -1,26 +1,42 @@
 ---
-title: "Head unit replacement"
-excerpt: "Replacing Japanese head unit <br/> Please click above title to view more photos <br/><img src='/images/car20.jpg'>"
+title: "Head Unit Replacement"
+excerpt: "Upgraded a Japanese head unit to Apple CarPlay for improved functionality and connectivity."
 collection: portfolio
+layout: single
+gallery:
+  - /images/car1.jpg
+  - /images/car2.jpg
+  - /images/car3.jpg
+  - /images/car4.jpg
+  - /images/car5.jpg
+  - /images/car6.jpg
+  - /images/car7.jpg
+  - /images/car8.jpg
+  - /images/car9.jpg
+  - /images/car10.jpg
+  - /images/car11.jpg
+  - /images/car12.jpg
+  - /images/car13.jpg
+  - /images/car14.jpg
+  - /images/car15.jpg
 ---
 
-Replacing the previous Japanese head unit with an Apple CarPlay head unit
-<img src='/images/car7.jpg'>
+## Project Overview
 
-<br/>
-<br/>
-<img src='/images/car1.jpg'>
-<img src='/images/car2.jpg'>
-<img src='/images/car3.jpg'>
-<img src='/images/car4.jpg'>
-<img src='/images/car5.jpg'>
-<img src='/images/car6.jpg'>
-<img src='/images/car7.jpg'>
-<img src='/images/car8.jpg'>
-<img src='/images/car9.jpg'>
-<img src='/images/car10.jpg'>
-<img src='/images/car11.jpg'>
-<img src='/images/car12.jpg'>
-<img src='/images/car13.jpg'>
-<img src='/images/car14.jpg'>
-<img src='/images/car15.jpg'>
+The original Japanese head unit in the vehicle was limited in functionality and lacked modern features.  
+The project involved **replacing it with an Apple CarPlay head unit** to enhance usability, connectivity, and media experience.
+
+## Process
+
+The upgrade involved:
+
+- **Removing the existing head unit** carefully to avoid damage to surrounding panels  
+- **Routing new wiring** for power, speakers, and CarPlay connectivity  
+- **Mounting the new head unit** securely in the dashboard  
+- **Testing all features** including audio output, CarPlay functionality, and touchscreen responsiveness  
+
+The upgrade transformed the vehicle’s infotainment system into a **modern, user-friendly interface** suitable for daily use.
+
+## Gallery
+
+The images below show the step-by-step removal, installation, and final result of the upgraded head unit.
