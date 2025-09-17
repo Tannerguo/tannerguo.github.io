@@ -1,22 +1,39 @@
 ---
 title: "Kitchen Renovation"
-excerpt: "Bringing an old kitchen to the modern era <br/> Please click above title to view more photos <br/><img src='/images/kitchen14.jpg'>"
+excerpt: "Bringing an old kitchen into the modern era."
 collection: portfolio
+layout: single
+gallery:
+  - /images/kitchen1.JPG
+  - /images/kitchen5.JPG
+  - /images/kitchen6.JPG
+  - /images/kitchen7.JPG
+  - /images/kitchen8.JPG
+  - /images/kitchen9.JPG
+  - /images/kitchen10.JPG
+  - /images/kitchen11.JPG
+  - /images/kitchen12.JPG
+  - /images/kitchen13.JPG
+  - /images/kitchen14.jpg
 ---
 
-I did the demolition and most of the installation including plumbing from the wall. All plumbing into the wall was done by a qualified plumbing contractor
-<img src='/images/kitchen14.jpg'>
+## Project Overview
 
-<br/>
-<br/>
-<img src='/images/kitchen1.JPG'>
-<img src='/images/kitchen5.JPG'>
-<img src='/images/kitchen6.JPG'>
-<img src='/images/kitchen7.JPG'>
-<img src='/images/kitchen8.JPG'>
-<img src='/images/kitchen9.JPG'>
-<img src='/images/kitchen10.JPG'>
-<img src='/images/kitchen11.JPG'>
-<img src='/images/kitchen12.JPG'>
-<img src='/images/kitchen13.JPG'>
-<img src='/images/kitchen14.jpg'>
+This renovation involved **upgrading an old kitchen** to a modern functional space. I personally handled the demolition and most of the installation work, including cabinetry, fixtures, and general construction.
+
+All plumbing that needed to go inside the walls was completed by a **qualified plumbing contractor** to meet safety and code requirements.
+
+## Process
+
+Key steps included:
+
+- **Demolition** of old cabinetry, countertops, and fixtures  
+- **Installation of new cabinetry and countertops** to modern standards  
+- **Plumbing coordination** with a certified plumber for in-wall connections  
+- **Finishing touches**, including hardware, backsplash, and final clean-up  
+
+This project improved both the functionality and aesthetics of the kitchen.
+
+## Gallery
+
+The images below showcase the step-by-step transformation of the kitchen, highlighting demolition, installation, and the final modernized space.
