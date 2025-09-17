@@ -2,76 +2,10 @@
 layout: default
 ---
 
-{% include base_path %}
-
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
-{% endif %}
-
 <div id="main" role="main">
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <div class="page__inner-wrap">
-      <header>
-        {% if page.title %}
-          <h1 class="page__title" itemprop="headline">{{ page.title }}</h1>
-        {% endif %}
-        {% if page.excerpt %}
-          <p class="page__meta">{{ page.excerpt | markdownify }}</p>
-        {% endif %}
-      </header>
-
-      <section class="page__content" itemprop="text">
-        {% if page.project_overview %}
-          <h2>Project Overview</h2>
-          {{ page.project_overview | markdownify }}
-        {% endif %}
-
-        {% if page.process %}
-          <h2>Process</h2>
-          {{ page.process | markdownify }}
-        {% endif %}
-
-        {% if page.gallery %}
-          <h2>Gallery</h2>
-          <div class="swiper-container">
-            <div class="swiper-wrapper">
-              {% for image in page.gallery %}
-                <div class="swiper-slide">
-                  <img src="{{ image }}" alt="{{ page.title }}" loading="lazy">
-                </div>
-              {% endfor %}
-            </div>
-            <!-- navigation -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
-          </div>
-        {% endif %}
-      </section>
-    </div>
+  <article class="page">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.excerpt }}</p>
+    <div>{{ content }}</div>
   </article>
 </div>
-
-<!-- Swiper.js -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
-<!-- AOS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
-<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-
-<script>
-  AOS.init({ duration: 800, once: true });
-  const swiper = new Swiper('.swiper-container', {
-    loop: true,
-    autoplay: { delay: 2000 },
-    navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
-    pagination: { el: '.swiper-pagination', clickable: true }
-  });
-</script>
-
-<style>
-.swiper-container { width: 100%; padding: 1rem 0; }
-.swiper-slide img { width: 100%; border-radius: 12px; object-fit: cover; }
-.page__content h2 { margin-top: 2rem; }
-</style>
