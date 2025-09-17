@@ -74,8 +74,9 @@ author_profile: true
 </style>
 
 <div class="publications-container">
+  {% assign delay = 0 %}
   {% for post in site.publications reversed %}
-    <div class="publication-card" data-aos="fade-up" data-aos-duration="800">
+    <div class="publication-card" data-aos="fade-up" data-aos-duration="800" data-aos-delay="{{ delay }}">
       <a class="publication-title" href="{{ post.paperurl }}" target="_blank">{{ post.title }}</a>
       <div class="publication-excerpt">{{ post.excerpt }}</div>
       <div class="publication-meta">{{ post.venue }} | {{ post.date | date: "%Y-%m-%d" }}</div>
@@ -83,6 +84,7 @@ author_profile: true
         <a class="download-btn" href="{{ post.paperurl }}" target="_blank">Download PDF</a>
       {% endif %}
     </div>
+    {% assign delay = delay | plus: 100 %}
   {% endfor %}
 </div>
 
