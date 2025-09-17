@@ -2,7 +2,7 @@
 title: "Starlight Headliner Modification"
 excerpt: "46 hours of headliner modification, turning it into a Rolls Royce Starlight Headliner."
 collection: portfolio
-layout: portfolio
+layout: single
 gallery:
   - /images/starlight.JPG
   - /images/starlight2.JPG
@@ -14,6 +14,7 @@ gallery:
   - /images/starlight8.JPG
   - /images/starlight9.png
 ---
+
 Due to my headliner sagging and needing replacement, which I did replace as shown in my previous project, I thought why not make it into a starlight headliner?
 
 Thinking it surely wouldn't be as difficult as redoing a headliner. After 46 gruelling hours over a period of 6 days, I now think redoing a headliner is very simple but turning it into a starlight headliner is the most difficult.
