@@ -172,7 +172,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
       <div class="timeline-content">
         <h3>Gridfree - Off Grid Solar NZ</h3>
         <h4>Consulting Engineer</h4>
-        <p>2020</p>
+        <p>Oct 2020 - Jun 2021</p>
         <p>Consulting engineer specializing in off-grid solar solutions for New Zealand’s largest off-grid solar company.</p>
       </div>
     </div>
@@ -183,7 +183,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
       <div class="timeline-content">
         <h3>National Taipei University of Technology</h3>
         <h4>Additive Manufacturing Intern</h4>
-        <p>2020</p>
+        <p>Nov 2019 - Jan 2020</p>
         <p>Conducted research and development in additive manufacturing processes and materials.</p>
       </div>
     </div>
@@ -194,8 +194,8 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
       <div class="timeline-content">
         <h3>Space Generation Advisory Council</h3>
         <h4>National Point of Contact</h4>
-        <p>Jun 2021 – Jun 2023</p>
-        <p>Prepared technical documentation, reviewed design outputs, and provided technical support for engineering projects.</p>
+        <p>Feb 2018 – Feb 2020</p>
+        <p>Acted as the national liaison for SGAC, reporting on local space activities and submitting annual reports to the Executive Office for the UN.</p>
       </div>
     </div>
 
