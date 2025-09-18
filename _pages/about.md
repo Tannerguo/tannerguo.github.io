@@ -22,8 +22,6 @@ redirect_from:
   });
 </script>
 
-
-Biography
 ======
 Tanner is a bilingual Mechanical Engineer with hands-on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
 
