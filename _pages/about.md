@@ -6,19 +6,18 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<!-- Element to contain animated typing -->
-<span id="element"></span>
 
-<!-- Load library from the CDN -->
+<!-- Animated Biography Heading -->
+<h2 id="biography"><span id="element"></span></h2>
+
+<!-- Load Typed.js -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
-<!-- Setup and start animation! -->
 <script>
   var typed = new Typed('#element', {
-    strings: ['<strong>Biography</strong>'], // <-- Change text here
+    strings: ['Biography'],
     typeSpeed: 80,
-    loop: true,          // optional: keeps looping
-    loopCount: Infinity  // optional: infinite loop
+    backSpeed: 50,
+    showCursor: false
   });
 </script>
 
