@@ -162,7 +162,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
         <h3>Crown Worldwide Group</h3>
         <h4>Inbound Leads Specialist</h4>
         <p>2025 - Present</p>
-        <p>Serve as a key point of contact for incoming inquiries, coordinating solutions and guiding clients through the relocation process to ensure exceptional service and operational efficiency.</p>
+        <p>Serving as a key point of contact for incoming inquiries, coordinating solutions and guiding clients through the relocation process to ensure exceptional service and operational efficiency.</p>
       </div>
     </div>
     
