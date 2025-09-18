@@ -10,6 +10,7 @@ redirect_from:
 <!-- Animated Biography Heading -->
 <h2 id="biography"><span id="element"></span></h2>
 
+
 <!-- Load Typed.js -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <script>
@@ -17,7 +18,6 @@ redirect_from:
     strings: ['Biography'],
     typeSpeed: 80,
     backSpeed: 50,
-    showCursor: false
     backDelay: 1000,        // pause before deleting
     loop: true,             // keeps looping
     loopCount: Infinity,    // infinite loop
