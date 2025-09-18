@@ -6,21 +6,21 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<!-- Element to contain animated typing -->
+<span id="element"></span>
+
+<!-- Load library from the CDN -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-  <!-- Element to contain animated typing -->
-  <span id="element"></span>
-
-  <!-- Load library from the CDN -->
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
-  <!-- Setup and start animation! -->
-  <script>
-    var typed = new Typed('#element', {
-      strings: ['', '<strong>Check out Tanner\'s recent 46 hour project, starlight headliner modification.</strong>'],
-      typeSpeed: 80, loop: true, loopCount: Infinity
-    });
-  </script>
+<!-- Setup and start animation! -->
+<script>
+  var typed = new Typed('#element', {
+    strings: ['<strong>Biography</strong>'], // <-- Change text here
+    typeSpeed: 80,
+    loop: true,          // optional: keeps looping
+    loopCount: Infinity  // optional: infinite loop
+  });
+</script>
 
 
 Biography
