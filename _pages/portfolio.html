@@ -2,11 +2,12 @@
 layout: default
 title: "Portfolio"
 permalink: /portfolio/
+author_profile: true
 ---
 
 {% include base_path %}
 
-<div id="main" role="main">
+<main id="main" role="main">
   <div class="portfolio-container">
     {% for project in site.portfolio %}
       <div class="portfolio-item" data-aos="fade-up">
@@ -21,6 +22,7 @@ permalink: /portfolio/
                   </div>
                 {% endfor %}
               </div>
+              <!-- Swiper Navigation -->
               <div class="swiper-button-next"></div>
               <div class="swiper-button-prev"></div>
               <div class="swiper-pagination"></div>
@@ -37,32 +39,36 @@ permalink: /portfolio/
       </div>
     {% endfor %}
   </div>
-</div>
+</main>
 
+<!-- Swiper.js -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- AOS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  AOS.init({ duration: 800, once: true });
+  document.addEventListener('DOMContentLoaded', function() {
+    AOS.init({ duration: 800, once: true });
 
-  document.querySelectorAll('.swiper-container').forEach((swiperEl) => {
-    new Swiper(swiperEl, {
-      loop: true,
-      autoplay: { delay: 3000 },
-      navigation: {
-        nextEl: swiperEl.querySelector('.swiper-button-next'),
-        prevEl: swiperEl.querySelector('.swiper-button-prev'),
-      },
-      pagination: {
-        el: swiperEl.querySelector('.swiper-pagination'),
-        clickable: true,
-      },
+    // Initialize Swiper for all portfolio projects
+    document.querySelectorAll('.swiper-container').forEach((swiperEl) => {
+      new Swiper(swiperEl, {
+        loop: true,
+        autoplay: { delay: 3000 },
+        navigation: {
+          nextEl: swiperEl.querySelector('.swiper-button-next'),
+          prevEl: swiperEl.querySelector('.swiper-button-prev'),
+        },
+        pagination: {
+          el: swiperEl.querySelector('.swiper-pagination'),
+          clickable: true,
+        },
+      });
     });
   });
-});
 </script>
 
 <style>
@@ -78,6 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
   overflow: hidden;
   border-radius: 12px;
   cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .portfolio-item img {
