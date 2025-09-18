@@ -18,7 +18,7 @@ redirect_from:
   var typed = new Typed('#element', {
     strings: [
       '',
-      '<strong>Check out Tanner\'s recent 46 hour project, starlight headliner modification.</strong>'
+      '<strong>Biography</strong>'
     ],
     typeSpeed: 80,
     loop: true,
