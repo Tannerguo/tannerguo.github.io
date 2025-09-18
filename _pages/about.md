@@ -10,15 +10,6 @@ redirect_from:
 <!-- Animated Biography Heading -->
 <h2 id="element"></h2>
 
-<style>
-  #element {
-    margin-top: 10px;   /* reduce space above */
-    margin-bottom: 20px; /* optional: adjust space below */
-    font-size: 28px;    /* adjust size */
-    display: inline-block;
-  }
-</style>
-
 <!-- Load Typed.js -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
