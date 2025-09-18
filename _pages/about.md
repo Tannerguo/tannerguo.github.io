@@ -27,7 +27,7 @@ Biography
 ======
 Tanner is a bilingual Mechanical Engineer with hands-on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
 
-While completing his degree, Tanner navigated the loss of his mother, managed a complex High Court case, and cared for his grandmother — experiences that shaped his resilience and focus.
+While completing his degree, Tanner navigated the loss of his mother, <a href="https://www.morrislegal.co.nz/insights/morris-successfully-defends-claim-against-mothers-estate" target="_blank" rel="noopener">managed a complex High Court case, and cared for his grandmother — experiences that shaped his resilience and focus.
 
 A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner approaches engineering with curiosity, innovation, and a commitment to delivering impactful solutions.
 
