@@ -23,17 +23,23 @@ redirect_from:
 
 <!-- Load Typed.js -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<!-- Element to type into -->
+<span id="element"></span>
+
 <script>
+document.addEventListener("DOMContentLoaded", function() {
   var typed = new Typed('#element', {
     strings: ['Biography'],
     typeSpeed: 80,
     backSpeed: 50,
-    backDelay: 1000,        // pause before deleting
-    loop: true,             // keeps looping
-    loopCount: Infinity,    // infinite loop
-    showCursor: true,       // display the cursor
-    cursorChar: '|'          // cursor character
+    backDelay: 1000,     // pause before deleting
+    loop: true,           // keeps looping
+    loopCount: Infinity,  // infinite loop
+    showCursor: true,     // display the cursor
+    cursorChar: '|'       // cursor character
   });
+});
 </script>
 
 Tanner is a bilingual Mechanical Engineer with hands-on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
