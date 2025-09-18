@@ -167,6 +167,16 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
         <p>Serving as a key point of contact for incoming inquiries, coordinating solutions and guiding clients through the relocation process to ensure exceptional service and operational efficiency.</p>
       </div>
     </div>
+
+    <div class="timeline-item">
+      <div class="timeline-logo"><img src="images/gridfree.png" alt="GridfreeLogo"></div>
+      <div class="timeline-content">
+        <h3>Gridfree - Off Grid Solar NZ</h3>
+        <h4>Consulting Engineer</h4>
+        <p>2020</p>
+        <p>Consulting engineer specializing in off grid solar solutions in New Zealand</p>
+      </div>
+    </div>
     
 
     <div class="timeline-item">
