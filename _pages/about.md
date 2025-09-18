@@ -7,24 +7,23 @@ redirect_from:
   - /about.html
 ---
 
-<!-- Animated Biography Heading -->
-<h2 id="element"></h2>
-
 <!-- Load Typed.js -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
+<!-- Element to contain animated typing -->
+<span id="element"></span>
+
+<!-- Setup and start animation -->
 <script>
-document.addEventListener("DOMContentLoaded", function() {
   var typed = new Typed('#element', {
-    strings: ['Biography'], // Text to type
+    strings: [
+      '',
+      '<strong>Check out Tanner\'s recent 46 hour project, starlight headliner modification.</strong>'
+    ],
     typeSpeed: 80,
-    backSpeed: 50,
-    backDelay: 1000,       // Pause before deleting
-    loop: true,            // Keeps looping
-    showCursor: true,
-    cursorChar: '|'
+    loop: true,
+    loopCount: Infinity
   });
-});
 </script>
 
 Tanner is a bilingual Mechanical Engineer with hands-on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
