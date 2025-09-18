@@ -157,14 +157,15 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 <body>
   <section class="timeline">
     <div class="timeline-item">
-      <div class="timeline-logo"><img src="images/SGAC.png" alt="SGAC Logo"></div>
+      <div class="timeline-logo"><img src="images/Crown.jpg" alt="Crown Logo"></div>
       <div class="timeline-content">
-        <h3>Space Generation Advisory Council</h3>
-        <h4>National Point of Contact</h4>
-        <p>Jun 2021 – Jun 2023</p>
-        <p>Prepared technical documentation, reviewed design outputs, and provided technical support for engineering projects.</p>
+        <h3>Crown Worldwide Group</h3>
+        <h4>Inbound Leads Specialist</h4>
+        <p>2025 - Present</p>
+        <p>Serve as a key point of contact for incoming inquiries, coordinating solutions and guiding clients through the relocation process to ensure exceptional service and operational efficiency.</p>
       </div>
     </div>
+    
 
     <div class="timeline-item">
       <div class="timeline-logo"><img src="images/NTUT.jpg" alt="Taipei Tech Logo"></div>
@@ -176,15 +177,18 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
       </div>
     </div>
 
+    
     <div class="timeline-item">
-      <div class="timeline-logo"><img src="images/Crown.jpg" alt="Crown Logo"></div>
+      <div class="timeline-logo"><img src="images/SGAC.png" alt="SGAC Logo"></div>
       <div class="timeline-content">
-        <h3>Crown Worldwide Group</h3>
-        <h4>Inbound Leads Specialist</h4>
-        <p>2025 - Present</p>
-        <p>Serve as a key point of contact for incoming inquiries, coordinating solutions and guiding clients through the relocation process to ensure exceptional service and operational efficiency.</p>
+        <h3>Space Generation Advisory Council</h3>
+        <h4>National Point of Contact</h4>
+        <p>Jun 2021 – Jun 2023</p>
+        <p>Prepared technical documentation, reviewed design outputs, and provided technical support for engineering projects.</p>
       </div>
     </div>
+
+
   </section>
 
   <section style="max-width:800px;margin:auto;padding:40px 20px;">
