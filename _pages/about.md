@@ -18,6 +18,11 @@ redirect_from:
     typeSpeed: 80,
     backSpeed: 50,
     showCursor: false
+    backDelay: 1000,        // pause before deleting
+    loop: true,             // keeps looping
+    loopCount: Infinity,    // infinite loop
+    showCursor: true,       // display the cursor
+    cursorChar: '|'          // cursor character
   });
 </script>
 
