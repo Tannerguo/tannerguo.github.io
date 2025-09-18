@@ -173,7 +173,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
         <h3>Gridfree - Off Grid Solar NZ</h3>
         <h4>Consulting Engineer</h4>
         <p></p>
-        <p>Consulting engineer specializing in off-grid solar solutions for New Zealand’s largest off-grid solar company.</p>
+        <p>Consulting engineer specialising in off-grid solar solutions for New Zealand’s largest off-grid solar company.</p>
       </div>
     </div>
     
