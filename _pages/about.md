@@ -214,14 +214,23 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 <!-- Custom Carousel Styles -->
 <style>
 .carousel-caption {
-  padding: 2px 6px;          /* smaller space inside the block */
-  max-width: fit-content;    /* block only as wide as text */
-  left: 50%;                 /* center it horizontally */
-  bottom: 2px;               /* move caption closer to image bottom */
-  transform: translateX(-50%); /* center adjustment */
-  font-size: 16px;           /* optional: smaller text */
-  border-radius: 4px;        /* optional corner rounding */
-  }
+  position: absolute;       /* make it sit on top of the image */
+  bottom: 0;                /* stick to bottom */
+  left: 50%;                /* center horizontally */
+  transform: translateX(-50%);
+  padding: 2px 5px;         /* minimal padding */
+  margin: 0;                /* remove any margin */
+  font-size: 16px;
+  border-radius: 4px;
+  max-width: fit-content;
+  line-height: 1.1;         /* tighter text spacing */
+}
+.carousel-item img {
+  display: block;           /* remove any extra inline spacing */
+  max-height: 350px;
+  object-fit: cover;
+  width: 100%;              /* ensure full width of carousel */
+}
 </style>
 
 <!-- Accomplishments Carousel -->
