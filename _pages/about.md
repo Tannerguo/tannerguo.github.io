@@ -217,7 +217,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
   padding: 2px 6px;          /* smaller space inside the block */
   max-width: fit-content;    /* block only as wide as text */
   left: 50%;                 /* center it horizontally */
-  bottom: 5px;               /* move caption closer to image bottom */
+  bottom: 2px;               /* move caption closer to image bottom */
   transform: translateX(-50%); /* center adjustment */
   font-size: 16px;           /* optional: smaller text */
   border-radius: 4px;        /* optional corner rounding */
