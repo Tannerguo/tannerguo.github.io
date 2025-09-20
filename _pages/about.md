@@ -219,7 +219,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item active text-center">
       <img src="/images/spacex.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
+        <p></p>
       </div>
     </div>
 
@@ -227,7 +227,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item text-center">
       <img src="/images/NASA.jpg" class="d-block mx-auto" alt="Starlight Headliner Project" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-        <p>Threaded 780 fiber optic cables to complete a luxury automotive interior upgrade.</p>
+        <p>Robert Lightfoot JR, Acting Administrator NASA</p>
       </div>
     </div>
 
@@ -244,7 +244,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item text-center">
       <img src="/images/billnye.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
+        <p>Bill Nye, CEO Planetary Society.</p>
       </div>
     </div>
 
@@ -253,7 +253,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item text-center">
       <img src="/images/JAXA3.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
+        <p>I-ISEF Conference, Tokyo.</p>
       </div>
     </div>
 
@@ -262,7 +262,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item text-center">
       <img src="/images/Janworner.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
+        <p>Jan Wörner, 7th ESA Director General.</p>
       </div>
     </div>
 
@@ -271,7 +271,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item text-center">
       <img src="/images/JAXA2.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
+        <p>JAXA Center, Tsukuba.</p>
       </div>
     </div>
 
@@ -280,7 +280,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item text-center">
       <img src="/images/sgac2.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
+        <p>Space Generation Congress, Adelaide.</p>
       </div>
     </div>
 
@@ -288,7 +288,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item text-center">
       <img src="/images/sgac.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
+        <p>Space Generation Congress.</p>
       </div>
     </div>
 
