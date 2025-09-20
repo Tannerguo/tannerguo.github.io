@@ -7,23 +7,33 @@ redirect_from:
   - /about.html
 ---
 
-<!-- Load Typed.js -->
+<!-- Animated Biography Heading -->
+<h2 id="biography"><span id="element"></span></h2>
+<style>
+  #biography {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  #element {
+    display: inline-block;
+  }
+</style>
+
+<!-- Typed.js -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
-<!-- Element to contain animated typing -->
-<span id="element"></span>
-
-<!-- Setup and start animation -->
 <script>
-  var typed = new Typed('#element', {
-    strings: [
-      '',
-      '<strong>Biography</strong>'
-    ],
+document.addEventListener("DOMContentLoaded", function() {
+  new Typed('#element', {
+    strings: ['', '<strong>Biography</strong>'],
     typeSpeed: 80,
+    backSpeed: 50,
+    backDelay: 1000,
     loop: true,
-    loopCount: Infinity
+    showCursor: true,
+    cursorChar: '|'
   });
+});
 </script>
 
 Tanner is a bilingual Mechanical Engineer with hands-on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
@@ -32,199 +42,111 @@ While completing his degree, Tanner navigated the loss of his mother, <a href="h
 
 A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner approaches engineering with curiosity, innovation, and a commitment to delivering impactful solutions.
 
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tanner Guo </title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background: #f9f9f9;
-  }
+<!-- Timeline Section -->
+<section class="timeline">
+  <div class="timeline-item">
+    <div class="timeline-logo"><img src="/images/Crown.jpg" alt="Crown Logo"></div>
+    <div class="timeline-content">
+      <h3>Crown Worldwide Group</h3>
+      <h4>Inbound Leads Specialist</h4>
+      <p>Feb 2025 - Present</p>
+      <p>Serving as a key point of contact for incoming inquiries, coordinating solutions and guiding clients through the relocation process to ensure exceptional service and operational efficiency.</p>
+    </div>
+  </div>
 
-  /* Timeline container */
-  .timeline {
-    position: relative;
-    max-width: 800px;
-    margin: auto;
-    padding: 40px 0;
-  }
+  <div class="timeline-item">
+    <div class="timeline-logo"><img src="/images/gridfree.png" alt="Gridfree Logo"></div>
+    <div class="timeline-content">
+      <h3>Gridfree - Off Grid Solar NZ</h3>
+      <h4>Consulting Engineer</h4>
+      <p></p>
+      <p>Provided technical consulting for off-grid solar solutions at New Zealand’s largest company in the sector. Assisted customers in system design and implementation, supporting energy independence through renewable technology.</p>
+    </div>
+  </div>
 
-  .timeline::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    width: 4px;
-    background: #ccc;
-    transform: translateX(-50%);
-    z-index: 0;
-  }
+  <div class="timeline-item">
+    <div class="timeline-logo"><img src="/images/NTUT.jpg" alt="Taipei Tech Logo"></div>
+    <div class="timeline-content">
+      <h3>National Taipei University of Technology</h3>
+      <h4>Additive Manufacturing Intern</h4>
+      <p></p>
+      <p>Researched and developed additive manufacturing processes and materials, gaining exposure to advanced prototyping techniques and materials science applications.</p>
+    </div>
+  </div>
 
-  .timeline-item {
-    display: flex;
-    align-items: flex-start;
-    position: relative;
-    margin-bottom: 60px;
-    width: 100%;
-    opacity: 0;
-    animation: fadeInUp 0.6s forwards;
-  }
+  <div class="timeline-item">
+    <div class="timeline-logo"><img src="/images/SGAC.png" alt="SGAC Logo"></div>
+    <div class="timeline-content">
+      <h3>Space Generation Advisory Council</h3>
+      <h4>National Point of Contact</h4>
+      <p></p>
+      <p>Acted as the national liaison for SGAC, reporting on local space activities and submitting annual reports to the Executive Office for the UN.</p>
+    </div>
+  </div>
+</section>
 
-  /* Stagger animations */
-  .timeline-item:nth-child(1) { animation-delay: 0.2s; }
-  .timeline-item:nth-child(2) { animation-delay: 0.4s; }
-  .timeline-item:nth-child(3) { animation-delay: 0.6s; }
+<!-- Featured Publications -->
+<section style="max-width:800px;margin:auto;padding:40px 20px;">
+  <h2>Featured Publications</h2>
 
-  @keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(30px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
+  <article class="Publications">
+    <h3>Heat Generation and Prevention of Overheating in Lithium Ion Batteries</h3>
+    <p>Chuanzelong Guo</p>
+    <p>Auckland University of Technology, New Zealand, 2020</p>
+  </article>
 
-  .timeline-item:nth-child(odd) {
-    flex-direction: row-reverse;
-    text-align: right;
-  }
+  <article class="Publications">
+    <h3>Additive Manufacturing Internship - National Taipei University of Technology</h3>
+    <p>Chuanzelong Guo</p>
+    <p>Auckland University of Technology, New Zealand, 2020</p>
+  </article>
 
-  .timeline-dot {
-    width: 16px;
-    height: 16px;
-    background: #3b82f6;
-    border-radius: 50%;
-    border: 3px solid #fff;
-    margin: 0 20px;
-    flex-shrink: 0;
-  }
+  <article class="Publications">
+    <h3>Towards A Self-Sustainable Production Of Proteins In Space: A Proposed Solution And Roadmap</h3>
+    <p>Francesco Spina, Roberto Aguilar, Chuanzelong Guo, Mami Sugaya, Ryunosuke Yokoya, Catherine Mandigma and Kensuke Wada</p>
+    <p>69th International Astronautical Congress, Germany, 2018</p>
+  </article>
+</section>
 
-  .timeline-logo {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 2px solid #ccc;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-  }
+<!-- Bootstrap Carousel -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-  .timeline-logo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+<div id="accomplishmentsCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
 
-  .timeline-content {
-    max-width: 300px;
-    background: #fff;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-
-  .timeline-content h3 { margin: 0; font-size: 18px; color: #333; }
-  .timeline-content h4 { margin: 5px 0; font-size: 16px; color: #666; }
-  .timeline-content p { margin: 10px 0 0; font-size: 14px; color: #555; }
-
-  .Publications {
-    background: #fff;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    opacity: 0;
-    animation: fadeInUp 0.6s forwards;
-  }
-
-  .Publications:nth-child(1) { animation-delay: 0.2s; }
-  .Publications:nth-child(2) { animation-delay: 0.4s; }
-  .Publications:nth-child(3) { animation-delay: 0.6s; }
-
-  .Publications h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
-  .Publications p { margin: 2px 0; font-size: 14px; color: #555; }
-
-  @media screen and (max-width: 768px) {
-    .timeline::before { left: 20px; }
-    .timeline-item { flex-direction: row !important; text-align: left !important; }
-    .timeline-dot { margin: 0 10px 0 0; }
-  }
-</style>
-</head>
-<body>
-  <section class="timeline">
-    <div class="timeline-item">
-      <div class="timeline-logo"><img src="images/Crown.jpg" alt="Crown Logo"></div>
-      <div class="timeline-content">
-        <h3>Crown Worldwide Group</h3>
-        <h4>Inbound Leads Specialist</h4>
-        <p>Feb 2025 - Present</p>
-        <p>Serving as a key point of contact for incoming inquiries, coordinating solutions and guiding clients through the relocation process to ensure exceptional service and operational efficiency.</p>
+    <div class="carousel-item active text-center">
+      <img src="/images/solar.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+        <h5>Consulting Engineer</h5>
+        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
       </div>
     </div>
 
-    <div class="timeline-item">
-      <div class="timeline-logo"><img src="images/gridfree.png" alt="GridfreeLogo"></div>
-      <div class="timeline-content">
-        <h3>Gridfree - Off Grid Solar NZ</h3>
-        <h4>Consulting Engineer</h4>
-        <p></p>
-        <p>Provided technical consulting for off-grid solar solutions with New Zealand’s largest off-grid solar company. Assisted customers in system design and implementation, supporting energy independence through renewable technology.</p>
-      </div>
-    </div>
-    
-
-    <div class="timeline-item">
-      <div class="timeline-logo"><img src="images/NTUT.jpg" alt="Taipei Tech Logo"></div>
-      <div class="timeline-content">
-        <h3>National Taipei University of Technology</h3>
-        <h4>Additive Manufacturing Intern</h4>
-        <p></p>
-        <p>Researched and developed additive manufacturing processes and materials, gaining exposure to advanced prototyping techniques and materials science applications.</p>
+    <div class="carousel-item text-center">
+      <img src="/images/headliner.jpg" class="d-block mx-auto" alt="Starlight Headliner Project" style="max-height:350px; object-fit:cover;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+        <h5>46-Hour Starlight Headliner</h5>
+        <p>Threaded 780 fiber optic cables to complete a luxury automotive interior upgrade.</p>
       </div>
     </div>
 
-    
-    <div class="timeline-item">
-      <div class="timeline-logo"><img src="images/SGAC.png" alt="SGAC Logo"></div>
-      <div class="timeline-content">
-        <h3>Space Generation Advisory Council</h3>
-        <h4>National Point of Contact</h4>
-        <p></p>
-        <p>Acted as the national liaison for SGAC, reporting on local space activities and submitting annual reports to the Executive Office for the UN.</p>
+    <div class="carousel-item text-center">
+      <img src="/images/ntut.jpg" class="d-block mx-auto" alt="Taipei Tech Internship" style="max-height:350px; object-fit:cover;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+        <h5>Additive Manufacturing Internship</h5>
+        <p>Conducted research and development in 3D printing processes at NTUT, Taiwan.</p>
       </div>
     </div>
 
+  </div>
 
-  </section>
-
-  <section style="max-width:800px;margin:auto;padding:40px 20px;">
-    <h2>Featured Publications</h2>
-
-    <article class="Publications">
-      <h3>Heat Generation and Prevention of Overheating in Lithium Ion Batteries</h3>
-      <p>Chuanzelong Guo</p>
-      <p>Auckland University of Technology, New Zealand, 2020</p>
-    </article>
-
-    <article class="Publications">
-      <h3>Additive Manufacturing Internship - National Taipei University of Technology</h3>
-      <p>Chuanzelong Guo</p>
-      <p>Auckland University of Technology, New Zealand, 2020</p>
-    </article>
-
-    <article class="Publications">
-      <h3>Towards A Self-Sustainable Production Of Proteins In Space: A Proposed Solution And Roadmap</h3>
-      <p>Francesco Spina, Roberto Aguilar, Chuanzelong Guo, Mami Sugaya, Ryunosuke Yokoya, Catherine Mandigma and Kensuke Wada</p>
-      <p>69th International Astronautical Congress, Germany, 2018</p>
-    </article>
-  </section>
-</body>
-</html>
-
-<br/>
-
+  <button class="carousel-control-prev" type="button" data-bs-target="#accomplishmentsCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#accomplishmentsCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
