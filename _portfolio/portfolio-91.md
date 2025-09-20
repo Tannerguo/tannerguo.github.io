@@ -11,6 +11,7 @@ gallery:
 
 ## Project Overview
 
+Diagnosed and repaired a Fisher & Paykel refrigerator and washing machine, applying root-cause analysis and mechanical troubleshooting to extend product life and restore functionality.
 This project involved troubleshooting a **Fisher & Paykel Smartwash Pride washing machine** after its PCB burnt out. Previously, the out-of-balance sensor had been replaced, so further diagnostics were required to restore functionality.
 
 ## Process
