@@ -219,7 +219,6 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item active text-center">
       <img src="/images/spacex.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-        <p></p>
       </div>
     </div>
 
@@ -235,7 +234,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item text-center">
       <img src="/images/JAXA.jpg" class="d-block mx-auto" alt="Taipei Tech Internship" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-        <p>Conducted research and development in 3D printing processes at NTUT, Taiwan.</p>
+        <p>I-ISEF Conference, Tokyo.</p>
       </div>
     </div>
 
@@ -253,7 +252,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item text-center">
       <img src="/images/JAXA3.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-        <p>I-ISEF Conference, Tokyo.</p>
+        <p>JAXA Whitepaper Proteins in Space.</p>
       </div>
     </div>
 
@@ -280,7 +279,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item text-center">
       <img src="/images/sgac2.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-        <p>Space Generation Congress, Adelaide.</p>
+        <p>Space Generation Congress, Working Group 4.</p>
       </div>
     </div>
 
@@ -296,7 +295,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item text-center">
       <img src="/images/Claude.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-        <p>Claude: First Swiss in space, flew SM1 on Discovery to service Hubble.</p>
+        <p>Claude - First Swiss in space, flew SM1 on Discovery to service Hubble.</p>
       </div>
     </div>
 
