@@ -214,8 +214,8 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 <!-- Custom Carousel Styles -->
 <style>
   .carousel-caption {
-    padding: 4px 8px;  /* reduce padding */
-    font-size: 12px;   /* optional: reduce text size */
+    padding: 4px 4px;  /* reduce padding */
+    font-size: 16px;   /* optional: reduce text size */
   }
 </style>
 
