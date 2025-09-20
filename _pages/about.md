@@ -173,7 +173,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
         <h3>Gridfree - Off Grid Solar NZ</h3>
         <h4>Consulting Engineer</h4>
         <p></p>
-        <p>Consulting engineer specialising in off-grid solar solutions for New Zealand’s largest off-grid solar company.</p>
+        <p>Provided technical consulting for off-grid solar solutions with New Zealand’s largest off-grid solar company. Assisted customers in system design and implementation, supporting energy independence through renewable technology.</p>
       </div>
     </div>
     
@@ -184,7 +184,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
         <h3>National Taipei University of Technology</h3>
         <h4>Additive Manufacturing Intern</h4>
         <p></p>
-        <p>Conducted research and development in additive manufacturing processes and materials.</p>
+        <p>Researched and developed additive manufacturing processes and materials, gaining exposure to advanced prototyping techniques and materials science applications.</p>
       </div>
     </div>
 
