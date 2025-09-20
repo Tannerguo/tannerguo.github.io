@@ -18,9 +18,101 @@ redirect_from:
   #element {
     display: inline-block;
   }
+
+  /* Timeline */
+  .timeline {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 0;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 4px;
+    background: #ccc;
+    transform: translateX(-50%);
+    z-index: 0;
+  }
+  .timeline-item {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 60px;
+    width: 100%;
+    opacity: 0;
+    animation: fadeInUp 0.6s forwards;
+  }
+  .timeline-item:nth-child(odd) {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  .timeline-dot {
+    width: 16px;
+    height: 16px;
+    background: #3b82f6;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin: 0 20px;
+    flex-shrink: 0;
+  }
+  .timeline-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .timeline-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .timeline-content {
+    max-width: 300px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .timeline-content h3 { margin: 0; font-size: 18px; color: #333; }
+  .timeline-content h4 { margin: 5px 0; font-size: 16px; color: #666; }
+  .timeline-content p { margin: 10px 0 0; font-size: 14px; color: #555; }
+
+  @keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* Publications */
+  .Publications {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    opacity: 0;
+    animation: fadeInUp 0.6s forwards;
+  }
+  .Publications h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
+  .Publications p { margin: 2px 0; font-size: 14px; color: #555; }
+
+  @media screen and (max-width: 768px) {
+    .timeline::before { left: 20px; }
+    .timeline-item { flex-direction: row !important; text-align: left !important; }
+    .timeline-dot { margin: 0 10px 0 0; }
+  }
 </style>
 
-<!-- Typed.js -->
+<!-- Load Typed.js -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -36,13 +128,17 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
+---
+
 Tanner is a bilingual Mechanical Engineer with hands-on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
 
 While completing his degree, Tanner navigated the loss of his mother, <a href="https://www.morrislegal.co.nz/insights/morris-successfully-defends-claim-against-mothers-estate" target="_blank" rel="noopener">managed a complex High Court case</a>, and cared for his grandmother — experiences that shaped his resilience and focus.
 
 A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner approaches engineering with curiosity, innovation, and a commitment to delivering impactful solutions.
 
-<!-- Timeline Section -->
+---
+
+<!-- Timeline -->
 <section class="timeline">
   <div class="timeline-item">
     <div class="timeline-logo"><img src="/images/Crown.jpg" alt="Crown Logo"></div>
@@ -50,7 +146,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
       <h3>Crown Worldwide Group</h3>
       <h4>Inbound Leads Specialist</h4>
       <p>Feb 2025 - Present</p>
-      <p>Serving as a key point of contact for incoming inquiries, coordinating solutions and guiding clients through the relocation process to ensure exceptional service and operational efficiency.</p>
+      <p>Serving as a key point of contact for incoming inquiries, coordinating solutions and guiding clients through the relocation process.</p>
     </div>
   </div>
 
@@ -60,17 +156,17 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
       <h3>Gridfree - Off Grid Solar NZ</h3>
       <h4>Consulting Engineer</h4>
       <p></p>
-      <p>Provided technical consulting for off-grid solar solutions at New Zealand’s largest company in the sector. Assisted customers in system design and implementation, supporting energy independence through renewable technology.</p>
+      <p>Provided technical consulting for off-grid solar solutions with New Zealand’s largest off-grid solar company.</p>
     </div>
   </div>
 
   <div class="timeline-item">
-    <div class="timeline-logo"><img src="/images/NTUT.jpg" alt="Taipei Tech Logo"></div>
+    <div class="timeline-logo"><img src="/images/NTUT.jpg" alt="NTUT Logo"></div>
     <div class="timeline-content">
       <h3>National Taipei University of Technology</h3>
       <h4>Additive Manufacturing Intern</h4>
       <p></p>
-      <p>Researched and developed additive manufacturing processes and materials, gaining exposure to advanced prototyping techniques and materials science applications.</p>
+      <p>Researched and developed additive manufacturing processes and materials in Taiwan.</p>
     </div>
   </div>
 
@@ -80,10 +176,12 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
       <h3>Space Generation Advisory Council</h3>
       <h4>National Point of Contact</h4>
       <p></p>
-      <p>Acted as the national liaison for SGAC, reporting on local space activities and submitting annual reports to the Executive Office for the UN.</p>
+      <p>Acted as national liaison, reporting on local space activities and submitting annual reports to SGAC for the UN.</p>
     </div>
   </div>
 </section>
+
+---
 
 <!-- Featured Publications -->
 <section style="max-width:800px;margin:auto;padding:40px 20px;">
@@ -102,51 +200,39 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
   </article>
 
   <article class="Publications">
-    <h3>Towards A Self-Sustainable Production Of Proteins In Space: A Proposed Solution And Roadmap</h3>
-    <p>Francesco Spina, Roberto Aguilar, Chuanzelong Guo, Mami Sugaya, Ryunosuke Yokoya, Catherine Mandigma and Kensuke Wada</p>
+    <h3>Towards A Self-Sustainable Production Of Proteins In Space</h3>
+    <p>Francesco Spina, Roberto Aguilar, Chuanzelong Guo, et al.</p>
     <p>69th International Astronautical Congress, Germany, 2018</p>
   </article>
 </section>
 
-<!-- Bootstrap Carousel -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+---
 
+<!-- Accomplishments Carousel -->
 <div id="accomplishmentsCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
-  <div class="carousel-inner">
-
-    <div class="carousel-item active text-center">
+  <div class="carousel-inner text-center">
+    <div class="carousel-item active">
       <img src="/images/solar.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <h5>Consulting Engineer</h5>
-        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
+        <p>Specialized in off-grid solar solutions at New Zealand’s largest company.</p>
       </div>
     </div>
-
-    <div class="carousel-item text-center">
-      <img src="/images/headliner.jpg" class="d-block mx-auto" alt="Starlight Headliner Project" style="max-height:350px; object-fit:cover;">
+    <div class="carousel-item">
+      <img src="/images/headliner.jpg" class="d-block mx-auto" alt="Starlight Headliner" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <h5>46-Hour Starlight Headliner</h5>
-        <p>Threaded 780 fiber optic cables to complete a luxury automotive interior upgrade.</p>
+        <p>Threaded 780 fiber optic cables for a luxury interior upgrade.</p>
       </div>
     </div>
-
-    <div class="carousel-item text-center">
-      <img src="/images/ntut.jpg" class="d-block mx-auto" alt="Taipei Tech Internship" style="max-height:350px; object-fit:cover;">
+    <div class="carousel-item">
+      <img src="/images/ntut.jpg" class="d-block mx-auto" alt="NTUT Internship" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <h5>Additive Manufacturing Internship</h5>
-        <p>Conducted research and development in 3D printing processes at NTUT, Taiwan.</p>
+        <p>Research and development in 3D printing processes at NTUT, Taiwan.</p>
       </div>
     </div>
-
   </div>
 
-  <button class="carousel-control-prev" type="button" data-bs-target="#accomplishmentsCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#accomplishmentsCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+  <!-- Controls -->
+  <button class
