@@ -211,6 +211,14 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
+<!-- Custom Carousel Styles -->
+<style>
+  .carousel-caption {
+    padding: 4px 8px;  /* reduce padding */
+    font-size: 12px;   /* optional: reduce text size */
+  }
+</style>
+
 <!-- Accomplishments Carousel -->
 <div id="accomplishmentsCarousel" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="2000">
   <div class="carousel-inner">
