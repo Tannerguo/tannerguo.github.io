@@ -223,7 +223,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <!-- Slide 2 -->
     <div class="carousel-item text-center">
       <img src="/images/NASA.jpg" class="d-block mx-auto" alt="Starlight Headliner Project" style="max-height:350px; object-fit:cover;">
-      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
+      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-0">
         <p>Robert Lightfoot JR, Acting Administrator NASA</p>
       </div>
     </div>
@@ -231,7 +231,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <!-- Slide 3 -->
     <div class="carousel-item text-center">
       <img src="/images/JAXA.jpg" class="d-block mx-auto" alt="Taipei Tech Internship" style="max-height:350px; object-fit:cover;">
-      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
+      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-0">
         <p>I-ISEF Conference, Tokyo.</p>
       </div>
     </div>
@@ -239,7 +239,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <!-- Slide 4 -->
     <div class="carousel-item text-center">
       <img src="/images/billnye.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
-      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
+      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-0">
         <p>Bill Nye, CEO Planetary Society.</p>
       </div>
     </div>
