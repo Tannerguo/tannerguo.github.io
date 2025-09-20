@@ -208,33 +208,43 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
 ---
 
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
 <!-- Accomplishments Carousel -->
-<div id="accomplishmentsCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
-  <div class="carousel-inner text-center">
-    <div class="carousel-item active">
-      <img src="/images/car1.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
+<div id="accomplishmentsCarousel" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="4000">
+  <div class="carousel-inner">
+
+    <!-- Slide 1 -->
+    <div class="carousel-item active text-center">
+      <img src="/images/solar.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <h5>Consulting Engineer</h5>
-        <p>Specialized in off-grid solar solutions at New Zealand’s largest company.</p>
+        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="/images/car19.jpg" class="d-block mx-auto" alt="Starlight Headliner" style="max-height:350px; object-fit:cover;">
+
+    <!-- Slide 2 -->
+    <div class="carousel-item text-center">
+      <img src="/images/headliner.jpg" class="d-block mx-auto" alt="Starlight Headliner Project" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <h5>46-Hour Starlight Headliner</h5>
-        <p>Threaded 780 fiber optic cables for a luxury interior upgrade.</p>
+        <p>Threaded 780 fiber optic cables to complete a luxury automotive interior upgrade.</p>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="/images/car11.jpg" class="d-block mx-auto" alt="NTUT Internship" style="max-height:350px; object-fit:cover;">
+
+    <!-- Slide 3 -->
+    <div class="carousel-item text-center">
+      <img src="/images/ntut.jpg" class="d-block mx-auto" alt="Taipei Tech Internship" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <h5>Additive Manufacturing Internship</h5>
-        <p>Research and development in 3D printing processes at NTUT, Taiwan.</p>
+        <p>Conducted research and development in 3D printing processes at NTUT, Taiwan.</p>
       </div>
     </div>
+
   </div>
 
-   <!-- Controls -->
+  <!-- Controls -->
   <button class="carousel-control-prev" type="button" data-bs-target="#accomplishmentsCarousel" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -244,3 +254,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+<!-- Bootstrap JS Bundle (includes Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
