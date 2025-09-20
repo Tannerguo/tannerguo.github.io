@@ -296,7 +296,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item active text-center">
       <img src="/images/Claude.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
-        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
+        <p>Claude: First Swiss in space, flew SM1 on Discovery to service Hubble.</p>
       </div>
     </div>
 
