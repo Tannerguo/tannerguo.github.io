@@ -217,7 +217,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
     <!-- Slide 1 -->
     <div class="carousel-item active text-center">
-      <img src="/images/solar.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
+      <img src="/images/car12.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <h5>Consulting Engineer</h5>
         <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
@@ -226,7 +226,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
     <!-- Slide 2 -->
     <div class="carousel-item text-center">
-      <img src="/images/headliner.jpg" class="d-block mx-auto" alt="Starlight Headliner Project" style="max-height:350px; object-fit:cover;">
+      <img src="/images/car14.jpg" class="d-block mx-auto" alt="Starlight Headliner Project" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <h5>46-Hour Starlight Headliner</h5>
         <p>Threaded 780 fiber optic cables to complete a luxury automotive interior upgrade.</p>
@@ -235,7 +235,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
     <!-- Slide 3 -->
     <div class="carousel-item text-center">
-      <img src="/images/ntut.jpg" class="d-block mx-auto" alt="Taipei Tech Internship" style="max-height:350px; object-fit:cover;">
+      <img src="/images/car1.jpg" class="d-block mx-auto" alt="Taipei Tech Internship" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <h5>Additive Manufacturing Internship</h5>
         <p>Conducted research and development in 3D printing processes at NTUT, Taiwan.</p>
