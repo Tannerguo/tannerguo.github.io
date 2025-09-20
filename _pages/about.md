@@ -212,7 +212,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Accomplishments Carousel -->
-<div id="accomplishmentsCarousel" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="4000">
+<div id="accomplishmentsCarousel" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="2500">
   <div class="carousel-inner">
 
     <!-- Slide 1 -->
