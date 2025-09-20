@@ -216,7 +216,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
   <div class="carousel-inner">
 
     <!-- Slide 1 -->
-    <div class="carousel-item text-center">
+    <div class="carousel-item active text-center">
       <img src="/images/spacex.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
@@ -241,7 +241,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
 
     <!-- Slide 4 -->
-    <div class="carousel-item active text-center">
+    <div class="carousel-item text-center">
       <img src="/images/billnye.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
@@ -250,7 +250,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
 
     <!-- Slide 5 -->
-    <div class="carousel-item active text-center">
+    <div class="carousel-item text-center">
       <img src="/images/JAXA3.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
@@ -259,7 +259,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
 
     <!-- Slide 6 -->
-    <div class="carousel-item active text-center">
+    <div class="carousel-item text-center">
       <img src="/images/Janworner.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
@@ -268,7 +268,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
 
     <!-- Slide 7 -->
-    <div class="carousel-item active text-center">
+    <div class="carousel-item text-center">
       <img src="/images/JAXA2.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
