@@ -217,7 +217,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
     <!-- Slide 1 -->
     <div class="carousel-item active text-center">
-      <img src="/images/car12.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
+      <img src="/images/spacex.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
       </div>
@@ -225,7 +225,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
     <!-- Slide 2 -->
     <div class="carousel-item text-center">
-      <img src="/images/car14.jpg" class="d-block mx-auto" alt="Starlight Headliner Project" style="max-height:350px; object-fit:cover;">
+      <img src="/images/NASA.jpg" class="d-block mx-auto" alt="Starlight Headliner Project" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <p>Threaded 780 fiber optic cables to complete a luxury automotive interior upgrade.</p>
       </div>
@@ -233,9 +233,70 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
     <!-- Slide 3 -->
     <div class="carousel-item text-center">
-      <img src="/images/car1.jpg" class="d-block mx-auto" alt="Taipei Tech Internship" style="max-height:350px; object-fit:cover;">
+      <img src="/images/JAXA.jpg" class="d-block mx-auto" alt="Taipei Tech Internship" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
         <p>Conducted research and development in 3D printing processes at NTUT, Taiwan.</p>
+      </div>
+    </div>
+
+
+    <!-- Slide 4 -->
+    <div class="carousel-item active text-center">
+      <img src="/images/billnye.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
+      </div>
+    </div>
+
+
+    <!-- Slide 5 -->
+    <div class="carousel-item active text-center">
+      <img src="/images/JAXA3.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
+      </div>
+    </div>
+
+
+    <!-- Slide 6 -->
+    <div class="carousel-item active text-center">
+      <img src="/images/Janworner.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
+      </div>
+    </div>
+
+
+    <!-- Slide 7 -->
+    <div class="carousel-item active text-center">
+      <img src="/images/JAXA2.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
+      </div>
+    </div>
+
+
+    <!-- Slide 8 -->
+    <div class="carousel-item active text-center">
+      <img src="/images/sgac2.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
+      </div>
+    </div>
+
+    <!-- Slide 9 -->
+    <div class="carousel-item active text-center">
+      <img src="/images/sgac.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
+      </div>
+    </div>
+
+    <!-- Slide 10 -->
+    <div class="carousel-item active text-center">
+      <img src="/images/Claude.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
+        <p>Specialized in off-grid solar solutions at New Zealand’s largest company in the sector.</p>
       </div>
     </div>
 
