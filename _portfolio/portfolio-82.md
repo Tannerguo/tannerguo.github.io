@@ -14,11 +14,7 @@ gallery:
 
 ## Project Overview
 
-I was given an **iPhone 6 for free** that had two major issues:  
-- A **cracked front screen**  
-- A **failing battery** that drained extremely quickly  
-
-Rather than discarding it, I decided to repair the device, extending its useful life and preventing unnecessary electronic waste.
+Performed battery and screen replacements on iPhones, applying precision assembly techniques and ensuring full post repair functionality.
 
 ## Process
 
