@@ -17,7 +17,7 @@ gallery:
 
 ## Project Overview
 
-During a replacement of my sagging headliner, I decided to modify it into a **Rolls Royce-style Starlight Headliner**. This ambitious modification took **46 hours over six days** and involved intricate handcrafting techniques.
+Designed and installed a 780-fiber optic starlight headliner, involving 46 hours of precision assembly, electrical integration, and aesthetic finishing. The project required careful planning, patience, and technical problem-solving to ensure a flawless result.
 
 ## Process
 
