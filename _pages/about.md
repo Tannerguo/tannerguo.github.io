@@ -223,7 +223,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <!-- Slide 2 -->
     <div class="carousel-item text-center">
       <img src="/images/NASA.jpg" class="d-block mx-auto" alt="Starlight Headliner Project" style="max-height:350px; object-fit:cover;">
-      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-1">
+      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>Robert Lightfoot JR, Acting Administrator NASA</p>
       </div>
     </div>
@@ -231,7 +231,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <!-- Slide 3 -->
     <div class="carousel-item text-center">
       <img src="/images/JAXA.jpg" class="d-block mx-auto" alt="Taipei Tech Internship" style="max-height:350px; object-fit:cover;">
-      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-1">
+      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>I-ISEF Conference, Tokyo.</p>
       </div>
     </div>
@@ -239,7 +239,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <!-- Slide 4 -->
     <div class="carousel-item text-center">
       <img src="/images/billnye.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
-      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-1">
+      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>Bill Nye, CEO Planetary Society.</p>
       </div>
     </div>
@@ -248,7 +248,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <!-- Slide 5 -->
     <div class="carousel-item text-center">
       <img src="/images/JAXA3.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
-      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-1">
+      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>JAXA Whitepaper Proteins in Space.</p>
       </div>
     </div>
@@ -257,7 +257,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <!-- Slide 6 -->
     <div class="carousel-item text-center">
       <img src="/images/Janworner.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
-      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-1">
+      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>Jan Wörner, 7th ESA Director General.</p>
       </div>
     </div>
@@ -266,7 +266,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <!-- Slide 7 -->
     <div class="carousel-item text-center">
       <img src="/images/JAXA2.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
-      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-1">
+      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>JAXA Center, Tsukuba.</p>
       </div>
     </div>
@@ -275,7 +275,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <!-- Slide 8 -->
     <div class="carousel-item text-center">
       <img src="/images/sgac2.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
-      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-1">
+      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>Space Generation Congress, Working Group 4.</p>
       </div>
     </div>
@@ -283,7 +283,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <!-- Slide 9 -->
     <div class="carousel-item text-center">
       <img src="/images/sgac.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
-      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-1">
+      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>Space Generation Congress.</p>
       </div>
     </div>
@@ -291,7 +291,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <!-- Slide 10 -->
     <div class="carousel-item text-center">
       <img src="/images/Claude.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
-      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-1">
+      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>Claude Nicollier - First Swiss in space, flew SM1 on Discovery to service Hubble.</p>
       </div>
     </div>
