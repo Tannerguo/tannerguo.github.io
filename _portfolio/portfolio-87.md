@@ -19,7 +19,7 @@ gallery:
 
 ## Project Overview
 
-This renovation involved **upgrading an old kitchen** to a modern functional space. I personally handled the demolition and most of the installation work, including cabinetry, fixtures, and general construction.
+Led a full kitchen renovation, including planning, structural adjustments, and material selection. Managed timelines and coordinated processes to deliver a functional and modern design.
 
 All plumbing that needed to go inside the walls was completed by a **qualified plumbing contractor** to meet safety and code requirements.
 
