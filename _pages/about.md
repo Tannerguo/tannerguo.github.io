@@ -295,13 +295,21 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
     <!-- Slide 9 -->
     <div class="carousel-item text-center">
-      <img src="/images/sgac.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
+      <img src="/images/Galantis.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
-        <p>Space Generation Congress.</p>
+        <p> Swedish electronic music act with over 1 billion streams, Galantis.</p>
       </div>
     </div>
 
     <!-- Slide 10 -->
+    <div class="carousel-item text-center">
+      <img src="/images/sgac.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
+      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
+        <p>Space Generation Congress, Adelaide.</p>
+      </div>
+    </div>
+
+    <!-- Slide 11 -->
     <div class="carousel-item text-center">
       <img src="/images/Claude.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
@@ -309,6 +317,30 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
       </div>
     </div>
 
+    <!-- Slide 12 -->
+    <div class="carousel-item text-center">
+      <img src="/images/Prince Harry.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
+      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
+        <p>University of Canterbury, meeting Prince Harry.</p>
+      </div>
+    </div>
+
+    <!-- Slide 13 -->
+    <div class="carousel-item text-center">
+      <img src="/images/Vienna.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
+      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
+        <p>Westlake Music Group, International Youth Music Festival, Vienna 2014.</p>
+      </div>
+    </div>
+
+    <!-- Slide 13 -->
+    <div class="carousel-item text-center">
+      <img src="/images/Porthills.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
+      <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
+        <p>Port Hills, Christchurch.</p>
+      </div>
+    </div>
+    
   </div>
 
   <!-- Controls -->
