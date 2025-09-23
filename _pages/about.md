@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 Tanner is a bilingual Mechanical Engineer with hands-on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
 
-While completing his degree, Tanner navigated the loss of his mother, <a href="https://www.morrislegal.co.nz/insights/morris-successfully-defends-claim-against-mothers-estate" target="_blank" rel="noopener">managed a complex High Court case</a>, and cared for his grandmother — experiences that shaped his resilience and focus.
+While completing his degree, Tanner navigated the loss of his mother at age 21, <a href="https://www.morrislegal.co.nz/insights/morris-successfully-defends-claim-against-mothers-estate" target="_blank" rel="noopener">managed a complex High Court case</a>, and cared for his grandmother — experiences that shaped his resilience and focus.
 
 A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner approaches engineering with curiosity, innovation, and a commitment to delivering impactful solutions.
 
@@ -262,7 +262,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item text-center">
       <img src="/images/JAXA3.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
-        <p>JAXA Whitepaper Proteins in Space.</p>
+        <p>Winner of MEXT Whitepaper - Proteins in Space, Tokyo.</p>
       </div>
     </div>
 
@@ -289,7 +289,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item text-center">
       <img src="/images/sgac2.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
-        <p>Space Generation Congress, Working Group 4.</p>
+        <p>Working Group 4: Space Innovation, Space Generation Congress.</p>
       </div>
     </div>
 
@@ -313,7 +313,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item text-center">
       <img src="/images/Claude.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
-        <p>Claude Nicollier - First Swiss in space, flew SM1 on Discovery to service Hubble.</p>
+        <p>First Swiss in space, flew SM1 on Discovery to service Hubble, Claude Nicollier.</p>
       </div>
     </div>
 
@@ -321,7 +321,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item text-center">
       <img src="/images/Prince Harry.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
-        <p>University of Canterbury, meeting Prince Harry.</p>
+        <p>Meeting Prince Harry, University of Canterbury.</p>
       </div>
     </div>
 
