@@ -192,7 +192,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
   </div>
 
   <div class="timeline-item">
-    <div class="timeline-logo"><img src="/images/Uber.png" alt="Uber Logo"></div>
+    <div class="timeline-logo"><img src="/images/uber.png" alt="Uber Logo"></div>
     <div class="timeline-content">
       <h3>Uber</h3>
       <h4>Independent Rideshare Driver</h4>
