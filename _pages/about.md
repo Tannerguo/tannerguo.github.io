@@ -196,7 +196,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="timeline-content">
       <h3>Uber</h3>
       <h4>Independent Rideshare Driver</h4>
-      <p>2021 - Present</p>
+      <p>Feb 2025 - Present</p>
       <p>Delivering exceptional service and local expertise as a trusted rideshare partner</p>
       <div class="rating-badge">
         <span class="rating-stars">★★★★★</span> 5.0 • 177 unique ratings
