@@ -105,35 +105,10 @@ redirect_from:
   .Publications h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
   .Publications p { margin: 2px 0; font-size: 14px; color: #555; }
 
-  /* Very discreet visitor counter */
-  .visitor-counter {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    padding: 0;
-    color: #666;
-    font-size: 14px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .visitor-counter .counter-line {
-    margin: 5px 0;
-    line-height: 1.4;
-  }
-
-  .visitor-counter .count {
-    font-weight: 600;
-    color: #333;
-  }
-
   @media screen and (max-width: 768px) {
     .timeline::before { left: 20px; }
     .timeline-item { flex-direction: row !important; text-align: left !important; }
     .timeline-dot { margin: 0 10px 0 0; }
-    .visitor-counter { font-size: 13px; }
   }
 </style>
 
@@ -171,7 +146,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
       <h3>Crown Worldwide Group</h3>
       <h4>Inbound Leads Specialist</h4>
       <p>Feb 2025 - Present</p>
-      <p>Serving as a key point of contact for incoming inquiries, coordinating solutions and guiding clients through the relocation process.</p>
+      <p>Operating as one of 4 point of contacts for incoming enquiries, coordinating tailored solutions and guiding clients through the relocation process. Supported the implementation and ongoing refinement of a new phone system, including its AI driven features</p>
     </div>
   </div>
 
@@ -181,7 +156,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
       <h3>Gridfree - Off Grid Solar NZ</h3>
       <h4>Consulting Engineer</h4>
       <p></p>
-      <p>Provided technical consulting for off-grid solar solutions with New Zealand's largest off-grid solar company.</p>
+      <p>Provided technical consulting for off-grid solar solutions with New Zealand’s largest off-grid solar company.</p>
     </div>
   </div>
 
@@ -382,82 +357,3 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 <!-- Bootstrap JS Bundle (includes Popper) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Very discreet visitor counter -->
-<div class="visitor-counter">
-  <div class="counter-line">
-    Total visitors: <span class="count" id="totalVisitors">127</span> • 
-    Currently online: <span class="count" id="currentVisitors">3</span>
-  </div>
-  <div class="counter-line" style="font-size: 12px; color: #888; margin-top: 2px;">
-    Last updated: <span id="lastUpdated">--:--</span>
-  </div>
-</div>
-
-<script>
-// Very simple, discreet visitor counter
-document.addEventListener('DOMContentLoaded', function() {
-    // Initialize or get total visits
-    let totalVisits = localStorage.getItem('tannerTotalVisits');
-    if (!totalVisits) {
-        totalVisits = 127; // Starting count
-    } else {
-        // Check if last visit was more than 30 minutes ago
-        const lastVisit = localStorage.getItem('lastVisitTime');
-        const now = Date.now();
-        const thirtyMinutes = 30 * 60 * 1000;
-        
-        if (!lastVisit || (now - parseInt(lastVisit)) > thirtyMinutes) {
-            totalVisits = parseInt(totalVisits) + 1;
-        }
-    }
-    
-    // Save updated total
-    localStorage.setItem('tannerTotalVisits', totalVisits.toString());
-    localStorage.setItem('lastVisitTime', Date.now().toString());
-    
-    // Calculate current visitors (simple simulation)
-    function getCurrentVisitors() {
-        // Get hour of day for realistic simulation
-        const hour = new Date().getHours();
-        let base;
-        
-        if (hour >= 9 && hour <= 17) { // Work hours
-            base = 3;
-        } else if (hour >= 18 && hour <= 22) { // Evening
-            base = 2;
-        } else { // Night/early morning
-            base = 1;
-        }
-        
-        // Add some random variation
-        const variation = Math.floor(Math.random() * 3); // 0, 1, or 2
-        return Math.max(1, base + variation);
-    }
-    
-    // Update display
-    function updateDisplay() {
-        const currentVisitors = getCurrentVisitors();
-        const now = new Date();
-        
-        document.getElementById('totalVisitors').textContent = totalVisits;
-        document.getElementById('currentVisitors').textContent = currentVisitors;
-        document.getElementById('lastUpdated').textContent = 
-            now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
-    }
-    
-    // Initial update
-    updateDisplay();
-    
-    // Update every 2 minutes
-    setInterval(function() {
-        updateDisplay();
-    }, 120000);
-    
-    // Also update when page becomes visible again
-    document.addEventListener('visibilitychange', function() {
-        if (!document.hidden) {
-            updateDisplay();
-        }
-    });
-});
-</script>
