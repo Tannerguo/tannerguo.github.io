@@ -121,29 +121,37 @@ redirect_from:
   .Publications h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
   .Publications p { margin: 2px 0; font-size: 14px; color: #555; }
 
-<!-- Simple reliable visitor counter -->
-<div class="visitor-counter">
-  <div class="counter-line">
-    <span id="visitorText">Visits: <span class="count" id="totalVisitors">128</span></span>
-  </div>
-</div>
-
-<script>
-// Simple async function that doesn't break if API fails
-(async function() {
-  try {
-    const response = await fetch('https://api.countapi.xyz/hit/tannerguo/visits');
-    const data = await response.json();
-    if (data && data.value) {
-      const count = data.value;
-      document.getElementById('totalVisitors').textContent = 
-        count > 999 ? (count/1000).toFixed(1) + 'k' : count;
-    }
-  } catch(e) {
-    // Silently fail - keep "128" as default
+  /* Very discreet visitor counter */
+  .visitor-counter {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 0;
+    color: #666;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
   }
-})();
-</script>
+
+  .visitor-counter .counter-line {
+    margin: 5px 0;
+    line-height: 1.4;
+  }
+
+  .visitor-counter .count {
+    font-weight: 600;
+    color: #333;
+  }
+
+  @media screen and (max-width: 768px) {
+    .timeline::before { left: 20px; }
+    .timeline-item { flex-direction: row !important; text-align: left !important; }
+    .timeline-dot { margin: 0 10px 0 0; }
+    .visitor-counter { font-size: 13px; }
+  }
+</style>
 
 <!-- Load Typed.js -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
@@ -406,41 +414,23 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 <!-- Global Visitor Counter using CountAPI -->
 <div class="visitor-counter">
   <div class="counter-line">
-    <span id="visitorText">Visits: <span class="count" id="totalVisitors">...</span></span>
+    <span id="visitorText">Visits: <span class="count" id="totalVisitors">128</span></span>
   </div>
 </div>
 
 <script>
-// Global visitor counter using CountAPI (same for all browsers)
-document.addEventListener('DOMContentLoaded', async function() {
-  async function updateVisitorCount() {
-    try {
-      // This is GLOBAL - increments for ALL visitors across all browsers
-      const response = await fetch('https://api.countapi.xyz/hit/tannerguo.com/portfolio');
-      const data = await response.json();
-      
-      // Format the number nicely
+// Simple reliable visitor counter
+(async function() {
+  try {
+    const response = await fetch('https://api.countapi.xyz/hit/tannerguo/visits');
+    const data = await response.json();
+    if (data && data.value) {
       const count = data.value;
-      let displayCount;
-      
-      if (count < 1000) {
-        displayCount = count.toLocaleString();
-      } else if (count < 10000) {
-        displayCount = (count / 1000).toFixed(1) + 'k';
-      } else {
-        displayCount = Math.round(count / 1000) + 'k';
-      }
-      
-      // Update display
-      document.getElementById('totalVisitors').textContent = displayCount;
-      
-    } catch (error) {
-      // If API fails, show a reasonable static number
-      document.getElementById('totalVisitors').textContent = '128';
+      document.getElementById('totalVisitors').textContent = 
+        count > 999 ? (count/1000).toFixed(1) + 'k' : count;
     }
+  } catch(e) {
+    // Silently fail - keep "128" as default
   }
-  
-  // Update count when page loads
-  updateVisitorCount();
-});
+})();
 </script>
