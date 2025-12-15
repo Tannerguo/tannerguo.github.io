@@ -121,37 +121,29 @@ redirect_from:
   .Publications h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
   .Publications p { margin: 2px 0; font-size: 14px; color: #555; }
 
-  /* Very discreet visitor counter */
-  .visitor-counter {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    padding: 0;
-    color: #666;
-    font-size: 14px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+<!-- Simple reliable visitor counter -->
+<div class="visitor-counter">
+  <div class="counter-line">
+    <span id="visitorText">Visits: <span class="count" id="totalVisitors">128</span></span>
+  </div>
+</div>
 
-  .visitor-counter .counter-line {
-    margin: 5px 0;
-    line-height: 1.4;
+<script>
+// Simple async function that doesn't break if API fails
+(async function() {
+  try {
+    const response = await fetch('https://api.countapi.xyz/hit/tannerguo/visits');
+    const data = await response.json();
+    if (data && data.value) {
+      const count = data.value;
+      document.getElementById('totalVisitors').textContent = 
+        count > 999 ? (count/1000).toFixed(1) + 'k' : count;
+    }
+  } catch(e) {
+    // Silently fail - keep "128" as default
   }
-
-  .visitor-counter .count {
-    font-weight: 600;
-    color: #333;
-  }
-
-  @media screen and (max-width: 768px) {
-    .timeline::before { left: 20px; }
-    .timeline-item { flex-direction: row !important; text-align: left !important; }
-    .timeline-dot { margin: 0 10px 0 0; }
-    .visitor-counter { font-size: 13px; }
-  }
-</style>
+})();
+</script>
 
 <!-- Load Typed.js -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
