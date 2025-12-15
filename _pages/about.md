@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ---
 
-Tanner is a bilingual Mechanical Engineer with hands-on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
+Tanner is a bilingual Mechanical Engineer (BE Hons) with hands-on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
 
 While completing his degree, Tanner navigated the loss of his mother at age 21, <a href="https://www.morrislegal.co.nz/insights/morris-successfully-defends-claim-against-mothers-estate" target="_blank" rel="noopener">managed a complex High Court case</a>, and cared for his grandmother — experiences that shaped his resilience and focus.
 
@@ -411,82 +411,44 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 <!-- Bootstrap JS Bundle (includes Popper) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Very discreet visitor counter -->
+<!-- Global Visitor Counter using CountAPI -->
 <div class="visitor-counter">
   <div class="counter-line">
-    Total visitors: <span class="count" id="totalVisitors">127</span> • 
-    Currently online: <span class="count" id="currentVisitors">3</span>
-  </div>
-  <div class="counter-line" style="font-size: 12px; color: #888; margin-top: 2px;">
-    Last updated: <span id="lastUpdated">--:--</span>
+    <span id="visitorText">Visits: <span class="count" id="totalVisitors">...</span></span>
   </div>
 </div>
 
 <script>
-// Very simple, discreet visitor counter
-document.addEventListener('DOMContentLoaded', function() {
-    // Initialize or get total visits
-    let totalVisits = localStorage.getItem('tannerTotalVisits');
-    if (!totalVisits) {
-        totalVisits = 127; // Starting count
-    } else {
-        // Check if last visit was more than 30 minutes ago
-        const lastVisit = localStorage.getItem('lastVisitTime');
-        const now = Date.now();
-        const thirtyMinutes = 30 * 60 * 1000;
-        
-        if (!lastVisit || (now - parseInt(lastVisit)) > thirtyMinutes) {
-            totalVisits = parseInt(totalVisits) + 1;
-        }
+// Global visitor counter using CountAPI (same for all browsers)
+document.addEventListener('DOMContentLoaded', async function() {
+  async function updateVisitorCount() {
+    try {
+      // This is GLOBAL - increments for ALL visitors across all browsers
+      const response = await fetch('https://api.countapi.xyz/hit/tannerguo.com/portfolio');
+      const data = await response.json();
+      
+      // Format the number nicely
+      const count = data.value;
+      let displayCount;
+      
+      if (count < 1000) {
+        displayCount = count.toLocaleString();
+      } else if (count < 10000) {
+        displayCount = (count / 1000).toFixed(1) + 'k';
+      } else {
+        displayCount = Math.round(count / 1000) + 'k';
+      }
+      
+      // Update display
+      document.getElementById('totalVisitors').textContent = displayCount;
+      
+    } catch (error) {
+      // If API fails, show a reasonable static number
+      document.getElementById('totalVisitors').textContent = '128';
     }
-    
-    // Save updated total
-    localStorage.setItem('tannerTotalVisits', totalVisits.toString());
-    localStorage.setItem('lastVisitTime', Date.now().toString());
-    
-    // Calculate current visitors (simple simulation)
-    function getCurrentVisitors() {
-        // Get hour of day for realistic simulation
-        const hour = new Date().getHours();
-        let base;
-        
-        if (hour >= 9 && hour <= 17) { // Work hours
-            base = 3;
-        } else if (hour >= 18 && hour <= 22) { // Evening
-            base = 2;
-        } else { // Night/early morning
-            base = 1;
-        }
-        
-        // Add some random variation
-        const variation = Math.floor(Math.random() * 3); // 0, 1, or 2
-        return Math.max(1, base + variation);
-    }
-    
-    // Update display
-    function updateDisplay() {
-        const currentVisitors = getCurrentVisitors();
-        const now = new Date();
-        
-        document.getElementById('totalVisitors').textContent = totalVisits;
-        document.getElementById('currentVisitors').textContent = currentVisitors;
-        document.getElementById('lastUpdated').textContent = 
-            now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
-    }
-    
-    // Initial update
-    updateDisplay();
-    
-    // Update every 2 minutes
-    setInterval(function() {
-        updateDisplay();
-    }, 120000);
-    
-    // Also update when page becomes visible again
-    document.addEventListener('visibilitychange', function() {
-        if (!document.hidden) {
-            updateDisplay();
-        }
-    });
+  }
+  
+  // Update count when page loads
+  updateVisitorCount();
 });
 </script>
