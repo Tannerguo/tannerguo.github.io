@@ -291,7 +291,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="carousel-item text-center">
       <img src="/images/NASA.jpg" class="d-block mx-auto" alt="Starlight Headliner Project" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-0">
-        <p>Robert Lightfoot JR, Acting Administrator NASA</p>
+        <p>Robert Lightfoot JR, Acting Administrator NASA, Vice President Lockheed Martin Space</p>
       </div>
     </div>
 
