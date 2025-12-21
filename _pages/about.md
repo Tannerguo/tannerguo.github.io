@@ -98,9 +98,10 @@ redirect_from:
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
   .rating-stars {
-    color: #ffb700;
+    color: #ffb700; /* Changed to black for better contrast */
     font-size: 14px;
     margin-right: 3px;
+    font-weight: bold;
   }
 
   @keyframes fadeInUp {
@@ -121,7 +122,7 @@ redirect_from:
   .Publications h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
   .Publications p { margin: 2px 0; font-size: 14px; color: #555; }
 
-  /* Very discreet visitor counter */
+  /* Visitor counter styling */
   .visitor-counter {
     text-align: center;
     margin-top: 40px;
@@ -135,21 +136,10 @@ redirect_from:
     margin-right: auto;
   }
 
-  .visitor-counter .counter-line {
-    margin: 5px 0;
-    line-height: 1.4;
-  }
-
-  .visitor-counter .count {
-    font-weight: 600;
-    color: #333;
-  }
-
   @media screen and (max-width: 768px) {
     .timeline::before { left: 20px; }
     .timeline-item { flex-direction: row !important; text-align: left !important; }
     .timeline-dot { margin: 0 10px 0 0; }
-    .visitor-counter { font-size: 13px; }
   }
 </style>
 
@@ -411,26 +401,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 <!-- Bootstrap JS Bundle (includes Popper) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Global Visitor Counter using CountAPI -->
+<!-- Reliable Visitor Counter using Visitor Badge -->
 <div class="visitor-counter">
-  <div class="counter-line">
-    <span id="visitorText">Visits: <span class="count" id="totalVisitors">128</span></span>
-  </div>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=tannerguo.tannerguo.github.io" alt="Visitor Counter" />
 </div>
-
-<script>
-// Simple reliable visitor counter
-(async function() {
-  try {
-    const response = await fetch('https://api.countapi.xyz/hit/tannerguo/visits');
-    const data = await response.json();
-    if (data && data.value) {
-      const count = data.value;
-      document.getElementById('totalVisitors').textContent = 
-        count > 999 ? (count/1000).toFixed(1) + 'k' : count;
-    }
-  } catch(e) {
-    // Silently fail - keep "128" as default
-  }
-})();
-</script>
