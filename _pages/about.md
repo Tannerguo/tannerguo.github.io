@@ -19,14 +19,15 @@ redirect_from:
     display: inline-block;
   }
 
-  /* Animated highlighter effect */
+  /* Animated highlighter effect - FIXED */
   .highlight-text {
     position: relative;
-    display: inline;
+    display: inline-block;
     font-weight: bold;
     color: #000;
-    padding: 2px 4px;
+    padding: 0 4px;
     z-index: 1;
+    white-space: nowrap; /* Prevents line breaks */
   }
   
   .highlight-text::before {
@@ -34,26 +35,45 @@ redirect_from:
     position: absolute;
     top: 0;
     left: 0;
-    width: 0;
+    width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, rgba(255, 255, 0, 0.2), rgba(255, 255, 150, 0.6), rgba(255, 255, 0, 0.2));
+    background: linear-gradient(90deg, 
+      rgba(255, 255, 0, 0.3) 0%,
+      rgba(255, 255, 100, 0.9) 50%,
+      rgba(255, 255, 0, 0.3) 100%);
     z-index: -1;
-    border-radius: 2px;
-    animation: highlightSlide 4s ease-in-out infinite;
+    border-radius: 3px;
+    animation: highlightSlide 3s ease-in-out infinite;
+    background-size: 200% 100%;
   }
   
   @keyframes highlightSlide {
     0% {
-      width: 0;
-      left: 0;
-    }
-    50% {
-      width: 100%;
-      left: 0;
+      background-position: -100% 0;
     }
     100% {
-      width: 0;
-      left: 100%;
+      background-position: 100% 0;
+    }
+  }
+
+  /* Alternative more vibrant option (choose one) */
+  .highlight-text.alternative::before {
+    background: linear-gradient(90deg, 
+      rgba(255, 255, 0, 0.4) 0%,
+      rgba(255, 255, 0, 0.8) 25%,
+      rgba(255, 255, 0, 1) 50%,
+      rgba(255, 255, 0, 0.8) 75%,
+      rgba(255, 255, 0, 0.4) 100%);
+  }
+
+  /* For mobile devices where text might still wrap */
+  @media screen and (max-width: 768px) {
+    .highlight-text {
+      white-space: normal; /* Allow wrapping on mobile */
+      display: inline;
+    }
+    .highlight-text::before {
+      animation: highlightSlide 4s ease-in-out infinite;
     }
   }
 
