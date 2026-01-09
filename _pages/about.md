@@ -207,7 +207,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
       <ul class="timeline-clean">
         <li>Operating as one of the key points of contact for incoming enquiries, coordinating tailored solutions and guiding clients through the relocation process.</li>
-        <li>Supports the implementation and ongoing refinement of a new phone system, including its AI‑driven features.</li>
+        <li>Supported the implementation and ongoing refinement of a new phone system, including its AI‑driven features.</li>
         <li>Proactively built an internal website to optimise the survey booking process, improving accuracy, reducing manual steps, and saving significant staff time.</li>
       </ul>
     </div>
