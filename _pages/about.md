@@ -86,6 +86,29 @@ redirect_from:
   .timeline-content h3 { margin: 0; font-size: 18px; color: #333; }
   .timeline-content h4 { margin: 5px 0; font-size: 16px; color: #666; }
   .timeline-content p { margin: 10px 0 0; font-size: 14px; color: #555; }
+  
+  /* Fix for bullet points */
+  .timeline-content ul {
+    margin: 10px 0 0 0;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  .timeline-content li {
+    margin-bottom: 5px;
+    line-height: 1.4;
+  }
+  .timeline-content ul.timeline-clean {
+    margin: 10px 0 0 0;
+    padding-left: 20px;
+  }
+  .timeline-content ul.timeline-clean li {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+    margin-bottom: 5px;
+  }
+  
   .rating-badge {
     display: inline-block;
     background: linear-gradient(135deg, #ffd700, #ffb700);
@@ -98,7 +121,7 @@ redirect_from:
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
   .rating-stars {
-    color: #ffb700; /* Changed to black for better contrast */
+    color: #ffb700;
     font-size: 14px;
     margin-right: 3px;
     font-weight: bold;
@@ -183,7 +206,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
       <p>Feb 2025 - Present</p>
 
       <ul class="timeline-clean">
-        <li>Operates as one of the key points of contact for incoming enquiries, coordinating tailored solutions and guiding clients through the relocation process.</li>
+        <li>Operating as one of the key points of contact for incoming enquiries, coordinating tailored solutions and guiding clients through the relocation process.</li>
         <li>Supports the implementation and ongoing refinement of a new phone system, including its AI‑driven features.</li>
         <li>Proactively built an internal website to optimise the survey booking process, improving accuracy, reducing manual steps, and saving significant staff time.</li>
       </ul>
@@ -267,13 +290,13 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 <!-- Custom Carousel Styles -->
 <style>
 .carousel-caption {
-  padding: 2px 5px;          /* smaller space inside the block */
-  max-width: fit-content;    /* block only as wide as text */
-  left: 50%;                 /* center it horizontally */
-  bottom: 2px;               /* move caption closer to image bottom */
-  transform: translateX(-50%); /* center adjustment */
-  font-size: 16px;           /* optional: smaller text */
-  border-radius: 4px;        /* optional corner rounding */
+  padding: 2px 5px;
+  max-width: fit-content;
+  left: 50%;
+  bottom: 2px;
+  transform: translateX(-50%);
+  font-size: 16px;
+  border-radius: 4px;
 }
 </style>
 
@@ -310,7 +333,6 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
       </div>
     </div>
 
-
     <!-- Slide 5 -->
     <div class="carousel-item text-center">
       <img src="/images/JAXA3.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
@@ -318,7 +340,6 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
         <p>Winner of MEXT Whitepaper - Proteins in Space, Tokyo.</p>
       </div>
     </div>
-
 
     <!-- Slide 6 -->
     <div class="carousel-item text-center">
@@ -328,7 +349,6 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
       </div>
     </div>
 
-
     <!-- Slide 7 -->
     <div class="carousel-item text-center">
       <img src="/images/JAXA2.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
@@ -336,7 +356,6 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
         <p>JAXA Center, Tsukuba.</p>
       </div>
     </div>
-
 
     <!-- Slide 8 -->
     <div class="carousel-item text-center">
