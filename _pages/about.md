@@ -170,16 +170,23 @@ The judgment in his case went on to reshape the legal approach later applied in 
 A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner approaches engineering with curiosity, innovation, and a commitment to delivering impactful solutions.
 
 ---
-
 <!-- Timeline -->
 <section class="timeline">
   <div class="timeline-item">
-    <div class="timeline-logo"><img src="/images/Crown.jpg" alt="Crown Logo"></div>
+    <div class="timeline-logo">
+      <img src="/images/Crown.jpg" alt="Crown Logo">
+    </div>
+
     <div class="timeline-content">
       <h3>Crown Worldwide Group</h3>
       <h4>Inbound Leads Specialist</h4>
       <p>Feb 2025 - Present</p>
-      <p>Operating as one of many points of contacts for incoming enquiries, coordinating tailored solutions and guiding clients through the relocation process. <br>Supported the implementation and ongoing refinement of a new phone system, including its AI driven features <br> Proactively built an internal website in his own time to optimise the survey booking process for relocating customers, improving accuracy, reducing manual steps and delivering significant time savings for staff</p>
+
+      <ul class="timeline-clean">
+        <li>Operates as one of the key points of contact for incoming enquiries, coordinating tailored solutions and guiding clients through the relocation process.</li>
+        <li>Supports the implementation and ongoing refinement of a new phone system, including its AI‑driven features.</li>
+        <li>Proactively built an internal website to optimise the survey booking process, improving accuracy, reducing manual steps, and saving significant staff time.</li>
+      </ul>
     </div>
   </div>
 
