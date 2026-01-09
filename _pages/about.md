@@ -19,32 +19,26 @@ redirect_from:
     display: inline-block;
   }
 
-  /* Animated highlighter effect - FIXED */
+  /* Animated highlighter effect - FIXED ANIMATION */
   .highlight-text {
     position: relative;
-    display: inline-block;
+    display: inline;
     font-weight: bold;
     color: #000;
-    padding: 0 4px;
+    padding: 2px 4px;
     z-index: 1;
-    white-space: nowrap; /* Prevents line breaks */
-  }
-  
-  .highlight-text::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, 
-      rgba(255, 255, 0, 0.3) 0%,
-      rgba(255, 255, 100, 0.9) 50%,
-      rgba(255, 255, 0, 0.3) 100%);
-    z-index: -1;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 0, 0) 0%,
+      rgba(255, 255, 0, 0.8) 10%,
+      rgba(255, 255, 0, 1) 50%,
+      rgba(255, 255, 0, 0.8) 90%,
+      rgba(255, 255, 0, 0) 100%
+    );
+    background-size: 200% 100%;
+    background-position: -100% 0;
     border-radius: 3px;
     animation: highlightSlide 3s ease-in-out infinite;
-    background-size: 200% 100%;
   }
   
   @keyframes highlightSlide {
@@ -56,23 +50,34 @@ redirect_from:
     }
   }
 
-  /* Alternative more vibrant option (choose one) */
-  .highlight-text.alternative::before {
-    background: linear-gradient(90deg, 
-      rgba(255, 255, 0, 0.4) 0%,
-      rgba(255, 255, 0, 0.8) 25%,
-      rgba(255, 255, 0, 1) 50%,
-      rgba(255, 255, 0, 0.8) 75%,
-      rgba(255, 255, 0, 0.4) 100%);
+  /* Alternative with different color (choose one) */
+  .highlight-text.v2 {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 200, 0) 0%,
+      rgba(255, 255, 200, 0.8) 10%,
+      rgba(255, 255, 200, 1) 50%,
+      rgba(255, 255, 200, 0.8) 90%,
+      rgba(255, 255, 200, 0) 100%
+    );
   }
 
-  /* For mobile devices where text might still wrap */
+  /* More vibrant pink version */
+  .highlight-text.pink {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 200, 220, 0) 0%,
+      rgba(255, 200, 220, 0.8) 10%,
+      rgba(255, 150, 200, 1) 50%,
+      rgba(255, 200, 220, 0.8) 90%,
+      rgba(255, 200, 220, 0) 100%
+    );
+  }
+
+  /* For mobile devices */
   @media screen and (max-width: 768px) {
     .highlight-text {
-      white-space: normal; /* Allow wrapping on mobile */
-      display: inline;
-    }
-    .highlight-text::before {
+      display: inline-block;
       animation: highlightSlide 4s ease-in-out infinite;
     }
   }
