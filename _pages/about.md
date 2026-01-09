@@ -19,6 +19,44 @@ redirect_from:
     display: inline-block;
   }
 
+  /* Animated highlighter effect */
+  .highlight-text {
+    position: relative;
+    display: inline;
+    font-weight: bold;
+    color: #000;
+    padding: 2px 4px;
+    z-index: 1;
+  }
+  
+  .highlight-text::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 0, 0.2), rgba(255, 255, 150, 0.6), rgba(255, 255, 0, 0.2));
+    z-index: -1;
+    border-radius: 2px;
+    animation: highlightSlide 4s ease-in-out infinite;
+  }
+  
+  @keyframes highlightSlide {
+    0% {
+      width: 0;
+      left: 0;
+    }
+    50% {
+      width: 100%;
+      left: 0;
+    }
+    100% {
+      width: 0;
+      left: 100%;
+    }
+  }
+
   /* Timeline */
   .timeline {
     position: relative;
@@ -186,7 +224,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 Tanner is a bilingual Mechanical Engineer (BE Hons) with hands-on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
 
-While completing his degree, Tanner navigated the loss of his mother at age 21, <a href="https://www.morrislegal.co.nz/insights/morris-successfully-defends-claim-against-mothers-estate" target="_blank" rel="noopener">managed a complex High Court case</a>, and cared for his grandmother — and simultaneously fought and ultimately won a 2 year High Court battle, setting the precedent that <strong>the deceased does not have a moral duty to provide for their partner under their will.</strong> Its impact was significant enough to place his story on the front page of the New Zealand Herald, all while graduating with honours — a testament to his resilience, discipline and unwavering focus.
+While completing his degree, Tanner navigated the loss of his mother at age 21, <a href="https://www.morrislegal.co.nz/insights/morris-successfully-defends-claim-against-mothers-estate" target="_blank" rel="noopener">managed a complex High Court case</a>, and cared for his grandmother — and simultaneously fought and ultimately won a 2 year High Court battle, setting the precedent that <span class="highlight-text">the deceased does not have a moral duty to provide for their partner under their will.</span> Its impact was significant enough to place his story on the front page of the New Zealand Herald, all while graduating with honours — a testament to his resilience, discipline and unwavering focus.
 
 The judgment in his case went on to reshape the legal approach later applied in <a href="https://www.nzlii.org/nz/cases/NZFC/2024/2717.html" target="_blank" rel="noopener">Christiansen v Jackson [2024]</a>, influencing how family claims are argued and assessed in New Zealand.
 
