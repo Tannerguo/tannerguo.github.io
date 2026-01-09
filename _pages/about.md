@@ -186,9 +186,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 Tanner is a bilingual Mechanical Engineer (BE Hons) with hands-on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
 
-While completing his degree, Tanner navigated the loss of his mother at age 21, <a href="https://www.morrislegal.co.nz/insights/morris-successfully-defends-claim-against-mothers-estate" target="_blank" rel="noopener">managed a complex High Court case</a>, and cared for his grandmother — and simultaneously fought and ultimately won a two‑year High Court battle. 
+While completing his degree, Tanner navigated the loss of his mother at age 21, <a href="https://www.morrislegal.co.nz/insights/morris-successfully-defends-claim-against-mothers-estate" target="_blank" rel="noopener">managed a complex High Court case</a>, and cared for his grandmother — and simultaneously fought and ultimately won a 2 year High Court battle, setting the precedent that the deceased did not have a moral duty to provide for his partner under his will.
 
-The judgment in his case went on to reshape the legal approach later applied in Christiansen v Jackson [2024], influencing how family claims are argued and assessed in New Zealand. Its impact was significant enough to place his story on the front page of the New Zealand Herald, all while graduating with honours — a testament to his resilience, discipline and unwavering focus.
+The judgment in his case went on to reshape the legal approach later applied in <a href="https://www.nzlii.org/nz/cases/NZFC/2024/2717.html" target="_blank" rel="noopener">Christiansen v Jackson [2024]</a>, influencing how family claims are argued and assessed in New Zealand. Its impact was significant enough to place his story on the front page of the New Zealand Herald, all while graduating with honours — a testament to his resilience, discipline and unwavering focus.
 
 A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner approaches engineering with curiosity, innovation, and a commitment to delivering impactful solutions.
 
@@ -221,7 +221,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
       <p>Feb 2025 - Present</p>
       <p>Delivering exceptional service and local expertise as a trusted rideshare partner</p>
       <div class="rating-badge">
-        <span class="rating-stars">★★★★★</span> 5.0 • 177 unique ratings
+        <span class="rating-stars">★★★★★</span> 5.0 • 187 unique ratings
       </div>
     </div>
   </div>
