@@ -509,6 +509,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <span>🇹🇴</span> <!-- Tonga -->
     <span>🇻🇺</span> <!-- Vanuatu -->
     <span>🇨🇳</span> <!-- China -->
+    <span>🇹🇼</span> <!-- Taiwan 👈 ADDED -->
     <span>🇭🇰</span> <!-- Hong Kong -->
     <span>🇸🇬</span> <!-- Singapore -->
     <span>🇲🇾</span> <!-- Malaysia -->
@@ -534,6 +535,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <span>🇹🇴</span>
     <span>🇻🇺</span>
     <span>🇨🇳</span>
+    <span>🇹🇼</span> 
     <span>🇭🇰</span>
     <span>🇸🇬</span>
     <span>🇲🇾</span>
@@ -586,5 +588,4 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
-</style>
 </style>
