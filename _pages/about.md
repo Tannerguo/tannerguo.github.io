@@ -498,30 +498,60 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 </div>
 
 
-<!-- ===== NEW SCROLLING FLAGS FOOTER ===== -->
+<!-- ===== SCROLLING FLAGS FOOTER ===== -->
 <div class="flags-footer">
   <div class="flags-track">
-    <span><i class="fi fi-nz"></i></span>
-    <span><i class="fi fi-tw"></i></span>
-    <span><i class="fi fi-jp"></i></span>
+    <!-- First set of flags -->
+    <span><i class="fi fi-au"></i></span> <!-- Australia -->
+    <span><i class="fi fi-nz"></i></span> <!-- New Zealand -->
+    <span><i class="fi fi-us"></i></span> <!-- America -->
+    <span><i class="fi fi-fj"></i></span> <!-- Fiji -->
+    <span><i class="fi fi-to"></i></span> <!-- Tonga -->
+    <span><i class="fi fi-vu"></i></span> <!-- Vanuatu -->
+    <span><i class="fi fi-cn"></i></span> <!-- China -->
+    <span><i class="fi fi-hk"></i></span> <!-- Hong Kong -->
+    <span><i class="fi fi-sg"></i></span> <!-- Singapore -->
+    <span><i class="fi fi-my"></i></span> <!-- Malaysia -->
+    <span><i class="fi fi-nl"></i></span> <!-- Netherlands -->
+    <span><i class="fi fi-de"></i></span> <!-- Germany -->
+    <span><i class="fi fi-kr"></i></span> <!-- Korea -->
+    <span><i class="fi fi-jp"></i></span> <!-- Japan -->
+    <span><i class="fi fi-at"></i></span> <!-- Austria -->
+    <span><i class="fi fi-ch"></i></span> <!-- Switzerland -->
+    <span><i class="fi fi-se"></i></span> <!-- Sweden -->
+    <span><i class="fi fi-dk"></i></span> <!-- Denmark -->
+    <span><i class="fi fi-no"></i></span> <!-- Norway -->
+    <span><i class="fi fi-be"></i></span> <!-- Belgium -->
+    <span><i class="fi fi-it"></i></span> <!-- Italy -->
+    <span><i class="fi fi-fr"></i></span> <!-- France -->
+
+    <!-- Duplicate the EXACT SAME list for seamless looping -->
     <span><i class="fi fi-au"></i></span>
-    <span><i class="fi fi-us"></i></span>
-    <span><i class="fi fi-gb"></i></span>
-    <span><i class="fi fi-de"></i></span>
-    <span><i class="fi fi-fr"></i></span>
-    <!-- Duplicate for seamless scrolling -->
     <span><i class="fi fi-nz"></i></span>
-    <span><i class="fi fi-tw"></i></span>
-    <span><i class="fi fi-jp"></i></span>
-    <span><i class="fi fi-au"></i></span>
     <span><i class="fi fi-us"></i></span>
-    <span><i class="fi fi-gb"></i></span>
+    <span><i class="fi fi-fj"></i></span>
+    <span><i class="fi fi-to"></i></span>
+    <span><i class="fi fi-vu"></i></span>
+    <span><i class="fi fi-cn"></i></span>
+    <span><i class="fi fi-hk"></i></span>
+    <span><i class="fi fi-sg"></i></span>
+    <span><i class="fi fi-my"></i></span>
+    <span><i class="fi fi-nl"></i></span>
     <span><i class="fi fi-de"></i></span>
+    <span><i class="fi fi-kr"></i></span>
+    <span><i class="fi fi-jp"></i></span>
+    <span><i class="fi fi-at"></i></span>
+    <span><i class="fi fi-ch"></i></span>
+    <span><i class="fi fi-se"></i></span>
+    <span><i class="fi fi-dk"></i></span>
+    <span><i class="fi fi-no"></i></span>
+    <span><i class="fi fi-be"></i></span>
+    <span><i class="fi fi-it"></i></span>
     <span><i class="fi fi-fr"></i></span>
   </div>
 </div>
 
-<!-- ===== CSS SPECIFICALLY FOR THE FLAGS FOOTER ===== -->
+<!-- ===== CLEANED UP CSS ===== -->
 <style>
 .flags-footer {
   width: 100%;
@@ -534,9 +564,9 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
 .flags-track {
   display: flex;
-  gap: 1.2rem;
+  gap: 1.5rem;              /* Slightly bigger gap since you have more flags */
   white-space: nowrap;
-  animation: scrollFlags 20s linear infinite;
+  animation: scrollFlags 25s linear infinite; /* Slower so 22 flags aren't a blur */
   width: max-content;
 }
 
@@ -547,21 +577,19 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 }
 
 .flags-track span i.fi {
-  font-size: 1.8rem;
+  font-size: 2rem;          /* Nice visible size */
   line-height: 1;
   display: block;
 }
 
+/* Pause on hover */
 .flags-footer:hover .flags-track {
   animation-play-state: paused;
 }
 
+/* The keyframe - only defined ONCE */
 @keyframes scrollFlags {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
-}
-</style>
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }  /* because we duplicated the list */
 }
 </style>
