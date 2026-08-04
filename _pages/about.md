@@ -19,7 +19,7 @@ redirect_from:
     display: inline-block;
   }
 
-  /* Animated highlighter effect - FIXED ANIMATION */
+  /* Animated highlighter effect */
   .highlight-text {
     position: relative;
     display: inline;
@@ -42,15 +42,10 @@ redirect_from:
   }
   
   @keyframes highlightSlide {
-    0% {
-      background-position: -100% 0;
-    }
-    100% {
-      background-position: 100% 0;
-    }
+    0% { background-position: -100% 0; }
+    100% { background-position: 100% 0; }
   }
 
-  /* Alternative with different color (choose one) */
   .highlight-text.v2 {
     background: linear-gradient(
       90deg,
@@ -62,7 +57,6 @@ redirect_from:
     );
   }
 
-  /* More vibrant pink version */
   .highlight-text.pink {
     background: linear-gradient(
       90deg,
@@ -74,7 +68,6 @@ redirect_from:
     );
   }
 
-  /* For mobile devices */
   @media screen and (max-width: 768px) {
     .highlight-text {
       display: inline-block;
@@ -149,8 +142,6 @@ redirect_from:
   .timeline-content h3 { margin: 0; font-size: 18px; color: #333; }
   .timeline-content h4 { margin: 5px 0; font-size: 16px; color: #666; }
   .timeline-content p { margin: 10px 0 0; font-size: 14px; color: #555; }
-  
-  /* Fix for bullet points */
   .timeline-content ul {
     margin: 10px 0 0 0;
     padding-left: 20px;
@@ -208,7 +199,7 @@ redirect_from:
   .Publications h3 { margin: 0 0 5px 0; font-size: 16px; color: #333; }
   .Publications p { margin: 2px 0; font-size: 14px; color: #555; }
 
-  /* Visitor counter styling */
+  /* Visitor counter */
   .visitor-counter {
     text-align: center;
     margin-top: 40px;
@@ -222,7 +213,7 @@ redirect_from:
     margin-right: auto;
   }
 
-  /* ===== SCROLLING FLAGS - HEADER & FOOTER ===== */
+  /* ===== SCROLLING FLAGS ===== */
   .flags-header,
   .flags-footer {
     max-width: 800px;
@@ -232,7 +223,7 @@ redirect_from:
     background: #f8f9fa;
     border: 1px solid #e9ecef;
     border-radius: 8px;
-    padding: 4px 0;           /* 👈 Very short strip */
+    padding: 4px 0;
   }
 
   .flags-header {
@@ -243,7 +234,6 @@ redirect_from:
   .flags-footer {
     margin-top: 30px;
     margin-bottom: 0;
-    padding: 4px 0;           /* 👈 Very short strip */
   }
 
   .flags-track-header,
@@ -270,11 +260,11 @@ redirect_from:
   }
 
   .flags-track-header span {
-    font-size: 1.6rem;        /* 👈 Smaller flags */
+    font-size: 1.6rem;
   }
 
   .flags-track-footer span {
-    font-size: 1.8rem;        /* 👈 Smaller flags */
+    font-size: 1.8rem;
   }
 
   .flags-header:hover .flags-track-header,
@@ -293,6 +283,10 @@ redirect_from:
   }
 
   @media screen and (max-width: 768px) {
+    .timeline::before { left: 20px; }
+    .timeline-item { flex-direction: row !important; text-align: left !important; }
+    .timeline-dot { margin: 0 10px 0 0; }
+    
     .flags-track-header span {
       font-size: 1.2rem;
     }
@@ -304,6 +298,7 @@ redirect_from:
       gap: 1rem;
     }
   }
+</style>
 
 <!-- Load Typed.js -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
@@ -341,7 +336,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ---
 
-Tanner is a well seasoned traveller who has explored 22 countries across Asia, Europe, and the Pacific — an experience that has sharpened his adaptability, cross cultural communication, and problem solving skills in diverse environments. He is a bilingual Mechanical Engineer (BE Hons) with hands-on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
+Tanner is a well-seasoned traveller who has explored 22 countries across Asia, Europe, and the Pacific — an experience that has sharpened his adaptability, cross-cultural communication, and problem-solving skills in diverse environments. He is a bilingual Mechanical Engineer (BE Hons) with hands-on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
 
 While completing his degree, Tanner navigated the loss of his mother at age 21 whilst also caring for his grandmother, <a href="https://www.morrislegal.co.nz/insights/morris-successfully-defends-claim-against-mothers-estate" target="_blank" rel="noopener">managed a complex High Court case</a>, and ultimately won the 2 year long High Court battle, setting the precedent that <span class="highlight-text">the deceased does not have a moral duty to provide for their partner under their will.</span> Its impact was significant enough to place his story on the front page of the New Zealand Herald, all while graduating with honours — a testament to his resilience, discipline and unwavering focus.
 
