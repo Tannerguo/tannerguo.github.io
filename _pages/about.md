@@ -498,65 +498,65 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 </div>
 
 
-<!-- ===== SCROLLING FLAGS FOOTER ===== -->
+<!-- ===== SCROLLING FLAGS FOOTER (Emojis) ===== -->
 <div class="flags-footer">
   <div class="flags-track">
     <!-- First set of flags -->
-    <span><i class="fi fi-au"></i></span> <!-- Australia -->
-    <span><i class="fi fi-nz"></i></span> <!-- New Zealand -->
-    <span><i class="fi fi-us"></i></span> <!-- America -->
-    <span><i class="fi fi-fj"></i></span> <!-- Fiji -->
-    <span><i class="fi fi-to"></i></span> <!-- Tonga -->
-    <span><i class="fi fi-vu"></i></span> <!-- Vanuatu -->
-    <span><i class="fi fi-cn"></i></span> <!-- China -->
-    <span><i class="fi fi-hk"></i></span> <!-- Hong Kong -->
-    <span><i class="fi fi-sg"></i></span> <!-- Singapore -->
-    <span><i class="fi fi-my"></i></span> <!-- Malaysia -->
-    <span><i class="fi fi-nl"></i></span> <!-- Netherlands -->
-    <span><i class="fi fi-de"></i></span> <!-- Germany -->
-    <span><i class="fi fi-kr"></i></span> <!-- Korea -->
-    <span><i class="fi fi-jp"></i></span> <!-- Japan -->
-    <span><i class="fi fi-at"></i></span> <!-- Austria -->
-    <span><i class="fi fi-ch"></i></span> <!-- Switzerland -->
-    <span><i class="fi fi-se"></i></span> <!-- Sweden -->
-    <span><i class="fi fi-dk"></i></span> <!-- Denmark -->
-    <span><i class="fi fi-no"></i></span> <!-- Norway -->
-    <span><i class="fi fi-be"></i></span> <!-- Belgium -->
-    <span><i class="fi fi-it"></i></span> <!-- Italy -->
-    <span><i class="fi fi-fr"></i></span> <!-- France -->
+    <span>🇦🇺</span> <!-- Australia -->
+    <span>🇳🇿</span> <!-- New Zealand -->
+    <span>🇺🇸</span> <!-- America -->
+    <span>🇫🇯</span> <!-- Fiji -->
+    <span>🇹🇴</span> <!-- Tonga -->
+    <span>🇻🇺</span> <!-- Vanuatu -->
+    <span>🇨🇳</span> <!-- China -->
+    <span>🇭🇰</span> <!-- Hong Kong -->
+    <span>🇸🇬</span> <!-- Singapore -->
+    <span>🇲🇾</span> <!-- Malaysia -->
+    <span>🇳🇱</span> <!-- Netherlands -->
+    <span>🇩🇪</span> <!-- Germany -->
+    <span>🇰🇷</span> <!-- Korea -->
+    <span>🇯🇵</span> <!-- Japan -->
+    <span>🇦🇹</span> <!-- Austria -->
+    <span>🇨🇭</span> <!-- Switzerland -->
+    <span>🇸🇪</span> <!-- Sweden -->
+    <span>🇩🇰</span> <!-- Denmark -->
+    <span>🇳🇴</span> <!-- Norway -->
+    <span>🇧🇪</span> <!-- Belgium -->
+    <span>🇮🇹</span> <!-- Italy -->
+    <span>🇫🇷</span> <!-- France -->
 
     <!-- Duplicate the EXACT SAME list for seamless looping -->
-    <span><i class="fi fi-au"></i></span>
-    <span><i class="fi fi-nz"></i></span>
-    <span><i class="fi fi-us"></i></span>
-    <span><i class="fi fi-fj"></i></span>
-    <span><i class="fi fi-to"></i></span>
-    <span><i class="fi fi-vu"></i></span>
-    <span><i class="fi fi-cn"></i></span>
-    <span><i class="fi fi-hk"></i></span>
-    <span><i class="fi fi-sg"></i></span>
-    <span><i class="fi fi-my"></i></span>
-    <span><i class="fi fi-nl"></i></span>
-    <span><i class="fi fi-de"></i></span>
-    <span><i class="fi fi-kr"></i></span>
-    <span><i class="fi fi-jp"></i></span>
-    <span><i class="fi fi-at"></i></span>
-    <span><i class="fi fi-ch"></i></span>
-    <span><i class="fi fi-se"></i></span>
-    <span><i class="fi fi-dk"></i></span>
-    <span><i class="fi fi-no"></i></span>
-    <span><i class="fi fi-be"></i></span>
-    <span><i class="fi fi-it"></i></span>
-    <span><i class="fi fi-fr"></i></span>
+    <span>🇦🇺</span>
+    <span>🇳🇿</span>
+    <span>🇺🇸</span>
+    <span>🇫🇯</span>
+    <span>🇹🇴</span>
+    <span>🇻🇺</span>
+    <span>🇨🇳</span>
+    <span>🇭🇰</span>
+    <span>🇸🇬</span>
+    <span>🇲🇾</span>
+    <span>🇳🇱</span>
+    <span>🇩🇪</span>
+    <span>🇰🇷</span>
+    <span>🇯🇵</span>
+    <span>🇦🇹</span>
+    <span>🇨🇭</span>
+    <span>🇸🇪</span>
+    <span>🇩🇰</span>
+    <span>🇳🇴</span>
+    <span>🇧🇪</span>
+    <span>🇮🇹</span>
+    <span>🇫🇷</span>
   </div>
 </div>
 
-<!-- ===== CLEANED UP CSS ===== -->
+<!-- ===== CLEANED UP CSS (No external library needed!) ===== -->
 <style>
 .flags-footer {
   width: 100%;
   overflow: hidden;
-  background: #f8f9fa;
+  background: #f8f9fa;        /* Light background */
   border-top: 1px solid #e9ecef;
   padding: 12px 0;
   margin-top: 40px;
@@ -564,31 +564,29 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
 .flags-track {
   display: flex;
-  gap: 1.5rem;              /* Slightly bigger gap since you have more flags */
+  gap: 1.8rem;               /* Space between flags */
   white-space: nowrap;
-  animation: scrollFlags 25s linear infinite; /* Slower so 22 flags aren't a blur */
+  animation: scrollFlags 25s linear infinite;
   width: max-content;
 }
 
 .flags-track span {
+  font-size: 2.2rem;         /* Controls the flag size */
+  line-height: 1;
   display: flex;
   align-items: center;
-  line-height: 1;
 }
 
-.flags-track span i.fi {
-  font-size: 2rem;          /* Nice visible size */
-  line-height: 1;
-  display: block;
-}
-
-/* Pause on hover */
+/* Pause scrolling when the user hovers over it */
 .flags-footer:hover .flags-track {
   animation-play-state: paused;
 }
 
-/* The keyframe - only defined ONCE */
 @keyframes scrollFlags {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+</style>
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
