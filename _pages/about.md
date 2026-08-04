@@ -497,35 +497,40 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
   <img src="https://visitor-badge.laobi.icu/badge?page_id=tannerguo.tannerguo.github.io" alt="Visitor Counter" />
 </div>
 
-<!-- Scrolling footer: countries visited -->
+<!-- Reliable Visitor Counter using Visitor Badge -->
+<div class="visitor-counter">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=tannerguo.tannerguo.github.io" alt="Visitor Counter" />
+</div>
+
+<!-- ===== NEW SCROLLING FLAGS FOOTER ===== -->
 <div class="flags-footer">
   <div class="flags-track">
-    <span>🇳🇿 New Zealand</span>
-    <span>🇹🇼 Taiwan</span>
-    <span>🇯🇵 Japan</span>
-    <span>🇦🇺 Australia</span>
-    <span>🇺🇸 United States</span>
-    <span>🇬🇧 United Kingdom</span>
-    <span>🇩🇪 Germany</span>
-    <span>🇫🇷 France</span>
-    <!-- add more as needed -->
-    <!-- Duplicate the same list to make the scroll seamless -->
-    <span>🇳🇿 New Zealand</span>
-    <span>🇹🇼 Taiwan</span>
-    <span>🇯🇵 Japan</span>
-    <span>🇦🇺 Australia</span>
-    <span>🇺🇸 United States</span>
-    <span>🇬🇧 United Kingdom</span>
-    <span>🇩🇪 Germany</span>
-    <span>🇫🇷 France</span>
+    <span><i class="fi fi-nz"></i></span>
+    <span><i class="fi fi-tw"></i></span>
+    <span><i class="fi fi-jp"></i></span>
+    <span><i class="fi fi-au"></i></span>
+    <span><i class="fi fi-us"></i></span>
+    <span><i class="fi fi-gb"></i></span>
+    <span><i class="fi fi-de"></i></span>
+    <span><i class="fi fi-fr"></i></span>
+    <!-- Duplicate for seamless scrolling -->
+    <span><i class="fi fi-nz"></i></span>
+    <span><i class="fi fi-tw"></i></span>
+    <span><i class="fi fi-jp"></i></span>
+    <span><i class="fi fi-au"></i></span>
+    <span><i class="fi fi-us"></i></span>
+    <span><i class="fi fi-gb"></i></span>
+    <span><i class="fi fi-de"></i></span>
+    <span><i class="fi fi-fr"></i></span>
   </div>
 </div>
 
+<!-- ===== CSS SPECIFICALLY FOR THE FLAGS FOOTER ===== -->
 <style>
 .flags-footer {
   width: 100%;
   overflow: hidden;
-  background: #f8f9fa;        /* light background – change to match your site */
+  background: #f8f9fa;
   border-top: 1px solid #e9ecef;
   padding: 12px 0;
   margin-top: 40px;
@@ -533,27 +538,33 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
 .flags-track {
   display: flex;
-  gap: 2.5rem;
+  gap: 1.2rem;
   white-space: nowrap;
   animation: scrollFlags 20s linear infinite;
   width: max-content;
 }
 
 .flags-track span {
-  font-size: 1.8rem;          /* adjust size as needed */
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  font-weight: 500;
-  color: #333;
+  line-height: 1;
 }
 
-/* Pause on hover */
+.flags-track span i.fi {
+  font-size: 1.8rem;
+  line-height: 1;
+  display: block;
+}
+
 .flags-footer:hover .flags-track {
   animation-play-state: paused;
 }
 
 @keyframes scrollFlags {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+</style>
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }  /* because we duplicated the list */
 }
