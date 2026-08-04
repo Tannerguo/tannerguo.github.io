@@ -509,8 +509,8 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <span>🇹🇴</span> <!-- Tonga -->
     <span>🇻🇺</span> <!-- Vanuatu -->
     <span>🇨🇳</span> <!-- China -->
-    <span>🇹🇼</span> <!-- Taiwan 👈 ADDED -->
     <span>🇭🇰</span> <!-- Hong Kong -->
+    <span>🇹🇼</span> <!-- Taiwan -->
     <span>🇸🇬</span> <!-- Singapore -->
     <span>🇲🇾</span> <!-- Malaysia -->
     <span>🇧🇳</span> <!-- Brunei -->
@@ -535,8 +535,8 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <span>🇹🇴</span>
     <span>🇻🇺</span>
     <span>🇨🇳</span>
-    <span>🇹🇼</span> 
     <span>🇭🇰</span>
+    <span>🇹🇼</span>
     <span>🇸🇬</span>
     <span>🇲🇾</span>
     <span>🇧🇳</span>
@@ -557,12 +557,19 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
 <style>
 .flags-footer {
-  width: 100%;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
   overflow: hidden;
   background: #f8f9fa;
   border-top: 1px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
   padding: 12px 0;
   margin-top: 40px;
+  margin-bottom: 0;
 }
 
 .flags-track {
