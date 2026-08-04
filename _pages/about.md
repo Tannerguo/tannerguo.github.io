@@ -499,56 +499,57 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
 
 <!-- ===== SCROLLING FLAGS FOOTER (Emojis) ===== -->
-<div class="flags-footer">
-  <div class="flags-track">
-    <!-- First set of flags -->
-    <span>🇦🇺</span> <!-- Australia -->
-    <span>🇳🇿</span> <!-- New Zealand -->
-    <span>🇺🇸</span> <!-- America -->
-    <span>🇫🇯</span> <!-- Fiji -->
-    <span>🇹🇴</span> <!-- Tonga -->
-    <span>🇻🇺</span> <!-- Vanuatu -->
-    <span>🇨🇳</span> <!-- China -->
-    <span>🇭🇰</span> <!-- Hong Kong -->
-    <span>🇸🇬</span> <!-- Singapore -->
-    <span>🇲🇾</span> <!-- Malaysia -->
-    <span>🇳🇱</span> <!-- Netherlands -->
-    <span>🇩🇪</span> <!-- Germany -->
-    <span>🇰🇷</span> <!-- Korea -->
-    <span>🇯🇵</span> <!-- Japan -->
-    <span>🇦🇹</span> <!-- Austria -->
-    <span>🇨🇭</span> <!-- Switzerland -->
-    <span>🇸🇪</span> <!-- Sweden -->
-    <span>🇩🇰</span> <!-- Denmark -->
-    <span>🇳🇴</span> <!-- Norway -->
-    <span>🇧🇪</span> <!-- Belgium -->
-    <span>🇮🇹</span> <!-- Italy -->
-    <span>🇫🇷</span> <!-- France -->
+<div class="flags-track">
+  <!-- First set of flags -->
+  <span>🇦🇺</span> <!-- Australia -->
+  <span>🇳🇿</span> <!-- New Zealand -->
+  <span>🇺🇸</span> <!-- America -->
+  <span>🇫🇯</span> <!-- Fiji -->
+  <span>🇹🇴</span> <!-- Tonga -->
+  <span>🇻🇺</span> <!-- Vanuatu -->
+  <span>🇨🇳</span> <!-- China -->
+  <span>🇭🇰</span> <!-- Hong Kong -->
+  <span>🇸🇬</span> <!-- Singapore -->
+  <span>🇲🇾</span> <!-- Malaysia -->
+  <span>🇧🇳</span> <!-- Brunei 👈 NEW -->
+  <span>🇳🇱</span> <!-- Netherlands -->
+  <span>🇩🇪</span> <!-- Germany -->
+  <span>🇰🇷</span> <!-- Korea -->
+  <span>🇯🇵</span> <!-- Japan -->
+  <span>🇦🇹</span> <!-- Austria -->
+  <span>🇨🇭</span> <!-- Switzerland -->
+  <span>🇸🇪</span> <!-- Sweden -->
+  <span>🇩🇰</span> <!-- Denmark -->
+  <span>🇳🇴</span> <!-- Norway -->
+  <span>🇧🇪</span> <!-- Belgium -->
+  <span>🇮🇹</span> <!-- Italy -->
+  <span>🇫🇷</span> <!-- France -->
 
-    <!-- Duplicate the EXACT SAME list for seamless looping -->
-    <span>🇦🇺</span>
-    <span>🇳🇿</span>
-    <span>🇺🇸</span>
-    <span>🇫🇯</span>
-    <span>🇹🇴</span>
-    <span>🇻🇺</span>
-    <span>🇨🇳</span>
-    <span>🇭🇰</span>
-    <span>🇸🇬</span>
-    <span>🇲🇾</span>
-    <span>🇳🇱</span>
-    <span>🇩🇪</span>
-    <span>🇰🇷</span>
-    <span>🇯🇵</span>
-    <span>🇦🇹</span>
-    <span>🇨🇭</span>
-    <span>🇸🇪</span>
-    <span>🇩🇰</span>
-    <span>🇳🇴</span>
-    <span>🇧🇪</span>
-    <span>🇮🇹</span>
-    <span>🇫🇷</span>
-  </div>
+  <!-- Duplicate the EXACT SAME list for seamless looping -->
+  <span>🇦🇺</span>
+  <span>🇳🇿</span>
+  <span>🇺🇸</span>
+  <span>🇫🇯</span>
+  <span>🇹🇴</span>
+  <span>🇻🇺</span>
+  <span>🇨🇳</span>
+  <span>🇭🇰</span>
+  <span>🇸🇬</span>
+  <span>🇲🇾</span>
+  <span>🇧🇳</span> <!-- Brunei 👈 NEW -->
+  <span>🇳🇱</span>
+  <span>🇩🇪</span>
+  <span>🇰🇷</span>
+  <span>🇯🇵</span>
+  <span>🇦🇹</span>
+  <span>🇨🇭</span>
+  <span>🇸🇪</span>
+  <span>🇩🇰</span>
+  <span>🇳🇴</span>
+  <span>🇧🇪</span>
+  <span>🇮🇹</span>
+  <span>🇫🇷</span>
+</div>
 </div>
 
 <!-- ===== CLEANED UP CSS (No external library needed!) ===== -->
