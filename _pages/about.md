@@ -225,30 +225,31 @@ redirect_from:
   /* ===== SCROLLING FLAGS - HEADER & FOOTER ===== */
   .flags-header,
   .flags-footer {
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
     background: #f8f9fa;
-    border-top: 1px solid #e9ecef;
-    border-bottom: 1px solid #e9ecef;
-    padding: 10px 0;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 4px 0;           /* 👈 Very short strip */
   }
 
   .flags-header {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
   }
 
   .flags-footer {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 0;
-    padding: 12px 0;
+    padding: 4px 0;           /* 👈 Very short strip */
   }
 
   .flags-track-header,
   .flags-track-footer {
     display: flex;
-    gap: 1.8rem;
+    gap: 1.5rem;
     white-space: nowrap;
     width: max-content;
   }
@@ -269,11 +270,11 @@ redirect_from:
   }
 
   .flags-track-header span {
-    font-size: 2rem;
+    font-size: 1.6rem;        /* 👈 Smaller flags */
   }
 
   .flags-track-footer span {
-    font-size: 2.2rem;
+    font-size: 1.8rem;        /* 👈 Smaller flags */
   }
 
   .flags-header:hover .flags-track-header,
@@ -292,22 +293,17 @@ redirect_from:
   }
 
   @media screen and (max-width: 768px) {
-    .timeline::before { left: 20px; }
-    .timeline-item { flex-direction: row !important; text-align: left !important; }
-    .timeline-dot { margin: 0 10px 0 0; }
-    
     .flags-track-header span {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
     }
     .flags-track-footer span {
-      font-size: 1.8rem;
+      font-size: 1.4rem;
     }
     .flags-track-header,
     .flags-track-footer {
-      gap: 1.2rem;
+      gap: 1rem;
     }
   }
-</style>
 
 <!-- Load Typed.js -->
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
