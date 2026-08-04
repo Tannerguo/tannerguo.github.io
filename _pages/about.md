@@ -497,10 +497,6 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
   <img src="https://visitor-badge.laobi.icu/badge?page_id=tannerguo.tannerguo.github.io" alt="Visitor Counter" />
 </div>
 
-<!-- Reliable Visitor Counter using Visitor Badge -->
-<div class="visitor-counter">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=tannerguo.tannerguo.github.io" alt="Visitor Counter" />
-</div>
 
 <!-- ===== NEW SCROLLING FLAGS FOOTER ===== -->
 <div class="flags-footer">
