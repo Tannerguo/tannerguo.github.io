@@ -498,66 +498,66 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 </div>
 
 
-<!-- ===== SCROLLING FLAGS FOOTER (Emojis) ===== -->
-<div class="flags-track">
-  <!-- First set of flags -->
-  <span>🇦🇺</span> <!-- Australia -->
-  <span>🇳🇿</span> <!-- New Zealand -->
-  <span>🇺🇸</span> <!-- America -->
-  <span>🇫🇯</span> <!-- Fiji -->
-  <span>🇹🇴</span> <!-- Tonga -->
-  <span>🇻🇺</span> <!-- Vanuatu -->
-  <span>🇨🇳</span> <!-- China -->
-  <span>🇭🇰</span> <!-- Hong Kong -->
-  <span>🇸🇬</span> <!-- Singapore -->
-  <span>🇲🇾</span> <!-- Malaysia -->
-  <span>🇧🇳</span> <!-- Brunei 👈 NEW -->
-  <span>🇳🇱</span> <!-- Netherlands -->
-  <span>🇩🇪</span> <!-- Germany -->
-  <span>🇰🇷</span> <!-- Korea -->
-  <span>🇯🇵</span> <!-- Japan -->
-  <span>🇦🇹</span> <!-- Austria -->
-  <span>🇨🇭</span> <!-- Switzerland -->
-  <span>🇸🇪</span> <!-- Sweden -->
-  <span>🇩🇰</span> <!-- Denmark -->
-  <span>🇳🇴</span> <!-- Norway -->
-  <span>🇧🇪</span> <!-- Belgium -->
-  <span>🇮🇹</span> <!-- Italy -->
-  <span>🇫🇷</span> <!-- France -->
+<!-- ===== SCROLLING FLAGS FOOTER ===== -->
+<div class="flags-footer">
+  <div class="flags-track">
+    <!-- First set of flags -->
+    <span>🇦🇺</span> <!-- Australia -->
+    <span>🇳🇿</span> <!-- New Zealand -->
+    <span>🇺🇸</span> <!-- America -->
+    <span>🇫🇯</span> <!-- Fiji -->
+    <span>🇹🇴</span> <!-- Tonga -->
+    <span>🇻🇺</span> <!-- Vanuatu -->
+    <span>🇨🇳</span> <!-- China -->
+    <span>🇭🇰</span> <!-- Hong Kong -->
+    <span>🇸🇬</span> <!-- Singapore -->
+    <span>🇲🇾</span> <!-- Malaysia -->
+    <span>🇧🇳</span> <!-- Brunei -->
+    <span>🇳🇱</span> <!-- Netherlands -->
+    <span>🇩🇪</span> <!-- Germany -->
+    <span>🇰🇷</span> <!-- Korea -->
+    <span>🇯🇵</span> <!-- Japan -->
+    <span>🇦🇹</span> <!-- Austria -->
+    <span>🇨🇭</span> <!-- Switzerland -->
+    <span>🇸🇪</span> <!-- Sweden -->
+    <span>🇩🇰</span> <!-- Denmark -->
+    <span>🇳🇴</span> <!-- Norway -->
+    <span>🇧🇪</span> <!-- Belgium -->
+    <span>🇮🇹</span> <!-- Italy -->
+    <span>🇫🇷</span> <!-- France -->
 
-  <!-- Duplicate the EXACT SAME list for seamless looping -->
-  <span>🇦🇺</span>
-  <span>🇳🇿</span>
-  <span>🇺🇸</span>
-  <span>🇫🇯</span>
-  <span>🇹🇴</span>
-  <span>🇻🇺</span>
-  <span>🇨🇳</span>
-  <span>🇭🇰</span>
-  <span>🇸🇬</span>
-  <span>🇲🇾</span>
-  <span>🇧🇳</span> <!-- Brunei 👈 NEW -->
-  <span>🇳🇱</span>
-  <span>🇩🇪</span>
-  <span>🇰🇷</span>
-  <span>🇯🇵</span>
-  <span>🇦🇹</span>
-  <span>🇨🇭</span>
-  <span>🇸🇪</span>
-  <span>🇩🇰</span>
-  <span>🇳🇴</span>
-  <span>🇧🇪</span>
-  <span>🇮🇹</span>
-  <span>🇫🇷</span>
-</div>
+    <!-- Duplicate the EXACT SAME list for seamless looping -->
+    <span>🇦🇺</span>
+    <span>🇳🇿</span>
+    <span>🇺🇸</span>
+    <span>🇫🇯</span>
+    <span>🇹🇴</span>
+    <span>🇻🇺</span>
+    <span>🇨🇳</span>
+    <span>🇭🇰</span>
+    <span>🇸🇬</span>
+    <span>🇲🇾</span>
+    <span>🇧🇳</span>
+    <span>🇳🇱</span>
+    <span>🇩🇪</span>
+    <span>🇰🇷</span>
+    <span>🇯🇵</span>
+    <span>🇦🇹</span>
+    <span>🇨🇭</span>
+    <span>🇸🇪</span>
+    <span>🇩🇰</span>
+    <span>🇳🇴</span>
+    <span>🇧🇪</span>
+    <span>🇮🇹</span>
+    <span>🇫🇷</span>
+  </div>
 </div>
 
-<!-- ===== CLEANED UP CSS (No external library needed!) ===== -->
 <style>
 .flags-footer {
   width: 100%;
   overflow: hidden;
-  background: #f8f9fa;        /* Light background */
+  background: #f8f9fa;
   border-top: 1px solid #e9ecef;
   padding: 12px 0;
   margin-top: 40px;
@@ -565,20 +565,19 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
 .flags-track {
   display: flex;
-  gap: 1.8rem;               /* Space between flags */
+  gap: 1.8rem;
   white-space: nowrap;
-  animation: scrollFlags 25s linear infinite;
+  animation: scrollFlags 28s linear infinite;
   width: max-content;
 }
 
 .flags-track span {
-  font-size: 2.2rem;         /* Controls the flag size */
+  font-size: 2.2rem;
   line-height: 1;
   display: flex;
   align-items: center;
 }
 
-/* Pause scrolling when the user hovers over it */
 .flags-footer:hover .flags-track {
   animation-play-state: paused;
 }
@@ -588,7 +587,4 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
   100% { transform: translateX(-50%); }
 }
 </style>
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
 </style>
