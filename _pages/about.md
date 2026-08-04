@@ -222,10 +222,90 @@ redirect_from:
     margin-right: auto;
   }
 
+  /* ===== SCROLLING FLAGS - HEADER & FOOTER ===== */
+  .flags-header,
+  .flags-footer {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    overflow: hidden;
+    background: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+    padding: 10px 0;
+  }
+
+  .flags-header {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .flags-footer {
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding: 12px 0;
+  }
+
+  .flags-track-header,
+  .flags-track-footer {
+    display: flex;
+    gap: 1.8rem;
+    white-space: nowrap;
+    width: max-content;
+  }
+
+  .flags-track-header {
+    animation: scrollFlagsHeader 28s linear infinite;
+  }
+
+  .flags-track-footer {
+    animation: scrollFlagsFooter 28s linear infinite;
+  }
+
+  .flags-track-header span,
+  .flags-track-footer span {
+    line-height: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .flags-track-header span {
+    font-size: 2rem;
+  }
+
+  .flags-track-footer span {
+    font-size: 2.2rem;
+  }
+
+  .flags-header:hover .flags-track-header,
+  .flags-footer:hover .flags-track-footer {
+    animation-play-state: paused;
+  }
+
+  @keyframes scrollFlagsHeader {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  @keyframes scrollFlagsFooter {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
   @media screen and (max-width: 768px) {
     .timeline::before { left: 20px; }
     .timeline-item { flex-direction: row !important; text-align: left !important; }
     .timeline-dot { margin: 0 10px 0 0; }
+    
+    .flags-track-header span {
+      font-size: 1.6rem;
+    }
+    .flags-track-footer span {
+      font-size: 1.8rem;
+    }
+    .flags-track-header,
+    .flags-track-footer {
+      gap: 1.2rem;
+    }
   }
 </style>
 
@@ -244,6 +324,24 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 </script>
+
+<!-- ===== SCROLLING FLAGS HEADER ===== -->
+<div class="flags-header">
+  <div class="flags-track-header">
+    <!-- First set -->
+    <span>🇦🇺</span> <span>🇳🇿</span> <span>🇺🇸</span> <span>🇫🇯</span> <span>🇹🇴</span> 
+    <span>🇻🇺</span> <span>🇨🇳</span> <span>🇭🇰</span> <span>🇹🇼</span> <span>🇸🇬</span> 
+    <span>🇲🇾</span> <span>🇧🇳</span> <span>🇳🇱</span> <span>🇩🇪</span> <span>🇰🇷</span> 
+    <span>🇯🇵</span> <span>🇦🇹</span> <span>🇨🇭</span> <span>🇸🇪</span> <span>🇩🇰</span> 
+    <span>🇳🇴</span> <span>🇧🇪</span> <span>🇮🇹</span> <span>🇫🇷</span>
+    <!-- Duplicate -->
+    <span>🇦🇺</span> <span>🇳🇿</span> <span>🇺🇸</span> <span>🇫🇯</span> <span>🇹🇴</span> 
+    <span>🇻🇺</span> <span>🇨🇳</span> <span>🇭🇰</span> <span>🇹🇼</span> <span>🇸🇬</span> 
+    <span>🇲🇾</span> <span>🇧🇳</span> <span>🇳🇱</span> <span>🇩🇪</span> <span>🇰🇷</span> 
+    <span>🇯🇵</span> <span>🇦🇹</span> <span>🇨🇭</span> <span>🇸🇪</span> <span>🇩🇰</span> 
+    <span>🇳🇴</span> <span>🇧🇪</span> <span>🇮🇹</span> <span>🇫🇷</span>
+  </div>
+</div>
 
 ---
 
@@ -468,7 +566,7 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
       </div>
     </div>
 
-    <!-- Slide 13 -->
+    <!-- Slide 14 -->
     <div class="carousel-item text-center">
       <img src="/images/Porthills.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
@@ -497,102 +595,20 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
   <img src="https://visitor-badge.laobi.icu/badge?page_id=tannerguo.tannerguo.github.io" alt="Visitor Counter" />
 </div>
 
-
 <!-- ===== SCROLLING FLAGS FOOTER ===== -->
 <div class="flags-footer">
-  <div class="flags-track">
-    <!-- First set of flags -->
-    <span>🇦🇺</span> <!-- Australia -->
-    <span>🇳🇿</span> <!-- New Zealand -->
-    <span>🇺🇸</span> <!-- America -->
-    <span>🇫🇯</span> <!-- Fiji -->
-    <span>🇹🇴</span> <!-- Tonga -->
-    <span>🇻🇺</span> <!-- Vanuatu -->
-    <span>🇨🇳</span> <!-- China -->
-    <span>🇭🇰</span> <!-- Hong Kong -->
-    <span>🇹🇼</span> <!-- Taiwan -->
-    <span>🇸🇬</span> <!-- Singapore -->
-    <span>🇲🇾</span> <!-- Malaysia -->
-    <span>🇧🇳</span> <!-- Brunei -->
-    <span>🇳🇱</span> <!-- Netherlands -->
-    <span>🇩🇪</span> <!-- Germany -->
-    <span>🇰🇷</span> <!-- Korea -->
-    <span>🇯🇵</span> <!-- Japan -->
-    <span>🇦🇹</span> <!-- Austria -->
-    <span>🇨🇭</span> <!-- Switzerland -->
-    <span>🇸🇪</span> <!-- Sweden -->
-    <span>🇩🇰</span> <!-- Denmark -->
-    <span>🇳🇴</span> <!-- Norway -->
-    <span>🇧🇪</span> <!-- Belgium -->
-    <span>🇮🇹</span> <!-- Italy -->
-    <span>🇫🇷</span> <!-- France -->
-
-    <!-- Duplicate the EXACT SAME list for seamless looping -->
-    <span>🇦🇺</span>
-    <span>🇳🇿</span>
-    <span>🇺🇸</span>
-    <span>🇫🇯</span>
-    <span>🇹🇴</span>
-    <span>🇻🇺</span>
-    <span>🇨🇳</span>
-    <span>🇭🇰</span>
-    <span>🇹🇼</span>
-    <span>🇸🇬</span>
-    <span>🇲🇾</span>
-    <span>🇧🇳</span>
-    <span>🇳🇱</span>
-    <span>🇩🇪</span>
-    <span>🇰🇷</span>
-    <span>🇯🇵</span>
-    <span>🇦🇹</span>
-    <span>🇨🇭</span>
-    <span>🇸🇪</span>
-    <span>🇩🇰</span>
-    <span>🇳🇴</span>
-    <span>🇧🇪</span>
-    <span>🇮🇹</span>
-    <span>🇫🇷</span>
+  <div class="flags-track-footer">
+    <!-- First set -->
+    <span>🇦🇺</span> <span>🇳🇿</span> <span>🇺🇸</span> <span>🇫🇯</span> <span>🇹🇴</span> 
+    <span>🇻🇺</span> <span>🇨🇳</span> <span>🇭🇰</span> <span>🇹🇼</span> <span>🇸🇬</span> 
+    <span>🇲🇾</span> <span>🇧🇳</span> <span>🇳🇱</span> <span>🇩🇪</span> <span>🇰🇷</span> 
+    <span>🇯🇵</span> <span>🇦🇹</span> <span>🇨🇭</span> <span>🇸🇪</span> <span>🇩🇰</span> 
+    <span>🇳🇴</span> <span>🇧🇪</span> <span>🇮🇹</span> <span>🇫🇷</span>
+    <!-- Duplicate -->
+    <span>🇦🇺</span> <span>🇳🇿</span> <span>🇺🇸</span> <span>🇫🇯</span> <span>🇹🇴</span> 
+    <span>🇻🇺</span> <span>🇨🇳</span> <span>🇭🇰</span> <span>🇹🇼</span> <span>🇸🇬</span> 
+    <span>🇲🇾</span> <span>🇧🇳</span> <span>🇳🇱</span> <span>🇩🇪</span> <span>🇰🇷</span> 
+    <span>🇯🇵</span> <span>🇦🇹</span> <span>🇨🇭</span> <span>🇸🇪</span> <span>🇩🇰</span> 
+    <span>🇳🇴</span> <span>🇧🇪</span> <span>🇮🇹</span> <span>🇫🇷</span>
   </div>
 </div>
-
-<style>
-.flags-footer {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  overflow: hidden;
-  background: #f8f9fa;
-  border-top: 1px solid #e9ecef;
-  border-bottom: 1px solid #e9ecef;
-  padding: 12px 0;
-  margin-top: 40px;
-  margin-bottom: 0;
-}
-
-.flags-track {
-  display: flex;
-  gap: 1.8rem;
-  white-space: nowrap;
-  animation: scrollFlags 28s linear infinite;
-  width: max-content;
-}
-
-.flags-track span {
-  font-size: 2.2rem;
-  line-height: 1;
-  display: flex;
-  align-items: center;
-}
-
-.flags-footer:hover .flags-track {
-  animation-play-state: paused;
-}
-
-@keyframes scrollFlags {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-</style>
