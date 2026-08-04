@@ -496,3 +496,65 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 <div class="visitor-counter">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=tannerguo.tannerguo.github.io" alt="Visitor Counter" />
 </div>
+
+<!-- Scrolling footer: countries visited -->
+<div class="flags-footer">
+  <div class="flags-track">
+    <span>🇳🇿 New Zealand</span>
+    <span>🇹🇼 Taiwan</span>
+    <span>🇯🇵 Japan</span>
+    <span>🇦🇺 Australia</span>
+    <span>🇺🇸 United States</span>
+    <span>🇬🇧 United Kingdom</span>
+    <span>🇩🇪 Germany</span>
+    <span>🇫🇷 France</span>
+    <!-- add more as needed -->
+    <!-- Duplicate the same list to make the scroll seamless -->
+    <span>🇳🇿 New Zealand</span>
+    <span>🇹🇼 Taiwan</span>
+    <span>🇯🇵 Japan</span>
+    <span>🇦🇺 Australia</span>
+    <span>🇺🇸 United States</span>
+    <span>🇬🇧 United Kingdom</span>
+    <span>🇩🇪 Germany</span>
+    <span>🇫🇷 France</span>
+  </div>
+</div>
+
+<style>
+.flags-footer {
+  width: 100%;
+  overflow: hidden;
+  background: #f8f9fa;        /* light background – change to match your site */
+  border-top: 1px solid #e9ecef;
+  padding: 12px 0;
+  margin-top: 40px;
+}
+
+.flags-track {
+  display: flex;
+  gap: 2.5rem;
+  white-space: nowrap;
+  animation: scrollFlags 20s linear infinite;
+  width: max-content;
+}
+
+.flags-track span {
+  font-size: 1.8rem;          /* adjust size as needed */
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+/* Pause on hover */
+.flags-footer:hover .flags-track {
+  animation-play-state: paused;
+}
+
+@keyframes scrollFlags {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }  /* because we duplicated the list */
+}
+</style>
