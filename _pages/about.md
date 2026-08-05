@@ -46,28 +46,6 @@ redirect_from:
     100% { background-position: 100% 0; }
   }
 
-  .highlight-text.v2 {
-    background: linear-gradient(
-      90deg,
-      rgba(255, 255, 200, 0) 0%,
-      rgba(255, 255, 200, 0.8) 10%,
-      rgba(255, 255, 200, 1) 50%,
-      rgba(255, 255, 200, 0.8) 90%,
-      rgba(255, 255, 200, 0) 100%
-    );
-  }
-
-  .highlight-text.pink {
-    background: linear-gradient(
-      90deg,
-      rgba(255, 200, 220, 0) 0%,
-      rgba(255, 200, 220, 0.8) 10%,
-      rgba(255, 150, 200, 1) 50%,
-      rgba(255, 200, 220, 0.8) 90%,
-      rgba(255, 200, 220, 0) 100%
-    );
-  }
-
   @media screen and (max-width: 768px) {
     .highlight-text {
       display: inline-block;
@@ -213,7 +191,7 @@ redirect_from:
     margin-right: auto;
   }
 
-  /* ===== SCROLLING FLAGS - HEADER & FOOTER ===== */
+  /* ===== SCROLLING FLAGS ===== */
   .flags-header,
   .flags-footer {
     max-width: 800px;
@@ -319,13 +297,11 @@ document.addEventListener("DOMContentLoaded", function() {
 <!-- ===== SCROLLING FLAGS HEADER ===== -->
 <div class="flags-header">
   <div class="flags-track-header">
-    <!-- First set -->
     <span>🇦🇺</span> <span>🇳🇿</span> <span>🇺🇸</span> <span>🇫🇯</span> <span>🇹🇴</span> 
     <span>🇻🇺</span> <span>🇨🇳</span> <span>🇭🇰</span> <span>🇹🇼</span> <span>🇸🇬</span> 
     <span>🇲🇾</span> <span>🇧🇳</span> <span>🇳🇱</span> <span>🇩🇪</span> <span>🇰🇷</span> 
     <span>🇯🇵</span> <span>🇦🇹</span> <span>🇨🇭</span> <span>🇸🇪</span> <span>🇩🇰</span> 
     <span>🇳🇴</span> <span>🇧🇪</span> <span>🇮🇹</span> <span>🇫🇷</span>
-    <!-- Duplicate -->
     <span>🇦🇺</span> <span>🇳🇿</span> <span>🇺🇸</span> <span>🇫🇯</span> <span>🇹🇴</span> 
     <span>🇻🇺</span> <span>🇨🇳</span> <span>🇭🇰</span> <span>🇹🇼</span> <span>🇸🇬</span> 
     <span>🇲🇾</span> <span>🇧🇳</span> <span>🇳🇱</span> <span>🇩🇪</span> <span>🇰🇷</span> 
@@ -336,7 +312,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ---
 
-Tanner is a bilingual Mechanical Engineer (BE Hons) with hands-on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
+**Tanner** is a bilingual Mechanical Engineer (BE Hons) with hands-on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
 
 While completing his degree, Tanner navigated the loss of his mother at age 21 whilst also caring for his grandmother, <a href="https://www.morrislegal.co.nz/insights/morris-successfully-defends-claim-against-mothers-estate" target="_blank" rel="noopener">managed a complex High Court case</a>, and ultimately won the 2 year long High Court battle, setting the precedent that <span class="highlight-text">the deceased does not have a moral duty to provide for their partner under their will.</span> Its impact was significant enough to place his story on the front page of the New Zealand Herald, all while graduating with honours — a testament to his resilience, discipline and unwavering focus.
 
@@ -345,18 +321,17 @@ The judgment in his case went on to reshape the legal approach later applied in 
 A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner approaches engineering with curiosity, innovation, and a commitment to delivering impactful solutions.
 
 ---
+
 <!-- Timeline -->
 <section class="timeline">
   <div class="timeline-item">
     <div class="timeline-logo">
       <img src="/images/Crown.jpg" alt="Crown Logo">
     </div>
-
     <div class="timeline-content">
       <h3>Crown Worldwide Group</h3>
       <h4>Inbound Leads Specialist</h4>
       <p>Feb 2025 - Present</p>
-
       <ul class="timeline-clean">
         <li>Operating as one of the key points of contact for incoming enquiries, coordinating tailored solutions and guiding clients through the relocation process.</li>
         <li>Supported the implementation and ongoing refinement of a new phone system, including its AI‑driven features.</li>
@@ -383,7 +358,6 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="timeline-content">
       <h3>Gridfree - Off Grid Solar NZ</h3>
       <h4>Consulting Engineer</h4>
-      <p></p>
       <p>Provided technical consulting for off-grid solar solutions with New Zealand's largest off-grid solar company.</p>
     </div>
   </div>
@@ -393,7 +367,6 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="timeline-content">
       <h3>National Taipei University of Technology</h3>
       <h4>Additive Manufacturing Intern</h4>
-      <p></p>
       <p>Researched and developed additive manufacturing processes and materials in Taiwan.</p>
     </div>
   </div>
@@ -403,7 +376,6 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
     <div class="timeline-content">
       <h3>Space Generation Advisory Council</h3>
       <h4>National Point of Contact</h4>
-      <p></p>
       <p>Acted as national liaison, reporting on local space activities and submitting annual reports to SGAC for the UN.</p>
     </div>
   </div>
@@ -436,10 +408,9 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 
 ---
 
-<!-- Bootstrap CSS -->
+<!-- Accomplishments Carousel -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Custom Carousel Styles -->
 <style>
 .carousel-caption {
   padding: 2px 5px;
@@ -452,122 +423,91 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 }
 </style>
 
-<!-- Accomplishments Carousel -->
 <div id="accomplishmentsCarousel" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="2000">
   <div class="carousel-inner">
-
-    <!-- Slide 1 -->
     <div class="carousel-item active text-center">
       <img src="/images/spacex.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
     </div>
-
-    <!-- Slide 2 -->
     <div class="carousel-item text-center">
       <img src="/images/NASA.jpg" class="d-block mx-auto" alt="Starlight Headliner Project" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-0">
         <p>Robert Lightfoot JR, Acting Administrator NASA, Vice President Lockheed Martin Space</p>
       </div>
     </div>
-
-    <!-- Slide 3 -->
     <div class="carousel-item text-center">
       <img src="/images/JAXA.jpg" class="d-block mx-auto" alt="Taipei Tech Internship" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-0">
         <p>I-ISEF Conference, Tokyo.</p>
       </div>
     </div>
-
-    <!-- Slide 4 -->
     <div class="carousel-item text-center">
       <img src="/images/billnye.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-0">
         <p>Bill Nye, CEO Planetary Society.</p>
       </div>
     </div>
-
-    <!-- Slide 5 -->
     <div class="carousel-item text-center">
       <img src="/images/JAXA3.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>Winner of MEXT Whitepaper - Proteins in Space, Tokyo.</p>
       </div>
     </div>
-
-    <!-- Slide 6 -->
     <div class="carousel-item text-center">
       <img src="/images/Janworner.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>Jan Wörner, 7th ESA Director General.</p>
       </div>
     </div>
-
-    <!-- Slide 7 -->
     <div class="carousel-item text-center">
       <img src="/images/JAXA2.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>JAXA Center, Tsukuba.</p>
       </div>
     </div>
-
-    <!-- Slide 8 -->
     <div class="carousel-item text-center">
       <img src="/images/sgac2.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>Working Group 4: Space Innovation, Space Generation Congress.</p>
       </div>
     </div>
-
-    <!-- Slide 9 -->
     <div class="carousel-item text-center">
       <img src="/images/Galantis.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
-        <p> Swedish electronic music act with over 1 billion streams, Galantis.</p>
+        <p>Swedish electronic music act with over 1 billion streams, Galantis.</p>
       </div>
     </div>
-
-    <!-- Slide 10 -->
     <div class="carousel-item text-center">
       <img src="/images/sgac.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>Space Generation Congress, Adelaide.</p>
       </div>
     </div>
-
-    <!-- Slide 11 -->
     <div class="carousel-item text-center">
       <img src="/images/Claude.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>First Swiss in space, flew SM1 on Discovery to service Hubble, Claude Nicollier.</p>
       </div>
     </div>
-
-    <!-- Slide 12 -->
     <div class="carousel-item text-center">
       <img src="/images/Prince Harry.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>Meeting Prince Harry, University of Canterbury.</p>
       </div>
     </div>
-
-    <!-- Slide 13 -->
     <div class="carousel-item text-center">
       <img src="/images/Vienna.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>Westlake Music Group, International Youth Music Festival, Vienna 2014.</p>
       </div>
     </div>
-
-    <!-- Slide 14 -->
     <div class="carousel-item text-center">
       <img src="/images/Porthills.jpg" class="d-block mx-auto" alt="Off-grid Solar" style="max-height:350px; object-fit:cover;">
       <div class="carousel-caption d-block bg-dark bg-opacity-50 rounded p-1">
         <p>Port Hills, Christchurch.</p>
       </div>
     </div>
-    
   </div>
 
-  <!-- Controls -->
   <button class="carousel-control-prev" type="button" data-bs-target="#accomplishmentsCarousel" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -578,10 +518,9 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
   </button>
 </div>
 
-<!-- Bootstrap JS Bundle (includes Popper) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-<!-- Reliable Visitor Counter using Visitor Badge -->
+<!-- Visitor Counter -->
 <div class="visitor-counter">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=tannerguo.tannerguo.github.io" alt="Visitor Counter" />
 </div>
@@ -589,13 +528,11 @@ A lifelong learner, aviation enthusiast, and Grade 7 alto saxophonist, Tanner ap
 <!-- ===== SCROLLING FLAGS FOOTER ===== -->
 <div class="flags-footer">
   <div class="flags-track-footer">
-    <!-- First set -->
     <span>🇦🇺</span> <span>🇳🇿</span> <span>🇺🇸</span> <span>🇫🇯</span> <span>🇹🇴</span> 
     <span>🇻🇺</span> <span>🇨🇳</span> <span>🇭🇰</span> <span>🇹🇼</span> <span>🇸🇬</span> 
     <span>🇲🇾</span> <span>🇧🇳</span> <span>🇳🇱</span> <span>🇩🇪</span> <span>🇰🇷</span> 
     <span>🇯🇵</span> <span>🇦🇹</span> <span>🇨🇭</span> <span>🇸🇪</span> <span>🇩🇰</span> 
     <span>🇳🇴</span> <span>🇧🇪</span> <span>🇮🇹</span> <span>🇫🇷</span>
-    <!-- Duplicate -->
     <span>🇦🇺</span> <span>🇳🇿</span> <span>🇺🇸</span> <span>🇫🇯</span> <span>🇹🇴</span> 
     <span>🇻🇺</span> <span>🇨🇳</span> <span>🇭🇰</span> <span>🇹🇼</span> <span>🇸🇬</span> 
     <span>🇲🇾</span> <span>🇧🇳</span> <span>🇳🇱</span> <span>🇩🇪</span> <span>🇰🇷</span> 
