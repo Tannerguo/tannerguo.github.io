@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ---
 
-Tanner is a bilingual Mechanical Engineer with hands-on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
+Tanner is a well seasoned traveller who has explored 22 countries across Asia, Europe, and the Pacific — an experience that has sharpened his adaptability, cross cultural communication, and problem solving skills in diverse environments. As a bilingual Mechanical Engineer (BE Hons), he brings hands on experience across manufacturing, additive manufacturing, solar energy, and engineering problem solving. He has worked on additive manufacturing projects in Taipei, consulted on solar systems in New Zealand, and gained practical experience in logistics and trade.
 
 While completing his degree, Tanner navigated the loss of his mother at age 21, <a href="https://www.morrislegal.co.nz/insights/morris-successfully-defends-claim-against-mothers-estate" target="_blank" rel="noopener">managed a complex High Court case</a>, and cared for his grandmother — experiences that shaped his resilience and focus.
 
